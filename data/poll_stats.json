@@ -1,0 +1,40 @@
+{
+  "updated": "2026-03-16",
+  "total_polls": 12,
+  "total_categories": 8,
+  "note": "具体投票数据由用户浏览器localStorage存储，保护用户隐私",
+  "categories": {
+    "education": {
+      "label": "教育",
+      "polls_count": 2
+    },
+    "healthcare": {
+      "label": "医疗",
+      "polls_count": 2
+    },
+    "housing": {
+      "label": "住房",
+      "polls_count": 1
+    },
+    "employment": {
+      "label": "就业",
+      "polls_count": 2
+    },
+    "elderly": {
+      "label": "养老",
+      "polls_count": 1
+    },
+    "food": {
+      "label": "食品",
+      "polls_count": 1
+    },
+    "technology": {
+      "label": "科技",
+      "polls_count": 1
+    },
+    "livelihood": {
+      "label": "民生",
+      "polls_count": 3
+    }
+  }
+}

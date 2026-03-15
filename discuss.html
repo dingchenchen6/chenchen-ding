@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>公共讨论 | 民声 · 中国社会经济观察平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-char">民</span><span class="logo-char accent">声</span>
+      <span class="logo-divider">|</span>
+      <span class="logo-sub">中国社会经济观察</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="analysis.html">深度分析</a></li>
+      <li><a href="polls.html">民意调查</a></li>
+      <li><a href="trends.html">热点追踪</a></li>
+      <li><a href="debunk.html">辟谣曝光</a></li>
+      <li><a href="discuss.html" class="active">公共讨论</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+  </div>
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="section-tag">公共讨论</span>
+      <h1>畅所欲言<br><span class="gradient-text">共议民生</span></h1>
+      <p>分享您的亲身经历与真实看法<br>每一个声音都有其价值与意义</p>
+    </div>
+  </div>
+</section>
+
+<!-- Post Form -->
+<section class="section">
+  <div class="container">
+    <div class="discuss-page-layout">
+      <!-- Main Content -->
+      <div class="discuss-main">
+        <!-- Post Form -->
+        <div class="discuss-form-card">
+          <h3>💬 发表您的观点</h3>
+          <div class="form-group">
+            <label>话题分类</label>
+            <div class="topic-chips" id="topicChips">
+              <button class="chip active" data-topic="all">全部话题</button>
+              <button class="chip" data-topic="education">🎓 教育</button>
+              <button class="chip" data-topic="healthcare">🏥 医疗</button>
+              <button class="chip" data-topic="housing">🏠 住房</button>
+              <button class="chip" data-topic="employment">💼 就业</button>
+              <button class="chip" data-topic="elderly">👴 养老</button>
+              <button class="chip" data-topic="food">🌾 食品</button>
+              <button class="chip" data-topic="technology">💻 科技</button>
+              <button class="chip" data-topic="livelihood">🌆 民生</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>您的昵称（可选）</label>
+            <input type="text" id="commentNickname" placeholder="匿名用户" maxlength="20">
+          </div>
+          <div class="form-group">
+            <label>您的观点、经历或建议</label>
+            <textarea id="commentContent" placeholder="分享您在就医、教育、住房、就业等方面的真实经历和看法...&#10;&#10;例如：我在租房时遇到了...&#10;我孩子的教育费用...&#10;我认为医保政策应该..." rows="6" maxlength="1000"></textarea>
+            <div class="char-count"><span id="charCount">0</span>/1000</div>
+          </div>
+          <div class="form-actions">
+            <div class="selected-topic-display" id="selectedTopicDisplay">当前选择：全部话题</div>
+            <button class="btn btn-primary" onclick="submitComment()">发表观点</button>
+          </div>
+          <div id="commentFeedback" class="suggest-feedback hidden"></div>
+        </div>
+
+        <!-- Comments List -->
+        <div class="comments-header">
+          <h3>所有讨论 <span id="commentsCount" class="comments-count">0</span></h3>
+          <div class="sort-options">
+            <button class="sort-btn active" data-sort="recent">最新</button>
+            <button class="sort-btn" data-sort="likes">最多赞</button>
+          </div>
+        </div>
+        <!-- Category filter for comments -->
+        <div class="filter-bar-inline">
+          <div class="filter-tags" id="commentsCatFilter">
+            <button class="filter-tag active" data-cat="all">全部话题</button>
+            <button class="filter-tag" data-cat="education">教育</button>
+            <button class="filter-tag" data-cat="healthcare">医疗</button>
+            <button class="filter-tag" data-cat="housing">住房</button>
+            <button class="filter-tag" data-cat="employment">就业</button>
+            <button class="filter-tag" data-cat="elderly">养老</button>
+            <button class="filter-tag" data-cat="food">食品</button>
+            <button class="filter-tag" data-cat="technology">科技</button>
+          </div>
+        </div>
+        <div class="comments-list" id="commentsList"></div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="discuss-sidebar">
+        <div class="sidebar-card">
+          <h4>📋 讨论守则</h4>
+          <ul class="rules-list">
+            <li>✅ 欢迎分享真实经历与看法</li>
+            <li>✅ 鼓励理性、建设性讨论</li>
+            <li>✅ 尊重不同观点与立场</li>
+            <li>❌ 禁止人身攻击与侮辱</li>
+            <li>❌ 禁止发布虚假信息</li>
+            <li>❌ 禁止无关广告内容</li>
+          </ul>
+        </div>
+        <div class="sidebar-card">
+          <h4>🔥 热门话题</h4>
+          <div class="hot-topics-list" id="hotTopicsList"></div>
+        </div>
+        <div class="sidebar-card">
+          <h4>📊 讨论统计</h4>
+          <div class="discuss-stats">
+            <div class="ds-item">
+              <span class="ds-num" id="totalComments">0</span>
+              <span>总评论数</span>
+            </div>
+            <div class="ds-item">
+              <span class="ds-num" id="todayComments">0</span>
+              <span>今日新增</span>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-card cta-card">
+          <h4>📮 参与民意调查</h4>
+          <p>除了讨论，您还可以参与我们的定向民意调查</p>
+          <a href="polls.html" class="btn btn-primary btn-sm btn-full">查看调查问卷</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© 2025 民声 · 中国社会经济观察平台 | <a href="index.html">返回首页</a></p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop">↑</button>
+
+<script src="js/main.js"></script>
+<script src="js/polls.js"></script>
+<script>
+let selectedTopic = 'all';
+let sortMode = 'recent';
+
+document.addEventListener('DOMContentLoaded', function() {
+  renderAllComments();
+  setupDiscussPage();
+  updateDiscussStats();
+  renderHotTopics();
+});
+
+function setupDiscussPage() {
+  // Topic chips
+  document.querySelectorAll('#topicChips .chip').forEach(chip => {
+    chip.addEventListener('click', function() {
+      document.querySelectorAll('#topicChips .chip').forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      selectedTopic = this.dataset.topic;
+      const labels = { all:'全部话题', education:'🎓 教育', healthcare:'🏥 医疗', housing:'🏠 住房', employment:'💼 就业', elderly:'👴 养老', food:'🌾 食品', technology:'💻 科技', livelihood:'🌆 民生' };
+      document.getElementById('selectedTopicDisplay').textContent = '当前选择：' + (labels[selectedTopic] || selectedTopic);
+    });
+  });
+
+  // Comment content char count
+  document.getElementById('commentContent').addEventListener('input', function() {
+    document.getElementById('charCount').textContent = this.value.length;
+  });
+
+  // Sort buttons
+  document.querySelectorAll('.sort-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      sortMode = this.dataset.sort;
+      renderAllComments(sortMode);
+    });
+  });
+
+  // Category filter
+  document.querySelectorAll('#commentsCatFilter .filter-tag').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('#commentsCatFilter .filter-tag').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      filterCommentsByCategory(this.dataset.cat);
+    });
+  });
+}
+
+function filterCommentsByCategory(cat) {
+  document.querySelectorAll('.comment-item').forEach(item => {
+    item.style.display = (cat === 'all' || item.dataset.category === cat) ? '' : 'none';
+  });
+}
+
+function submitComment() {
+  const content = document.getElementById('commentContent').value.trim();
+  if (!content) { alert('请输入您的观点'); return; }
+  if (content.length < 10) { alert('内容太短，请至少输入10个字'); return; }
+
+  const nickname = document.getElementById('commentNickname').value.trim() || '匿名用户';
+  saveComment({ nickname, content, topic: selectedTopic, time: Date.now(), likes: 0 });
+  document.getElementById('commentContent').value = '';
+  document.getElementById('charCount').textContent = '0';
+
+  const feedback = document.getElementById('commentFeedback');
+  feedback.textContent = '✅ 评论已发布！感谢您的参与。';
+  feedback.classList.remove('hidden');
+  setTimeout(() => feedback.classList.add('hidden'), 3000);
+
+  renderAllComments(sortMode);
+  updateDiscussStats();
+}
+
+function updateDiscussStats() {
+  const comments = getComments();
+  document.getElementById('totalComments').textContent = comments.length;
+  document.getElementById('commentsCount').textContent = comments.length;
+  const today = new Date().toDateString();
+  const todayCount = comments.filter(c => new Date(c.time).toDateString() === today).length;
+  document.getElementById('todayComments').textContent = todayCount;
+}
+
+function renderHotTopics() {
+  const topics = [
+    { name: '延迟退休讨论', count: 1243, category: 'elderly' },
+    { name: '青年就业困境', count: 2187, category: 'employment' },
+    { name: '学区房政策', count: 987, category: 'education' },
+    { name: '医保个账改革', count: 765, category: 'healthcare' },
+    { name: 'AI替代工作', count: 654, category: 'technology' },
+    { name: '食品安全监管', count: 432, category: 'food' },
+  ];
+  const list = document.getElementById('hotTopicsList');
+  list.innerHTML = topics.map((t, i) => `
+    <div class="hot-topic-item" onclick="filterCommentsByCategory('${t.category}')">
+      <span class="hot-topic-rank rank-${i+1}">${i+1}</span>
+      <span class="hot-topic-name">${t.name}</span>
+      <span class="hot-topic-count">${t.count.toLocaleString()}</span>
+    </div>
+  `).join('');
+}
+</script>
+</body>
+</html>

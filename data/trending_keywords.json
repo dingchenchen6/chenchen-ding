@@ -1,0 +1,77 @@
+{
+  "updated": "2026-03-16",
+  "keywords": [
+    {
+      "word": "延迟退休",
+      "heat": 96,
+      "category": "elderly",
+      "trend": "up"
+    },
+    {
+      "word": "青年失业",
+      "heat": 91,
+      "category": "employment",
+      "trend": "stable"
+    },
+    {
+      "word": "医保改革",
+      "heat": 85,
+      "category": "healthcare",
+      "trend": "up"
+    },
+    {
+      "word": "保障性住房",
+      "heat": 78,
+      "category": "housing",
+      "trend": "up"
+    },
+    {
+      "word": "人工智能就业",
+      "heat": 82,
+      "category": "technology",
+      "trend": "up"
+    },
+    {
+      "word": "预制菜标注",
+      "heat": 69,
+      "category": "food",
+      "trend": "stable"
+    },
+    {
+      "word": "高考改革",
+      "heat": 64,
+      "category": "education",
+      "trend": "up"
+    },
+    {
+      "word": "居家养老",
+      "heat": 58,
+      "category": "elderly",
+      "trend": "stable"
+    },
+    {
+      "word": "灵活就业保障",
+      "heat": 72,
+      "category": "employment",
+      "trend": "up"
+    },
+    {
+      "word": "学区房",
+      "heat": 67,
+      "category": "housing",
+      "trend": "down"
+    },
+    {
+      "word": "食品安全",
+      "heat": 55,
+      "category": "food",
+      "trend": "stable"
+    },
+    {
+      "word": "数字鸿沟",
+      "heat": 48,
+      "category": "technology",
+      "trend": "stable"
+    }
+  ]
+}

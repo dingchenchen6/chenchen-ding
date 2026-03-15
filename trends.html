@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>热点追踪 | 民声 · 中国社会经济观察平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-char">民</span><span class="logo-char accent">声</span>
+      <span class="logo-divider">|</span>
+      <span class="logo-sub">中国社会经济观察</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="analysis.html">深度分析</a></li>
+      <li><a href="polls.html">民意调查</a></li>
+      <li><a href="trends.html" class="active">热点追踪</a></li>
+      <li><a href="debunk.html">辟谣曝光</a></li>
+      <li><a href="discuss.html">公共讨论</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+  </div>
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="section-tag">🔥 热点追踪</span>
+      <h1>洞察社会<br><span class="gradient-text">民生热点</span></h1>
+      <p>追踪互联网与社交媒体舆论热点<br>分析民生议题背后的深层问题与政策动向</p>
+    </div>
+  </div>
+</section>
+
+<!-- Trending Now -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">🔥 当前热点</span>
+      <h2 class="section-title">正在热议的民生议题</h2>
+      <p class="section-desc">基于社交媒体讨论热度与搜索指数综合排行</p>
+    </div>
+    <div class="trending-top" id="trendingTop"></div>
+  </div>
+</section>
+
+<!-- All Trends -->
+<section class="section">
+  <div class="container">
+    <div class="filter-bar-inline">
+      <div class="filter-group">
+        <div class="filter-tags" id="trendsFilter">
+          <button class="filter-tag active" data-cat="all">全部</button>
+          <button class="filter-tag" data-cat="education">教育</button>
+          <button class="filter-tag" data-cat="healthcare">医疗</button>
+          <button class="filter-tag" data-cat="housing">住房</button>
+          <button class="filter-tag" data-cat="employment">就业</button>
+          <button class="filter-tag" data-cat="elderly">养老</button>
+          <button class="filter-tag" data-cat="food">食品</button>
+          <button class="filter-tag" data-cat="technology">科技</button>
+        </div>
+      </div>
+    </div>
+    <div class="trends-full-list" id="trendsFullList"></div>
+  </div>
+</section>
+
+<!-- Weekly Report -->
+<section class="section">
+  <div class="container">
+    <div class="weekly-report-card">
+      <div class="wr-header">
+        <h3>📊 本周舆情周报</h3>
+        <span class="wr-date" id="wrDate"></span>
+      </div>
+      <div class="wr-content">
+        <div class="wr-summary">
+          <h4>本周舆论热点总结</h4>
+          <p>本周，<strong>就业与青年发展</strong>话题持续高热，延迟退休政策讨论在微博、微信引发广泛关注；<strong>医疗改革</strong>方面，部分地区医保个人账户调整再度成为热点；<strong>教育内卷</strong>话题随高考季临近热度上升。</p>
+          <p>总体来看，本周民生类话题占社交媒体讨论总量的42.3%，较上周提升5.2个百分点，表明公众对自身生活质量改善的关切度持续提升。</p>
+        </div>
+        <div class="wr-topics">
+          <h4>热点话题情绪分析</h4>
+          <div class="sentiment-list" id="sentimentList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© 2025 民声 · 中国社会经济观察平台 | <a href="index.html">返回首页</a></p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop">↑</button>
+
+<script src="js/main.js"></script>
+<script src="js/polls.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  renderTrendsPage();
+  renderWeeklyReport();
+  setupTrendsFilter();
+});
+
+function setupTrendsFilter() {
+  document.querySelectorAll('#trendsFilter .filter-tag').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('#trendsFilter .filter-tag').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      filterTrends(this.dataset.cat);
+    });
+  });
+}
+
+function filterTrends(cat) {
+  document.querySelectorAll('.trend-item-full').forEach(item => {
+    item.style.display = (cat === 'all' || item.dataset.category === cat) ? '' : 'none';
+  });
+}
+
+function renderWeeklyReport() {
+  const now = new Date();
+  document.getElementById('wrDate').textContent = `${now.getFullYear()}年第${Math.ceil((now - new Date(now.getFullYear(), 0, 1)) / 604800000)}周`;
+
+  const sentiments = [
+    { topic: '延迟退休政策讨论', positive: 18, neutral: 32, negative: 50, category: 'elderly' },
+    { topic: '高校毕业生就业问题', positive: 22, neutral: 28, negative: 50, category: 'employment' },
+    { topic: '医保个账调整', positive: 25, neutral: 35, negative: 40, category: 'healthcare' },
+    { topic: '学区房政策调整', positive: 45, neutral: 30, negative: 25, category: 'housing' },
+    { topic: '食品安全监管升级', positive: 60, neutral: 25, negative: 15, category: 'food' },
+    { topic: 'AI替代就业担忧', positive: 20, neutral: 40, negative: 40, category: 'technology' },
+  ];
+
+  const list = document.getElementById('sentimentList');
+  list.innerHTML = sentiments.map(s => `
+    <div class="sentiment-item">
+      <div class="si-topic">${s.topic}</div>
+      <div class="si-bar">
+        <div class="si-seg positive" style="width:${s.positive}%" title="正面 ${s.positive}%"></div>
+        <div class="si-seg neutral" style="width:${s.neutral}%" title="中性 ${s.neutral}%"></div>
+        <div class="si-seg negative" style="width:${s.negative}%" title="负面 ${s.negative}%"></div>
+      </div>
+      <div class="si-legend">
+        <span class="positive">正面 ${s.positive}%</span>
+        <span class="neutral">中性 ${s.neutral}%</span>
+        <span class="negative">负面 ${s.negative}%</span>
+      </div>
+    </div>
+  `).join('');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "last_updated": "2026年03月16日 02:53",
+  "last_updated_iso": "2026-03-16T02:53:43.743048+08:00",
+  "version": "2.0",
+  "auto_update": true,
+  "update_frequency": "daily",
+  "data_sources": [
+    "国家统计局",
+    "国家卫生健康委员会",
+    "教育部",
+    "人力资源和社会保障部",
+    "中国社会科学院",
+    "公开学术数据库"
+  ]
+}
