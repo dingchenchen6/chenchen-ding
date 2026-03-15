@@ -1,0 +1,82 @@
+{
+  "updated": "2026-03-16",
+  "source": "国家统计局、国家卫健委等权威机构",
+  "note": "数据来源于官方统计，部分数据为最新发布季度/年度数据",
+  "indicators": {
+    "population": {
+      "total": 14.08,
+      "unit": "亿人",
+      "year": 2023,
+      "label": "总人口"
+    },
+    "gdp": {
+      "total": 126.06,
+      "unit": "万亿元",
+      "growth_rate": 5.2,
+      "year": 2023,
+      "label": "GDP总量"
+    },
+    "per_capita_income": {
+      "national": 39218,
+      "urban": 51821,
+      "rural": 21691,
+      "unit": "元/年",
+      "year": 2023,
+      "label": "居民人均可支配收入"
+    },
+    "employment": {
+      "urban_unemployment_rate": 5.1,
+      "youth_unemployment_rate": 14.6,
+      "new_jobs": 1244,
+      "unit": "%/万人",
+      "year": 2023,
+      "label": "就业数据"
+    },
+    "education": {
+      "higher_education_enrollment": 60.2,
+      "compulsory_edu_rate": 95.7,
+      "unit": "%",
+      "year": 2023,
+      "label": "教育数据"
+    },
+    "healthcare": {
+      "life_expectancy": 78.6,
+      "infant_mortality": 4.5,
+      "per_capita_health_expense": 6523,
+      "basic_insurance_coverage": 95,
+      "unit": "岁/‰/元/%",
+      "year": 2023,
+      "label": "卫生健康数据"
+    },
+    "housing": {
+      "urban_per_capita_area": 41.76,
+      "price_income_ratio": 9.2,
+      "unit": "㎡/倍",
+      "year": 2023,
+      "label": "住房数据"
+    },
+    "elderly": {
+      "population_60_plus": 2.96,
+      "population_60_plus_pct": 21.0,
+      "avg_pension": 3516,
+      "unit": "亿人/%/元",
+      "year": 2023,
+      "label": "养老数据"
+    },
+    "food": {
+      "grain_output": 6.95,
+      "food_safety_pass_rate": 97.6,
+      "unit": "亿吨/%",
+      "year": 2023,
+      "label": "粮食与食品安全"
+    },
+    "technology": {
+      "internet_users": 10.92,
+      "5g_base_stations": 338.4,
+      "digital_economy_scale": 50.2,
+      "unit": "亿/万个/万亿元",
+      "year": 2023,
+      "label": "科技数字化数据"
+    }
+  }
+}

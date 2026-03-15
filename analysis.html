@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>深度分析 | 民声 · 中国社会经济观察平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-char">民</span><span class="logo-char accent">声</span>
+      <span class="logo-divider">|</span>
+      <span class="logo-sub">中国社会经济观察</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="analysis.html" class="active">深度分析</a></li>
+      <li><a href="polls.html">民意调查</a></li>
+      <li><a href="trends.html">热点追踪</a></li>
+      <li><a href="debunk.html">辟谣曝光</a></li>
+      <li><a href="discuss.html">公共讨论</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+  </div>
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="section-tag">深度分析报告</span>
+      <h1>八大民生领域<br><span class="gradient-text">全面深度分析</span></h1>
+      <p>基于国家统计局、学术期刊、权威研究机构最新数据，呈现真实现状、揭示核心问题、探索可行路径</p>
+    </div>
+  </div>
+</section>
+
+<!-- Tab Navigation -->
+<div class="analysis-nav sticky-nav">
+  <div class="container">
+    <div class="tab-nav" id="analysisTabNav">
+      <button class="tab-btn active" data-tab="education">🎓 教育</button>
+      <button class="tab-btn" data-tab="healthcare">🏥 医疗</button>
+      <button class="tab-btn" data-tab="housing">🏠 住房</button>
+      <button class="tab-btn" data-tab="technology">💻 科技</button>
+      <button class="tab-btn" data-tab="elderly">👴 养老</button>
+      <button class="tab-btn" data-tab="food">🌾 食品</button>
+      <button class="tab-btn" data-tab="employment">💼 就业</button>
+      <button class="tab-btn" data-tab="livelihood">🌆 民生</button>
+    </div>
+  </div>
+</div>
+
+<div class="analysis-content">
+  <div class="container">
+
+    <!-- ===== EDUCATION ===== -->
+    <div class="tab-panel active" id="tab-education">
+      <div class="analysis-header">
+        <div class="analysis-header-icon blue">🎓</div>
+        <div>
+          <h2>教育领域分析</h2>
+          <p>义务教育 · 高等教育 · 职业教育 · 教育公平</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value blue">60.2%</div>
+          <div class="kpi-label">高等教育毛入学率</div>
+          <div class="kpi-trend up">↑ 较2015年提升21.8%</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value blue">95.7%</div>
+          <div class="kpi-label">义务教育巩固率</div>
+          <div class="kpi-trend up">↑ 逐年稳步提升</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value blue">84.3%</div>
+          <div class="kpi-label">高考录取率</div>
+          <div class="kpi-trend up">↑ 扩招持续推进</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value amber">5.2万亿</div>
+          <div class="kpi-label">全国教育经费投入</div>
+          <div class="kpi-trend up">↑ 连续多年超GDP 4%</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>中国已建成世界上规模最大的教育体系。截至2023年，全国共有各级各类学校50.2万所，在校生2.91亿人，专任教师1891.8万人。高等教育毛入学率达到60.2%，已从精英教育进入普及化阶段。义务教育巩固率达95.7%，青壮年文盲率降至3%以下。</p>
+          <p>职业教育体系不断完善，中等和高等职业学校在校生规模超过3300万人。教育信息化加速推进，全国中小学互联网接入率达100%，数字教育资源覆盖面持续扩大。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>教育资源严重不均衡：</strong>优质教育资源高度集中于东部省份和大城市，农村和西部地区的教师待遇、基础设施与城市存在显著差距</li>
+            <li><strong>"内卷"与教育焦虑：</strong>激烈竞争导致学生课业负担沉重，心理健康问题突出；课外补习产业年规模曾高达1.2万亿元</li>
+            <li><strong>高等教育质量参差：</strong>扩招后毕业生就业困难加剧，高校毕业生数量2024年突破1179万，结构性失业矛盾凸显</li>
+            <li><strong>职业教育认可度偏低：</strong>社会对职业教育存在偏见，"学历歧视"现象普遍，高技能人才培养体系待完善</li>
+            <li><strong>教育成本持续上升：</strong>学区房价格畸高，课外培训费用昂贵，家庭教育支出负担沉重</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>高等教育毛入学率变化（2010–2023）</h3>
+          <canvas id="eduChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">⚖️</div>
+            <h4>均衡资源配置</h4>
+            <p>加大对农村和中西部地区教育投入，推进教师交流轮岗制度，缩小区域教育质量差距</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">📚</div>
+            <h4>深化"双减"政策</h4>
+            <p>落实减负政策，规范校外培训，加强学校课后服务供给，降低家庭教育成本</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🏭</div>
+            <h4>提升职教地位</h4>
+            <p>推动职业教育与普通教育并重，建立完善的职业晋升通道，打破学历歧视壁垒</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🎯</div>
+            <h4>高考制度改革</h4>
+            <p>探索多元评价体系，减少"一考定终身"，完善综合素质评价，破解应试教育困局</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== HEALTHCARE ===== -->
+    <div class="tab-panel" id="tab-healthcare">
+      <div class="analysis-header">
+        <div class="analysis-header-icon red">🏥</div>
+        <div>
+          <h2>医疗卫生分析</h2>
+          <p>医疗资源 · 医疗保障 · 基层医疗 · 公共卫生</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value red">78.6岁</div>
+          <div class="kpi-label">人均预期寿命</div>
+          <div class="kpi-trend up">↑ 较2000年提升8.8岁</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value red">4.5‰</div>
+          <div class="kpi-label">婴儿死亡率</div>
+          <div class="kpi-trend up">↓ 大幅下降</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value red">95%+</div>
+          <div class="kpi-label">基本医保覆盖率</div>
+          <div class="kpi-trend up">↑ 全民基本医保实现</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value amber">6,523元</div>
+          <div class="kpi-label">年人均卫生费用</div>
+          <div class="kpi-trend up">↑ 持续增长</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>中国已构建起覆盖超过13亿人的基本医疗保障体系，人均预期寿命从2000年的71.4岁提升至2023年的78.6岁。全国医疗卫生机构总数超过100万个，卫生技术人员1247.3万人，每千人口医生数达3.04人。</p>
+          <p>国家基本药物制度持续完善，集中带量采购改革有效降低药品耗材价格，累计节约医疗费用超5000亿元。县域医共体、城市医疗集团等新型医疗服务体系逐步建立。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>优质资源分布不均：</strong>三甲医院高度集中于大城市，基层医疗服务能力薄弱，患者"千里就医"现象普遍</li>
+            <li><strong>看病贵问题依然突出：</strong>个人卫生支出占比约27%，重大疾病仍可能致贫，医疗费用上涨压力未根本缓解</li>
+            <li><strong>医患关系紧张：</strong>医疗资源紧张、信息不对称、沟通不足等因素导致医患矛盾频发</li>
+            <li><strong>慢性病管理不足：</strong>高血压、糖尿病等慢性病患者超4亿人，基层慢病管理体系尚待完善</li>
+            <li><strong>公共卫生短板明显：</strong>疾控系统人员和资金不足，基层公共卫生服务供给与需求存在较大缺口</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>卫生费用构成变化（个人、政府、社会）</h3>
+          <canvas id="healthcareChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">🏗️</div>
+            <h4>强化基层医疗</h4>
+            <p>大幅提升基层医疗机构诊疗能力，推行家庭医生签约制度，建立分级诊疗体系</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">💊</div>
+            <h4>深化药品改革</h4>
+            <p>扩大集中采购范围，推进医保目录动态调整，持续降低患者用药负担</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🤝</div>
+            <h4>改善医患关系</h4>
+            <p>建立医疗纠纷调解机制，提高医疗信息透明度，加强医患沟通技能培训</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🌐</div>
+            <h4>推进数字医疗</h4>
+            <p>大力发展互联网医疗，推动远程医疗服务向农村和边远地区延伸</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== HOUSING ===== -->
+    <div class="tab-panel" id="tab-housing">
+      <div class="analysis-header">
+        <div class="analysis-header-icon amber">🏠</div>
+        <div>
+          <h2>住房问题分析</h2>
+          <p>房价走势 · 住房保障 · 租房市场 · 政策调控</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value amber">41.76㎡</div>
+          <div class="kpi-label">城镇人均住房面积</div>
+          <div class="kpi-trend up">↑ 显著改善</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value red">9.2</div>
+          <div class="kpi-label">全国房价收入比</div>
+          <div class="kpi-trend down">↑ 高于国际警戒线</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value amber">30+</div>
+          <div class="kpi-label">一线城市房价收入比</div>
+          <div class="kpi-trend down">↑ 普通家庭难以承受</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value blue">3.6亿</div>
+          <div class="kpi-label">城市租房居住人口</div>
+          <div class="kpi-trend neutral">持续增长</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>过去二十年，中国经历了人类历史上规模最大的城镇化进程，城镇化率从2000年的36.2%提升至2023年的66.2%。城镇居民人均住房面积从1978年的3.6平方米提升至现在的41.76平方米，住房条件整体大幅改善。</p>
+          <p>2021年以来，随着"房住不炒"政策深化推进，叠加房企债务危机爆发，房地产市场深度调整，全国商品房销售面积和价格双双下降。保障性住房建设加快推进，2023年计划建设保障性住房及配售型保障房超170万套。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>房价收入比严重失衡：</strong>北上广深等一线城市房价收入比超过30倍，购房门槛远超普通家庭承受能力</li>
+            <li><strong>新市民住房困难突出：</strong>大量进城务工人员和新就业大学生面临"高房价买不起、高租金租不起"的双重困境</li>
+            <li><strong>租房市场不规范：</strong>长租公寓频繁"爆雷"，租客权益保障不足，城中村改造推进缓慢</li>
+            <li><strong>部分城市库存高企：</strong>三四线城市及县城存在大量库存积压，烂尾楼问题影响居民权益</li>
+            <li><strong>住房公积金制度不完善：</strong>灵活就业人员无法纳入，公积金缴纳和使用规则复杂，低收入群体受益有限</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>主要城市房价收入比对比</h3>
+          <canvas id="housingChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">🏘️</div>
+            <h4>加大保障房供给</h4>
+            <p>大规模建设配售型保障性住房和公租房，切实解决新市民和低收入群体住房困难</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">📋</div>
+            <h4>规范租房市场</h4>
+            <p>完善住房租赁法律法规，保障租客权益，推进"租购同权"，增加租房生活便利性</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🔧</div>
+            <h4>化解楼市风险</h4>
+            <p>建立房企破产重组机制，推进烂尾楼"保交楼"，防范系统性金融风险蔓延</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">💰</div>
+            <h4>改革公积金制度</h4>
+            <p>将灵活就业人员纳入住房公积金体系，降低提取限制，提升制度普惠性</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TECHNOLOGY ===== -->
+    <div class="tab-panel" id="tab-technology">
+      <div class="analysis-header">
+        <div class="analysis-header-icon cyan">💻</div>
+        <div>
+          <h2>科技发展分析</h2>
+          <p>数字经济 · 人工智能 · 5G应用 · 自主创新</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value cyan">10.92亿</div>
+          <div class="kpi-label">网民规模</div>
+          <div class="kpi-trend up">↑ 互联网普及率77.5%</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value cyan">338.4万</div>
+          <div class="kpi-label">5G基站数量</div>
+          <div class="kpi-trend up">↑ 全球规模最大</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value cyan">50.2万亿</div>
+          <div class="kpi-label">数字经济规模</div>
+          <div class="kpi-trend up">↑ 占GDP比重41.5%</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value amber">2.68%</div>
+          <div class="kpi-label">研发投入占GDP比</div>
+          <div class="kpi-trend up">↑ 超3.3万亿元</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>中国已成为全球最大的数字经济体之一，2023年数字经济规模达50.2万亿元，占GDP比重达41.5%。人工智能领域发展迅速，百度文心、阿里通义、华为盘古等大模型相继发布，具身智能、自动驾驶赛道加速布局。</p>
+          <p>5G网络建设领跑全球，338.4万个5G基站覆盖全国所有地级市及绝大多数县城，5G用户数超8.5亿。科研投入持续增加，国家科技创新能力指数排名全球第11位，专利申请量连续多年位居全球第一。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>关键核心技术受制于人：</strong>高端芯片、操作系统、工业软件等核心技术仍依赖进口，"卡脖子"风险突出</li>
+            <li><strong>数字鸿沟持续扩大：</strong>城乡、代际数字能力差距显著，老年人、农村居民数字化融入困难</li>
+            <li><strong>数据安全与隐私保护：</strong>个人数据过度采集、算法滥用、平台垄断等问题引发广泛关切</li>
+            <li><strong>科技创新生态待完善：</strong>基础研究投入比例偏低（约6%），产学研协同机制不健全，科研成果转化率偏低</li>
+            <li><strong>就业替代压力上升：</strong>AI与自动化对制造业、服务业就业岗位的替代效应正在加速显现</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>数字经济规模增长趋势（万亿元）</h3>
+          <canvas id="techChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">🔬</div>
+            <h4>攻关核心技术</h4>
+            <p>加大对半导体、操作系统等基础领域的国家投入，建立长期稳定的基础研究资金机制</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🌉</div>
+            <h4>弥合数字鸿沟</h4>
+            <p>推进农村宽带和4G/5G覆盖，开展数字技能培训，开发适合老年人的适老化数字产品</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🛡️</div>
+            <h4>强化数据治理</h4>
+            <p>完善数据安全法规落地实施，加强算法监管，打破平台数据垄断，保护用户隐私权益</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🔄</div>
+            <h4>技术再培训体系</h4>
+            <p>建立面向AI时代的全民技能再培训体系，帮助受技术替代影响的工人顺利转岗转业</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== ELDERLY ===== -->
+    <div class="tab-panel" id="tab-elderly">
+      <div class="analysis-header">
+        <div class="analysis-header-icon purple">👴</div>
+        <div>
+          <h2>养老保障分析</h2>
+          <p>老龄化趋势 · 养老金体系 · 养老服务 · 延迟退休</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value purple">2.96亿</div>
+          <div class="kpi-label">60岁以上老年人口</div>
+          <div class="kpi-trend down">↑ 占总人口21%</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value purple">3,516元</div>
+          <div class="kpi-label">企业退休人员月均养老金</div>
+          <div class="kpi-trend up">↑ 连续20年上调</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value purple">1.09</div>
+          <div class="kpi-label">养老金赡养率（退休/缴费）</div>
+          <div class="kpi-trend down">↑ 压力持续上升</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value amber">2050年</div>
+          <div class="kpi-label">老年人口峰值预测年份</div>
+          <div class="kpi-trend neutral">约占总人口35%</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>中国正经历人类历史上最大规模的老龄化进程。2023年全国60岁以上老年人口达2.96亿，占总人口21%，65岁以上人口2.17亿，占15.4%，中国已进入深度老龄化社会。预计至2050年，老年人口将突破5亿。</p>
+          <p>基本养老保险覆盖人数超10.5亿，企业退休人员月均养老金3516元，已连续20年上调。养老服务体系初步形成"9073"格局（90%居家养老、7%社区养老、3%机构养老）。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>养老金收支压力巨大：</strong>人口老龄化加速导致养老保险基金长期收支压力凸显，部分省份当期已出现赤字</li>
+            <li><strong>养老服务供给严重不足：</strong>全国养老床位仅约800万张，床位缺口巨大；专业护理人员严重短缺</li>
+            <li><strong>城乡养老差距明显：</strong>农村老人社会养老保障水平极低，留守老人缺乏照护，"空巢老人"问题突出</li>
+            <li><strong>延迟退休政策推进困难：</strong>社会对延迟退休存在较大抵触，中年就业困难与延迟退休之间的矛盾突出</li>
+            <li><strong>失智老人护理空白：</strong>阿尔茨海默症患者超1000万人，专业记忆护理机构极度匮乏</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>中国人口老龄化趋势预测</h3>
+          <canvas id="elderlyChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">💹</div>
+            <h4>做大养老基金</h4>
+            <p>加快养老基金市场化运营，推进全国统筹，探索建立覆盖全民的个人养老金账户体系</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🏡</div>
+            <h4>发展社区养老</h4>
+            <p>大力发展嵌入式社区养老服务，建立15分钟养老服务圈，推广"互联网+养老"模式</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">👩‍⚕️</div>
+            <h4>培育护理人才</h4>
+            <p>提高养老护理员薪资待遇，建立职业晋升通道，通过职业教育培养大批专业养老人才</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🌾</div>
+            <h4>完善农村养老</h4>
+            <p>提升城乡居民基础养老金标准，在农村建立互助型养老服务站，完善农村养老保障网</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== FOOD ===== -->
+    <div class="tab-panel" id="tab-food">
+      <div class="analysis-header">
+        <div class="analysis-header-icon green">🌾</div>
+        <div>
+          <h2>食品安全分析</h2>
+          <p>粮食安全 · 食品安全监管 · 农业现代化 · 食品添加剂</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value green">6.95亿吨</div>
+          <div class="kpi-label">年粮食总产量</div>
+          <div class="kpi-trend up">↑ 连续9年超6.5亿吨</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value green">18.65亿亩</div>
+          <div class="kpi-label">耕地红线保有量</div>
+          <div class="kpi-trend neutral">严格守护</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value green">97.6%</div>
+          <div class="kpi-label">食品总体抽检合格率</div>
+          <div class="kpi-trend up">↑ 持续改善</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value amber">30.8%</div>
+          <div class="kpi-label">城镇居民恩格尔系数</div>
+          <div class="kpi-trend up">↓ 生活水平提升</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>中国粮食安全保障能力持续增强，2023年粮食总产量达6.95亿吨，连续9年稳定在1.3万亿斤以上，实现了以占全球9%的耕地养活全球近20%人口的奇迹。食品安全总体形势持续好转，2023年食品安全抽检总体合格率97.6%。</p>
+          <p>农业现代化加速推进，农业机械化综合水平超73%，农业科技进步贡献率达63%。农产品质量安全追溯体系逐步建立，"三品一标"农产品认证数量持续增加。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>粮食安全隐患依然存在：</strong>大豆等重要农产品对外依存度高（大豆进口依存度超80%），种子"卡脖子"问题突出</li>
+            <li><strong>食品安全事件时有发生：</strong>农药兽药残留超标、非法添加等问题仍未根本解决，隐蔽性食品安全风险上升</li>
+            <li><strong>食品添加剂滥用：</strong>部分食品生产者过度使用防腐剂、色素等添加剂，消费者维权困难</li>
+            <li><strong>耕地质量问题突出：</strong>土壤污染、地下水超采、耕地占用等问题威胁粮食可持续生产</li>
+            <li><strong>进口食品安全监管：</strong>跨境电商食品监管漏洞、境外冷链食品安全等新型风险管控难度大</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>粮食产量变化趋势（亿吨）</h3>
+          <canvas id="foodChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">🌱</div>
+            <h4>攻克种业难关</h4>
+            <p>加大育种科研投入，推进种源自主可控，突破大豆、玉米等核心品种"卡脖子"技术</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🔍</div>
+            <h4>强化全程追溯</h4>
+            <p>建立从农田到餐桌的全链条食品安全追溯体系，推广二维码溯源，提高违规成本</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🧪</div>
+            <h4>完善检测标准</h4>
+            <p>推进食品安全国家标准与国际接轨，加大基层食品安全检测能力和技术装备投入</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🌍</div>
+            <h4>多元化进口来源</h4>
+            <p>扩大粮食进口来源多样化，建立战略粮食储备机制，降低单一进口依赖风险</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== EMPLOYMENT ===== -->
+    <div class="tab-panel" id="tab-employment">
+      <div class="analysis-header">
+        <div class="analysis-header-icon orange">💼</div>
+        <div>
+          <h2>就业形势分析</h2>
+          <p>青年就业 · 结构性失业 · 新就业形态 · 职业发展</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value orange">5.1%</div>
+          <div class="kpi-label">城镇调查失业率</div>
+          <div class="kpi-trend neutral">维持相对稳定</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value red">14.6%</div>
+          <div class="kpi-label">16-24岁青年失业率</div>
+          <div class="kpi-trend down">↑ 结构性矛盾突出</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value orange">1,179万</div>
+          <div class="kpi-label">2024届高校毕业生数</div>
+          <div class="kpi-trend down">↑ 历史新高</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value blue">2亿+</div>
+          <div class="kpi-label">灵活就业人员规模</div>
+          <div class="kpi-trend neutral">持续增长</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>2023年全国城镇新增就业1,244万人，城镇调查失业率均值5.2%，就业大局总体稳定。灵活就业人员规模超2亿，外卖骑手、网约车司机、直播带货等新就业形态快速扩张，成为重要就业蓄水池。</p>
+          <p>高技能人才需求旺盛，制造业数字化转型带动对人工智能、大数据、工业机器人等领域人才需求大幅增加。新能源、集成电路、生物医药等战略新兴产业用人需求持续攀升。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>青年就业矛盾突出：</strong>2023年7月青年失业率一度达到21.3%（后暂停发布），供需结构失配严重，大学生"慢就业""躺平"现象蔓延</li>
+            <li><strong>招聘中的歧视问题：</strong>学历歧视、性别歧视（尤其针对女性生育）、年龄歧视在招聘中普遍存在，35岁以上求职者面临"年龄门槛"</li>
+            <li><strong>灵活就业缺乏保障：</strong>平台经济工作者缺乏基本劳动保障，工伤认定难、社保缴纳难、收入稳定性差</li>
+            <li><strong>行业收入差距悬殊：</strong>金融、互联网等行业与制造业、服务业收入差距持续扩大，加剧人才资源错配</li>
+            <li><strong>职业发展通道狭窄：</strong>基层岗位晋升空间有限，技术工人职业化发展渠道不畅，工匠精神培育生态缺失</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>青年失业率与城镇失业率对比</h3>
+          <canvas id="employChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">🎯</div>
+            <h4>精准就业服务</h4>
+            <p>完善公共就业信息平台，推进就业供需精准匹配，加强对重点群体的就业帮扶</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🛡️</div>
+            <h4>保障灵活就业</h4>
+            <p>建立适应新就业形态的社保参保机制，推进职业伤害保障制度，规范平台用工关系</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🚫</div>
+            <h4>反就业歧视立法</h4>
+            <p>制定专项反就业歧视法律，明确禁止学历、性别、年龄、生育状况等方面的招聘歧视</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">📈</div>
+            <h4>创业生态支持</h4>
+            <p>降低创业门槛，完善创业孵化体系，为有意创业的青年提供资金、培训、场地等全方位支持</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== LIVELIHOOD ===== -->
+    <div class="tab-panel" id="tab-livelihood">
+      <div class="analysis-header">
+        <div class="analysis-header-icon pink">🌆</div>
+        <div>
+          <h2>民生经济分析</h2>
+          <p>居民收入 · 消费结构 · 贫富差距 · 城乡发展</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-value pink">39,218元</div>
+          <div class="kpi-label">年均可支配收入（全国）</div>
+          <div class="kpi-trend up">↑ 实际增长6.1%</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value pink">0.467</div>
+          <div class="kpi-label">基尼系数</div>
+          <div class="kpi-trend down">↑ 收入差距仍较大</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value pink">30.8%</div>
+          <div class="kpi-label">城镇居民恩格尔系数</div>
+          <div class="kpi-trend up">↓ 生活品质提升</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value amber">2.4:1</div>
+          <div class="kpi-label">城乡收入比</div>
+          <div class="kpi-trend up">↓ 差距逐步缩小</div>
+        </div>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-text-block">
+          <h3>📊 发展现状</h3>
+          <p>2023年全国居民人均可支配收入39,218元，实际增长6.1%，扣除价格因素后增速高于GDP增速，居民收入增长与经济增长基本同步。城镇居民人均可支配收入49,283元，农村居民21,691元，城乡收入比约为2.4:1，较2012年的2.88:1有所改善。</p>
+          <p>脱贫攻坚取得历史性成就，近1亿农村贫困人口全部脱贫，832个贫困县全部摘帽。中等收入群体规模超4亿人，占总人口约30%，消费升级趋势持续。</p>
+          <h3>⚠️ 主要问题</h3>
+          <ul class="problem-list">
+            <li><strong>收入分配差距显著：</strong>基尼系数长期维持在0.46以上，20%最高收入组收入约为20%最低收入组的10倍以上</li>
+            <li><strong>中等收入群体不稳固：</strong>疫情等冲击显示大量"中产"缺乏抵御风险的能力，储蓄意愿增强但投资渠道匮乏</li>
+            <li><strong>隐性收入难以统计：</strong>灰色收入、资产性收入分配不透明，实际收入不平等程度可能被低估</li>
+            <li><strong>城乡差距仍然突出：</strong>农村居民享有的公共服务质量仍显著低于城市，教育、医疗、基础设施差距未根本消除</li>
+            <li><strong>消费能力制约增长：</strong>住房贷款、教育、医疗"三座大山"消耗大量居民可支配收入，抑制正常消费需求</li>
+          </ul>
+        </div>
+        <div class="analysis-chart-block">
+          <h3>城乡居民收入增长对比（2015–2023）</h3>
+          <canvas id="livelihoodChart" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="solution-block">
+        <h3>🔑 潜在解决路径</h3>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">💰</div>
+            <h4>提高劳动报酬</h4>
+            <p>推动最低工资标准定期上调，提高劳动报酬在国民收入分配中的比重，缩小劳资分配差距</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🏦</div>
+            <h4>拓展财产性收入</h4>
+            <p>完善资本市场制度，发展普惠金融，为中低收入群体提供安全稳健的投资理财渠道</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">🌿</div>
+            <h4>振兴乡村经济</h4>
+            <p>深化农村土地制度改革，发展农村集体经济，拓宽农民财产性和经营性收入渠道</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">📊</div>
+            <h4>强化税收调节</h4>
+            <p>完善个人所得税综合征收制度，推进遗产税、房产税等制度研究，通过税收手段调节过高收入</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- .container -->
+</div><!-- .analysis-content -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">民<span>声</span></div>
+        <p>基于权威数据的中国社会经济独立分析平台</p>
+        <div class="footer-update"><span class="update-dot"></span><span>最近数据更新：2025年第一季度</span></div>
+      </div>
+      <div class="footer-links-group">
+        <h4>分析报告</h4>
+        <ul>
+          <li><a href="#education" class="tab-link" data-tab="education">教育分析</a></li>
+          <li><a href="#healthcare" class="tab-link" data-tab="healthcare">医疗卫生</a></li>
+          <li><a href="#housing" class="tab-link" data-tab="housing">住房问题</a></li>
+          <li><a href="#employment" class="tab-link" data-tab="employment">就业形势</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4>互动功能</h4>
+        <ul>
+          <li><a href="polls.html">民意调查</a></li>
+          <li><a href="trends.html">热点追踪</a></li>
+          <li><a href="debunk.html">辟谣曝光</a></li>
+          <li><a href="discuss.html">公共讨论</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4>数据来源</h4>
+        <ul>
+          <li>国家统计局</li>
+          <li>国家卫生健康委员会</li>
+          <li>教育部官网</li>
+          <li>中国社会科学院</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 民声 · 中国社会经济观察平台</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop">↑</button>
+
+<script src="js/main.js"></script>
+<script src="js/charts.js"></script>
+<script>
+// Analysis page tab system
+document.addEventListener('DOMContentLoaded', function() {
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const tabPanels = document.querySelectorAll('.tab-panel');
+
+  function activateTab(tabId) {
+    tabBtns.forEach(b => b.classList.remove('active'));
+    tabPanels.forEach(p => p.classList.remove('active'));
+    const btn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+    const panel = document.getElementById(`tab-${tabId}`);
+    if (btn) btn.classList.add('active');
+    if (panel) panel.classList.add('active');
+    initAnalysisCharts(tabId);
+  }
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => activateTab(btn.dataset.tab));
+  });
+
+  // Tab links in footer
+  document.querySelectorAll('.tab-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      activateTab(link.dataset.tab);
+      document.querySelector('.analysis-nav').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  // Handle hash navigation
+  const hash = window.location.hash.replace('#', '');
+  if (hash && document.querySelector(`.tab-btn[data-tab="${hash}"]`)) {
+    activateTab(hash);
+  } else {
+    initAnalysisCharts('education');
+  }
+});
+
+function initAnalysisCharts(tabId) {
+  const chartConfigs = {
+    education: {
+      id: 'eduChart',
+      type: 'line',
+      labels: ['2010','2012','2014','2016','2018','2020','2022','2023'],
+      data: [26.5, 30.0, 37.5, 42.7, 48.1, 54.4, 59.6, 60.2],
+      label: '高等教育毛入学率(%)',
+      color: '#3b82f6'
+    },
+    healthcare: {
+      id: 'healthcareChart',
+      type: 'bar',
+      labels: ['2015','2016','2017','2018','2019','2020','2021','2022','2023'],
+      datasets: [
+        { label: '政府卫生支出占比(%)', data: [30.9, 30.0, 28.9, 27.7, 27.0, 28.3, 29.1, 30.2, 30.0], color: '#ef4444' },
+        { label: '社会卫生支出占比(%)', data: [40.3, 41.2, 43.8, 43.9, 44.9, 43.2, 43.5, 43.2, 43.0], color: '#f97316' },
+        { label: '个人卫生支出占比(%)', data: [28.8, 28.8, 27.3, 28.4, 28.1, 28.5, 27.4, 26.6, 27.0], color: '#fbbf24' }
+      ]
+    },
+    housing: {
+      id: 'housingChart',
+      type: 'bar',
+      labels: ['北京', '上海', '深圳', '广州', '杭州', '南京', '成都', '武汉', '全国平均'],
+      data: [45, 42, 48, 32, 28, 22, 18, 16, 9.2],
+      label: '房价收入比',
+      color: '#f59e0b'
+    },
+    technology: {
+      id: 'techChart',
+      type: 'line',
+      labels: ['2016','2017','2018','2019','2020','2021','2022','2023'],
+      data: [22.6, 27.2, 31.3, 35.8, 39.2, 45.5, 50.2, 53.9],
+      label: '数字经济规模(万亿元)',
+      color: '#06b6d4'
+    },
+    elderly: {
+      id: 'elderlyChart',
+      type: 'line',
+      labels: ['2020','2025','2030','2035','2040','2045','2050'],
+      datasets: [
+        { label: '60岁以上人口占比(%)', data: [18.7, 21.0, 25.3, 29.1, 32.8, 34.9, 35.9], color: '#8b5cf6' },
+        { label: '65岁以上人口占比(%)', data: [13.5, 15.4, 19.5, 23.1, 27.8, 31.0, 32.5], color: '#a78bfa' }
+      ]
+    },
+    food: {
+      id: 'foodChart',
+      type: 'bar',
+      labels: ['2015','2016','2017','2018','2019','2020','2021','2022','2023'],
+      data: [6.21, 6.16, 6.18, 6.58, 6.64, 6.69, 6.83, 6.87, 6.95],
+      label: '粮食总产量(亿吨)',
+      color: '#22c55e'
+    },
+    employment: {
+      id: 'employChart',
+      type: 'line',
+      labels: ['2019','2020','2021','2022','2023','2024'],
+      datasets: [
+        { label: '城镇调查失业率(%)', data: [5.2, 5.6, 5.1, 5.5, 5.2, 5.1], color: '#f97316' },
+        { label: '青年失业率(%)', data: [12.2, 14.6, 14.3, 17.6, 18.5, 14.6], color: '#ef4444' }
+      ]
+    },
+    livelihood: {
+      id: 'livelihoodChart',
+      type: 'line',
+      labels: ['2015','2016','2017','2018','2019','2020','2021','2022','2023'],
+      datasets: [
+        { label: '城镇居民人均可支配收入(元)', data: [31195, 33616, 36396, 39251, 42359, 43834, 47412, 49283, 51821], color: '#ec4899' },
+        { label: '农村居民人均可支配收入(元)', data: [11422, 12363, 13432, 14617, 16021, 17131, 18931, 20133, 21691], color: '#f9a8d4' }
+      ]
+    }
+  };
+
+  const config = chartConfigs[tabId];
+  if (!config) return;
+
+  const canvas = document.getElementById(config.id);
+  if (!canvas) return;
+
+  // Destroy existing chart
+  const existing = Chart.getChart(canvas);
+  if (existing) existing.destroy();
+
+  const ctx = canvas.getContext('2d');
+  const isDark = true;
+
+  if (config.datasets) {
+    new Chart(ctx, {
+      type: config.type,
+      data: {
+        labels: config.labels,
+        datasets: config.datasets.map(ds => ({
+          label: ds.label,
+          data: ds.data,
+          borderColor: ds.color,
+          backgroundColor: config.type === 'bar' ? ds.color + 'aa' : ds.color + '22',
+          fill: config.type === 'line',
+          tension: 0.4,
+          pointBackgroundColor: ds.color,
+          pointRadius: 4,
+          borderWidth: 2.5
+        }))
+      },
+      options: getChartOptions(isDark)
+    });
+  } else {
+    new Chart(ctx, {
+      type: config.type,
+      data: {
+        labels: config.labels,
+        datasets: [{
+          label: config.label,
+          data: config.data,
+          borderColor: config.color,
+          backgroundColor: config.type === 'bar' ? config.color + 'cc' : config.color + '22',
+          fill: config.type === 'line',
+          tension: 0.4,
+          pointBackgroundColor: config.color,
+          pointRadius: 5,
+          borderWidth: 2.5
+        }]
+      },
+      options: getChartOptions(isDark)
+    });
+  }
+}
+
+function getChartOptions(isDark) {
+  return {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: {
+      legend: {
+        labels: { color: '#94a3b8', font: { family: 'Noto Sans SC', size: 12 } }
+      },
+      tooltip: {
+        backgroundColor: 'rgba(15,23,42,0.95)',
+        borderColor: 'rgba(148,163,184,0.2)',
+        borderWidth: 1,
+        titleColor: '#f1f5f9',
+        bodyColor: '#94a3b8',
+        titleFont: { family: 'Noto Sans SC' },
+        bodyFont: { family: 'Noto Sans SC' }
+      }
+    },
+    scales: {
+      x: {
+        ticks: { color: '#64748b', font: { family: 'Noto Sans SC', size: 11 } },
+        grid: { color: 'rgba(148,163,184,0.06)' }
+      },
+      y: {
+        ticks: { color: '#64748b', font: { family: 'Noto Sans SC', size: 11 } },
+        grid: { color: 'rgba(148,163,184,0.06)' }
+      }
+    }
+  };
+}
+</script>
+</body>
+</html>

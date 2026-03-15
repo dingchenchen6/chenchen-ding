@@ -1,0 +1,87 @@
+name: 📊 定时更新内容数据
+
+on:
+  # 每天北京时间上午8点自动运行
+  schedule:
+    - cron: '0 0 * * *'  # UTC 00:00 = 北京时间 08:00
+  # 也可以手动触发
+  workflow_dispatch:
+    inputs:
+      update_type:
+        description: '更新类型 (all/trends/polls/debunk)'
+        required: false
+        default: 'all'
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    name: 更新社会热点数据
+
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 安装依赖
+        run: |
+          pip install requests python-dateutil
+
+      - name: 📊 更新内容数据
+        run: |
+          python scripts/update_data.py
+        continue-on-error: true
+
+      - name: 📅 更新最后更新时间
+        run: |
+          DATE=$(TZ='Asia/Shanghai' date '+%Y年%m月%d日 %H:%M')
+          echo "最后更新：$DATE (北京时间)" > data/last_updated.txt
+          echo "update_time=$DATE" >> $GITHUB_OUTPUT
+        id: update_time
+
+      - name: 💾 提交更改
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "民声数据机器人"
+          git add data/ || true
+          git diff --staged --quiet || git commit -m "📊 自动更新：${{ steps.update_time.outputs.update_time }}"
+          git push || echo "没有需要推送的更改"
+
+  deploy:
+    needs: update-data
+    runs-on: ubuntu-latest
+    name: 🚀 部署到 GitHub Pages
+    if: always()
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+
+      - name: 🔧 配置 GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: 📤 上传到 Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: 🚀 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

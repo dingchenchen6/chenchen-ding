@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="基于权威数据的中国社会经济发展独立分析平台，涵盖教育、医疗、住房、科技、养老、食品、就业等民生核心议题，提供民意调查、辟谣曝光、公共讨论功能">
+  <meta name="keywords" content="中国社会经济,民生分析,教育改革,医疗改革,住房,就业,养老,民意调查">
+  <meta property="og:title" content="民声 | 中国社会经济观察平台">
+  <meta property="og:description" content="用数据说话，客观分析中国社会经济发展现状">
+  <title>民声 | 中国社会经济观察平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== NAVIGATION ========== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-char">民</span><span class="logo-char accent">声</span>
+      <span class="logo-divider">|</span>
+      <span class="logo-sub">中国社会经济观察</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">首页</a></li>
+      <li><a href="analysis.html">深度分析</a></li>
+      <li><a href="polls.html">民意调查</a></li>
+      <li><a href="trends.html">热点追踪</a></li>
+      <li><a href="debunk.html">辟谣曝光</a></li>
+      <li><a href="discuss.html">公共讨论</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      数据驱动 · 独立分析 · 民声民意
+    </div>
+    <h1 class="hero-title">
+      深度洞察<br>
+      <span class="gradient-text">中国社会</span><br>
+      经济全貌
+    </h1>
+    <p class="hero-desc">
+      整合国家统计局、学术期刊、权威研究机构最新数据<br>
+      客观呈现教育·医疗·住房·就业等八大民生议题真实现状
+    </p>
+    <div class="hero-actions">
+      <a href="analysis.html" class="btn btn-primary">
+        探索分析报告
+        <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+      </a>
+      <a href="polls.html" class="btn btn-ghost">参与民意调查</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="hs-num" data-target="14.1" data-decimal="1">0</span>
+      <span class="hs-unit">亿</span>
+      <span class="hs-label">中国总人口</span>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="hero-stat">
+      <span class="hs-num" data-target="39218" data-decimal="0">0</span>
+      <span class="hs-unit">元</span>
+      <span class="hs-label">年均可支配收入</span>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="hero-stat">
+      <span class="hs-num" data-target="78.6" data-decimal="1">0</span>
+      <span class="hs-unit">岁</span>
+      <span class="hs-label">人均预期寿命</span>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="hero-stat">
+      <span class="hs-num" data-target="60.2" data-decimal="1">0</span>
+      <span class="hs-unit">%</span>
+      <span class="hs-label">高等教育毛入学率</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TOPICS ========== -->
+<section class="section topics-section" id="topics">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">核心议题</span>
+      <h2 class="section-title">八大民生领域</h2>
+      <p class="section-desc">全面覆盖衣食住行 · 生老病死各个层面</p>
+    </div>
+    <div class="topics-grid">
+      <a href="analysis.html#education" class="topic-card" data-color="blue">
+        <div class="tc-icon">🎓</div>
+        <div class="tc-content">
+          <h3>教育</h3>
+          <p>义务教育、高等教育、职业教育发展现状与改革挑战</p>
+          <div class="tc-stat"><strong>60.2%</strong> 高等教育毛入学率</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+      <a href="analysis.html#healthcare" class="topic-card" data-color="red">
+        <div class="tc-icon">🏥</div>
+        <div class="tc-content">
+          <h3>医疗</h3>
+          <p>医疗资源分配、医保改革、看病难看病贵等核心问题</p>
+          <div class="tc-stat"><strong>78.6岁</strong> 人均预期寿命</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+      <a href="analysis.html#housing" class="topic-card" data-color="amber">
+        <div class="tc-icon">🏠</div>
+        <div class="tc-content">
+          <h3>住房</h3>
+          <p>房价收入比、保障性住房、租购同权政策探索</p>
+          <div class="tc-stat"><strong>9.2</strong> 全国房价收入比</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+      <a href="analysis.html#technology" class="topic-card" data-color="cyan">
+        <div class="tc-icon">💻</div>
+        <div class="tc-content">
+          <h3>科技</h3>
+          <p>数字经济、人工智能、5G应用、科技自立自强战略</p>
+          <div class="tc-stat"><strong>10.92亿</strong> 互联网用户</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+      <a href="analysis.html#elderly" class="topic-card" data-color="purple">
+        <div class="tc-icon">👴</div>
+        <div class="tc-content">
+          <h3>养老</h3>
+          <p>老龄化挑战、养老金体系、居家社区机构养老服务</p>
+          <div class="tc-stat"><strong>21%</strong> 60岁以上人口比例</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+      <a href="analysis.html#food" class="topic-card" data-color="green">
+        <div class="tc-icon">🌾</div>
+        <div class="tc-content">
+          <h3>食品</h3>
+          <p>粮食安全、食品安全监管、农业现代化转型发展</p>
+          <div class="tc-stat"><strong>6.95亿吨</strong> 年粮食总产量</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+      <a href="analysis.html#employment" class="topic-card" data-color="orange">
+        <div class="tc-icon">💼</div>
+        <div class="tc-content">
+          <h3>就业</h3>
+          <p>就业形势、青年失业、新就业形态、职业发展困境</p>
+          <div class="tc-stat"><strong>14.6%</strong> 青年调查失业率</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+      <a href="analysis.html#livelihood" class="topic-card" data-color="pink">
+        <div class="tc-icon">🌆</div>
+        <div class="tc-content">
+          <h3>民生</h3>
+          <p>居民收入、消费升级、贫富差距、城乡协调发展</p>
+          <div class="tc-stat"><strong>39,218元</strong> 年均可支配收入</div>
+        </div>
+        <div class="tc-arrow">→</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CHARTS ========== -->
+<section class="section charts-section" id="charts">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">数据可视化</span>
+      <h2 class="section-title">用数据说话</h2>
+      <p class="section-desc">客观呈现中国社会经济发展轨迹与现实差距</p>
+    </div>
+    <div class="charts-grid">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>居民收入增长趋势（2015–2023）</h3>
+          <span class="chart-source">数据来源：国家统计局</span>
+        </div>
+        <canvas id="incomeChart" height="220"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>城乡居民收入对比</h3>
+          <span class="chart-source">数据来源：国家统计局</span>
+        </div>
+        <canvas id="urbanRuralChart" height="220"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>青年就业形势（失业率%）</h3>
+          <span class="chart-source">数据来源：国家统计局</span>
+        </div>
+        <canvas id="employmentChart" height="220"></canvas>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>卫生健康支出增长趋势</h3>
+          <span class="chart-source">数据来源：国家卫健委</span>
+        </div>
+        <canvas id="healthChart" height="220"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== POLLS PREVIEW ========== -->
+<section class="section polls-section" id="polls-preview">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">民意调查</span>
+      <h2 class="section-title">您的声音很重要</h2>
+      <p class="section-desc">参与投票，表达观点，让真实民意被看见</p>
+      <a href="polls.html" class="btn btn-outline-sm">查看全部调查 →</a>
+    </div>
+    <div class="polls-preview-grid" id="pollsPreview"></div>
+  </div>
+</section>
+
+<!-- ========== TRENDS ========== -->
+<section class="section trends-section" id="trends">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">热点追踪</span>
+      <h2 class="section-title">社会热议议题</h2>
+      <p class="section-desc">追踪互联网与社会媒体舆论热点，反映最新民生诉求</p>
+      <a href="trends.html" class="btn btn-outline-sm">更多热点 →</a>
+    </div>
+    <div class="trends-container">
+      <div class="trends-list" id="trendsList"></div>
+      <div class="trends-sidebar">
+        <div class="sidebar-card">
+          <h4>🔥 本周热词</h4>
+          <div class="hot-tags" id="hotTags"></div>
+        </div>
+        <div class="sidebar-card">
+          <h4>📊 关注度排行</h4>
+          <div class="attention-rank" id="attentionRank"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== DEBUNK PREVIEW ========== -->
+<section class="section debunk-section" id="debunk-preview">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag warning-tag">⚠️ 辟谣曝光</span>
+      <h2 class="section-title">真相 · 辟谣</h2>
+      <p class="section-desc">严格核实，还原事实真相，打击虚假信息与网络谣言</p>
+      <a href="debunk.html" class="btn btn-outline-sm">查看全部 →</a>
+    </div>
+    <div class="debunk-grid" id="debunkPreview"></div>
+  </div>
+</section>
+
+<!-- ========== DISCUSS PREVIEW ========== -->
+<section class="section discuss-section" id="discuss">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">公共讨论</span>
+      <h2 class="section-title">畅所欲言</h2>
+      <p class="section-desc">开放平台，共议民生，您的经历与建议同样重要</p>
+      <a href="discuss.html" class="btn btn-outline-sm">进入讨论区 →</a>
+    </div>
+    <div class="discuss-preview">
+      <div class="discuss-form-mini">
+        <textarea id="quickComment" placeholder="分享您对社会经济议题的看法、建议或亲身经历...&#10;&#10;例如：您在就医、教育、住房方面有什么切身体验？" rows="4"></textarea>
+        <div class="discuss-form-footer">
+          <select id="quickTopic">
+            <option value="">选择话题分类</option>
+            <option>教育</option>
+            <option>医疗</option>
+            <option>住房</option>
+            <option>就业</option>
+            <option>养老</option>
+            <option>食品安全</option>
+            <option>科技</option>
+            <option>其他民生</option>
+          </select>
+          <button class="btn btn-primary btn-sm" onclick="submitQuickComment()">发表观点</button>
+        </div>
+      </div>
+      <div class="discuss-recent" id="recentComments"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">民<span>声</span></div>
+        <p>基于权威数据的中国社会经济独立分析平台</p>
+        <p class="footer-disclaimer">本站数据来源于国家统计局、学术期刊及权威研究机构报告。内容仅供学术研究参考，不代表任何官方立场。</p>
+        <div class="footer-update">
+          <span class="update-dot"></span>
+          <span>最近数据更新：2025年第一季度</span>
+        </div>
+      </div>
+      <div class="footer-links-group">
+        <h4>分析报告</h4>
+        <ul>
+          <li><a href="analysis.html#education">教育分析</a></li>
+          <li><a href="analysis.html#healthcare">医疗卫生</a></li>
+          <li><a href="analysis.html#housing">住房问题</a></li>
+          <li><a href="analysis.html#employment">就业形势</a></li>
+          <li><a href="analysis.html#elderly">养老保障</a></li>
+          <li><a href="analysis.html#technology">科技发展</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4>互动功能</h4>
+        <ul>
+          <li><a href="polls.html">民意调查</a></li>
+          <li><a href="trends.html">热点追踪</a></li>
+          <li><a href="debunk.html">辟谣曝光</a></li>
+          <li><a href="discuss.html">公共讨论</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4>权威数据来源</h4>
+        <ul>
+          <li>国家统计局</li>
+          <li>国家卫生健康委员会</li>
+          <li>教育部官网</li>
+          <li>住房和城乡建设部</li>
+          <li>人力资源和社会保障部</li>
+          <li>中国社会科学院</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 民声 · 中国社会经济观察平台 &nbsp;|&nbsp; 开源项目，欢迎贡献与监督</p>
+      <p>本站数据每季度更新 · 民意调查实时统计</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="回到顶部">↑</button>
+
+<script src="js/main.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/polls.js"></script>
+</body>
+</html>

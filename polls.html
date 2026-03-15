@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>民意调查 | 民声 · 中国社会经济观察平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-char">民</span><span class="logo-char accent">声</span>
+      <span class="logo-divider">|</span>
+      <span class="logo-sub">中国社会经济观察</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="analysis.html">深度分析</a></li>
+      <li><a href="polls.html" class="active">民意调查</a></li>
+      <li><a href="trends.html">热点追踪</a></li>
+      <li><a href="debunk.html">辟谣曝光</a></li>
+      <li><a href="discuss.html">公共讨论</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+  </div>
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="section-tag">民意调查</span>
+      <h1>您的声音<br><span class="gradient-text">真实可见</span></h1>
+      <p>参与投票，表达您对社会经济议题的真实看法<br>匿名调查，实时统计，数据公开透明</p>
+    </div>
+    <div class="polls-meta">
+      <div class="polls-meta-item"><span id="totalPolls">0</span><span>项调查</span></div>
+      <div class="polls-meta-item"><span id="totalVotes">0</span><span>总参与人次</span></div>
+      <div class="polls-meta-item"><span>实时</span><span>数据更新</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Filter Bar -->
+<div class="filter-bar">
+  <div class="container">
+    <div class="filter-group">
+      <span class="filter-label">话题分类：</span>
+      <div class="filter-tags" id="categoryFilter">
+        <button class="filter-tag active" data-cat="all">全部</button>
+        <button class="filter-tag" data-cat="education">教育</button>
+        <button class="filter-tag" data-cat="healthcare">医疗</button>
+        <button class="filter-tag" data-cat="housing">住房</button>
+        <button class="filter-tag" data-cat="employment">就业</button>
+        <button class="filter-tag" data-cat="elderly">养老</button>
+        <button class="filter-tag" data-cat="food">食品</button>
+        <button class="filter-tag" data-cat="technology">科技</button>
+        <button class="filter-tag" data-cat="livelihood">民生</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Polls Grid -->
+<section class="section">
+  <div class="container">
+    <div class="polls-full-grid" id="pollsFullGrid"></div>
+  </div>
+</section>
+
+<!-- Submit Poll Suggestion -->
+<section class="section suggest-section">
+  <div class="container">
+    <div class="suggest-card">
+      <div class="suggest-icon">💡</div>
+      <h3>建议新的调查主题</h3>
+      <p>您有想了解大家看法的社会经济话题吗？欢迎提交建议</p>
+      <div class="suggest-form">
+        <input type="text" id="suggestTopic" placeholder="您想调查的问题是...">
+        <select id="suggestCat">
+          <option value="">选择分类</option>
+          <option>教育</option>
+          <option>医疗</option>
+          <option>住房</option>
+          <option>就业</option>
+          <option>养老</option>
+          <option>食品安全</option>
+          <option>科技</option>
+          <option>其他民生</option>
+        </select>
+        <button class="btn btn-primary" onclick="submitSuggestion()">提交建议</button>
+      </div>
+      <div id="suggestFeedback" class="suggest-feedback hidden"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© 2025 民声 · 中国社会经济观察平台 | <a href="index.html">返回首页</a></p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop">↑</button>
+
+<script src="js/main.js"></script>
+<script src="js/polls.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  renderAllPolls();
+  setupCategoryFilter();
+  updatePollsMeta();
+});
+
+function setupCategoryFilter() {
+  document.querySelectorAll('.filter-tag').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.filter-tag').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      filterPollsByCategory(this.dataset.cat);
+    });
+  });
+}
+
+function filterPollsByCategory(cat) {
+  const cards = document.querySelectorAll('.poll-card-full');
+  cards.forEach(card => {
+    if (cat === 'all' || card.dataset.category === cat) {
+      card.style.display = '';
+      card.style.animation = 'fadeInUp 0.4s ease';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+function updatePollsMeta() {
+  const polls = getPollsData();
+  document.getElementById('totalPolls').textContent = polls.length;
+  const totalVotes = polls.reduce((sum, p) => {
+    return sum + p.options.reduce((s, o) => s + (getVoteCount(p.id, o.id) || o.defaultVotes || 0), 0);
+  }, 0);
+  document.getElementById('totalVotes').textContent = totalVotes.toLocaleString();
+}
+
+function submitSuggestion() {
+  const topic = document.getElementById('suggestTopic').value.trim();
+  const cat = document.getElementById('suggestCat').value;
+  if (!topic) { alert('请输入您想调查的问题'); return; }
+
+  const feedback = document.getElementById('suggestFeedback');
+  feedback.textContent = '✅ 感谢您的建议！我们将认真考虑并尽快添加相关调查。';
+  feedback.classList.remove('hidden');
+  document.getElementById('suggestTopic').value = '';
+  setTimeout(() => feedback.classList.add('hidden'), 5000);
+}
+</script>
+</body>
+</html>
