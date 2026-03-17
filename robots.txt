@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dingchenchen6.github.io/chenchen-ding/sitemap.xml
