@@ -197,6 +197,42 @@ img {
   font-weight: 600;
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 6px;
+  border: 1px solid #d3e1d8;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 28px rgba(24, 40, 32, 0.08);
+}
+
+.lang-btn {
+  border: 0;
+  background: transparent;
+  color: #5c6d65;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.lang-btn:hover {
+  color: #234d3a;
+  transform: translateY(-1px);
+}
+
+.lang-btn.is-active {
+  background: #1f6a4b;
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(31, 106, 75, 0.22);
+}
+
 .contacts {
   margin-top: 16px;
   display: flex;
@@ -641,6 +677,10 @@ img {
   .hero-panda-wrap {
     width: min(290px, 72%);
     margin: 0 auto;
+  }
+
+  .lang-switch {
+    justify-content: center;
   }
 
   .atlas-grid-photo,

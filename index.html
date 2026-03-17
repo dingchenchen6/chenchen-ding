@@ -61,6 +61,10 @@
           <span>Biodiversity Monitoring</span>
           <span>Ecological Modelling</span>
         </div>
+        <div class="lang-switch" aria-label="Language switch">
+          <button type="button" class="lang-btn is-active" data-lang="zh">中文</button>
+          <button type="button" class="lang-btn" data-lang="en">English</button>
+        </div>
       </div>
       <div class="hero-panda-wrap reveal">
         <img src="assets/images/hero/panda-wordcloud.jpg" alt="熊猫生物多样性词云" class="hero-panda" />
@@ -359,14 +363,6 @@
     <p>© 2026 丁晨晨（Chenchen Ding） | Academic Website</p>
   </footer>
 
-  <script>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) entry.target.classList.add('in');
-      });
-    }, { threshold: 0.12 });
-
-    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-  </script>
+  <script src="lang.js"></script>
 </body>
 </html>
