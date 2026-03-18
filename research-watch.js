@@ -13,7 +13,10 @@ const watchCopy = {
     unknownJournal: "期刊信息待补充",
     unknownAuthors: "作者信息待补充",
     noAbstract: "暂无摘要，可点击原文链接查看详细内容。",
-    scoreLabel: "综合推荐"
+    scoreLabel: "综合推荐",
+    allTopics: "全部主题",
+    sortRelevant: "本周最相关",
+    sortLatest: "最新发表"
   },
   en: {
     intro: "Based on my research interests, publication themes, and ongoing focus areas, the site automatically retrieves newly published papers every day and ranks them by combined relevance and recency.",
@@ -29,7 +32,10 @@ const watchCopy = {
     unknownJournal: "Journal information unavailable",
     unknownAuthors: "Author information unavailable",
     noAbstract: "No abstract available yet. Use the article link to view the full record.",
-    scoreLabel: "Composite rank"
+    scoreLabel: "Composite rank",
+    allTopics: "All topics",
+    sortRelevant: "Top this week",
+    sortLatest: "Latest"
   }
 };
 
@@ -66,14 +72,18 @@ const watchTopicLabels = {
 
 const watchState = {
   data: null,
-  lang: localStorage.getItem("chenchen-ding-language") || "zh"
+  lang: localStorage.getItem("chenchen-ding-language") || "zh",
+  activeTopic: "all",
+  activeSort: "relevant"
 };
 
 const watchSelectors = {
   intro: () => document.querySelector(".watch-intro"),
   badge: () => document.querySelector(".watch-badge"),
   updated: () => document.querySelector("[data-watch-updated]"),
-  grid: () => document.getElementById("watchGrid")
+  grid: () => document.getElementById("watchGrid"),
+  sortGroup: () => document.querySelector("[data-watch-sort-group]"),
+  filterGroup: () => document.querySelector("[data-watch-filter-group]")
 };
 
 const formatDate = (value, lang) => {
@@ -85,6 +95,86 @@ const formatDate = (value, lang) => {
     month: "short",
     day: "numeric"
   }).format(date);
+};
+
+const daysSince = (value) => {
+  if (!value) return Number.POSITIVE_INFINITY;
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return Number.POSITIVE_INFINITY;
+  const diff = Date.now() - date.getTime();
+  return Math.max(0, diff / (1000 * 60 * 60 * 24));
+};
+
+const sortItems = (items) => {
+  const cloned = [...items];
+  if (watchState.activeSort === "latest") {
+    return cloned.sort((a, b) => {
+      const aDate = a.publication_date || "";
+      const bDate = b.publication_date || "";
+      if (aDate === bDate) return Number(b.score || 0) - Number(a.score || 0);
+      return bDate.localeCompare(aDate);
+    });
+  }
+
+  return cloned.sort((a, b) => {
+    const aBoost = daysSince(a.publication_date) <= 7 ? 0.45 : 0;
+    const bBoost = daysSince(b.publication_date) <= 7 ? 0.45 : 0;
+    const scoreDiff = (Number(b.score || 0) + bBoost) - (Number(a.score || 0) + aBoost);
+    if (Math.abs(scoreDiff) > 1e-9) return scoreDiff;
+    return (b.publication_date || "").localeCompare(a.publication_date || "");
+  });
+};
+
+const getVisibleItems = () => {
+  const items = watchState.data?.items || [];
+  const filtered = watchState.activeTopic === "all"
+    ? items
+    : items.filter((item) => (item.matched_topic_keys || []).includes(watchState.activeTopic));
+  return sortItems(filtered).slice(0, 12);
+};
+
+const renderControls = () => {
+  const lang = watchState.lang in watchCopy ? watchState.lang : "zh";
+  const copy = watchCopy[lang];
+  const sortGroup = watchSelectors.sortGroup();
+  const filterGroup = watchSelectors.filterGroup();
+
+  if (sortGroup) {
+    sortGroup.innerHTML = [
+      { key: "relevant", label: copy.sortRelevant },
+      { key: "latest", label: copy.sortLatest }
+    ].map((option) => `
+      <button type="button" class="watch-control-btn ${watchState.activeSort === option.key ? "is-active" : ""}" data-watch-sort="${option.key}">
+        ${option.label}
+      </button>
+    `).join("");
+  }
+
+  if (filterGroup) {
+    const topicEntries = [
+      ["all", copy.allTopics],
+      ...Object.entries(watchTopicLabels).map(([key, labels]) => [key, labels[lang] || key])
+    ];
+    filterGroup.innerHTML = topicEntries.map(([key, label]) => `
+      <button type="button" class="watch-control-btn ${watchState.activeTopic === key ? "is-active" : ""}" data-watch-topic="${key}">
+        ${label}
+      </button>
+    `).join("");
+  }
+
+  document.querySelectorAll("[data-watch-sort]").forEach((button) => {
+    button.addEventListener("click", () => {
+      watchState.activeSort = button.dataset.watchSort || "relevant";
+      renderWatchState("ready");
+    });
+  });
+
+  document.querySelectorAll("[data-watch-topic]").forEach((button) => {
+    button.addEventListener("click", () => {
+      watchState.activeTopic = button.dataset.watchTopic || "all";
+      renderWatchState("ready");
+    });
+  });
 };
 
 const renderWatchState = (state, messageKey = "loading") => {
@@ -103,6 +193,8 @@ const renderWatchState = (state, messageKey = "loading") => {
       : copy.loading;
   }
 
+  renderControls();
+
   if (!grid) return;
 
   if (state === "message") {
@@ -114,7 +206,7 @@ const renderWatchState = (state, messageKey = "loading") => {
     return;
   }
 
-  const items = (watchState.data?.items || []).slice(0, 12);
+  const items = getVisibleItems();
   if (!items.length) {
     renderWatchState("message", "empty");
     return;

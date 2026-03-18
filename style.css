@@ -458,6 +458,19 @@ img {
   align-items: center;
 }
 
+.watch-controls {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.watch-sort,
+.watch-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .watch-badge,
 .watch-updated {
   display: inline-flex;
@@ -618,6 +631,36 @@ img {
 
 .watch-action:hover {
   transform: translateY(-1px);
+}
+
+.watch-control-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  border: 1px solid #d7e5dc;
+  background: rgba(255, 255, 255, 0.9);
+  color: #456057;
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.watch-control-btn:hover {
+  color: #1f6a4b;
+  border-color: #c0d8ca;
+  transform: translateY(-1px);
+}
+
+.watch-control-btn.is-active {
+  background: #1f6a4b;
+  color: #ffffff;
+  border-color: #1f6a4b;
+  box-shadow: 0 10px 22px rgba(31, 106, 75, 0.2);
 }
 
 .timeline {
