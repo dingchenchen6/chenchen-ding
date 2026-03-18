@@ -57,6 +57,10 @@ const watchTopicLabels = {
   ecological_modelling_biogeography: {
     zh: "生态建模与生物地理",
     en: "Ecological modelling and biogeography"
+  },
+  biodiversity_change_assessment_conservation: {
+    zh: "生物多样性变化评估和保护",
+    en: "Biodiversity change assessment and conservation"
   }
 };
 

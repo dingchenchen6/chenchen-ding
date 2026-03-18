@@ -85,6 +85,10 @@ TOPIC_PROFILES = [
         "key": "ecological_modelling_biogeography",
         "query": "ecological modelling biogeography species distributions macroecology conservation planning",
     },
+    {
+        "key": "biodiversity_change_assessment_conservation",
+        "query": "biodiversity change assessment conservation trends monitoring risk protected areas community diversity",
+    },
 ]
 
 
