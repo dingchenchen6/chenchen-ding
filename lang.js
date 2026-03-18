@@ -1,16 +1,28 @@
+const RESEARCHGATE_URL = "https://www.researchgate.net/search/researcher?q=Chenchen%20Ding";
+const GOOGLE_SCHOLAR_URL = "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chenchen+Ding";
+const ORCID_URL = "https://orcid.org/0000-0001-6706-7996";
+const heroProfileLinks = `
+  <span class="hero-inline-links" aria-label="Academic profiles">
+    <a class="hero-inline-link" href="${RESEARCHGATE_URL}" target="_blank" rel="noopener" aria-label="ResearchGate">RG</a>
+    <a class="hero-inline-link" href="${GOOGLE_SCHOLAR_URL}" target="_blank" rel="noopener" aria-label="Google Scholar">GS</a>
+    <a class="hero-inline-link" href="${ORCID_URL}" target="_blank" rel="noopener" aria-label="ORCID">iD</a>
+  </span>
+`;
+
 const translations = {
   zh: {
     htmlLang: "zh-CN",
     title: "丁晨晨 | Chenchen Ding, PhD",
     description: "丁晨晨（Chenchen Ding）个人学术主页：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。",
-    heroTitle: "丁晨晨 <span>Chenchen Ding, PhD</span>",
+    heroTitle: `<span class="hero-name-row">丁晨晨 ${heroProfileLinks}</span><span>Chenchen Ding, PhD</span>`,
     lead: "PKU-IIASA国际联合博士后",
-    nav: ["个人简介", "教育背景", "研究经历", "研究方向", "研究图谱", "代表论文", "专著（编委）", "科研项目", "奖项", "技能"],
+    nav: ["个人简介", "教育背景", "研究经历", "研究方向", "每日文献", "研究图谱", "代表论文", "专著（编委）", "科研项目", "奖项", "技能"],
     sectionTitles: {
       about: "个人简介",
       education: "教育背景",
       experience: "研究经历",
       research: "研究方向",
+      watch: "每日文献推送",
       atlas: "研究图谱",
       books: "专著（编委）",
       projects: "科研项目",
@@ -176,14 +188,15 @@ const translations = {
     htmlLang: "en",
     title: "Chenchen Ding | Academic Website",
     description: "Chenchen Ding's academic website featuring education, research experience, research interests, publications, and projects in biodiversity science.",
-    heroTitle: "Chenchen Ding <span>PhD</span>",
+    heroTitle: `<span class="hero-name-row">Chenchen Ding ${heroProfileLinks}</span><span>PhD</span>`,
     lead: "PKU-IIASA International Joint Postdoctoral Fellow",
-    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Skills"],
+    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Watch", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Skills"],
     sectionTitles: {
       about: "About",
       education: "Education",
       experience: "Research Experience",
       research: "Research Interests",
+      watch: "Daily Research Watch",
       atlas: "Research Atlas",
       books: "Books and Editorial Work",
       projects: "Research Projects",
@@ -428,6 +441,8 @@ const applyLanguage = (lang) => {
   $$(".lang-btn").forEach((button) => {
     button.classList.toggle("is-active", button.dataset.lang === selected);
   });
+
+  window.dispatchEvent(new CustomEvent("chenchen-language-change", { detail: { lang: selected } }));
 };
 
 const initReveal = () => {

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>丁晨晨 | Chenchen Ding, PhD</title>
   <meta name="description" content="丁晨晨（Chenchen Ding）个人学术主页：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。" />
-  <meta name="robots" content="noindex,follow,max-image-preview:large" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://dingchenchen6.github.io/chenchen-ding/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="丁晨晨 | Chenchen Ding, PhD" />
@@ -52,7 +52,17 @@
       </div>
       <div class="hero-main reveal">
         <p class="eyebrow">Academic Profile | Ecological Modelling</p>
-        <h1>丁晨晨 <span>Chenchen Ding, PhD</span></h1>
+        <h1>
+          <span class="hero-name-row">
+            丁晨晨
+            <span class="hero-inline-links" aria-label="Academic profiles">
+              <a class="hero-inline-link" href="https://www.researchgate.net/search/researcher?q=Chenchen%20Ding" target="_blank" rel="noopener" aria-label="ResearchGate">RG</a>
+              <a class="hero-inline-link" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=Chenchen+Ding" target="_blank" rel="noopener" aria-label="Google Scholar">GS</a>
+              <a class="hero-inline-link" href="https://orcid.org/0000-0001-6706-7996" target="_blank" rel="noopener" aria-label="ORCID">iD</a>
+            </span>
+          </span>
+          <span>Chenchen Ding, PhD</span>
+        </h1>
         <p class="lead">PKU-IIASA国际联合博士后</p>
         <div class="chips">
           <span>Global Change Biology</span>
@@ -81,6 +91,7 @@
     <a href="#education">教育背景</a>
     <a href="#experience">研究经历</a>
     <a href="#research">研究方向</a>
+    <a href="#watch">每日文献</a>
     <a href="#atlas">研究图谱</a>
     <a href="#papers">代表论文</a>
     <a href="#books">专著（编委）</a>
@@ -179,6 +190,24 @@
           <li>物种灭绝风险评估与保护优先管理</li>
           <li>野生动植物调查、监测及区系研究</li>
         </ul>
+      </div>
+    </section>
+
+    <section id="watch" class="section reveal">
+      <h2>每日文献推送</h2>
+      <div class="card watch-intro-card">
+        <p class="watch-intro">
+          根据我的研究方向、代表性论文主题与当前关注领域，每日自动抓取和更新最新相关论文，并按相关度与时间综合排序。
+        </p>
+        <div class="watch-meta-row">
+          <span class="watch-badge">按相关度与时间排序</span>
+          <span class="watch-updated" data-watch-updated>正在读取最新更新...</span>
+        </div>
+      </div>
+      <div id="watchGrid" class="watch-grid" aria-live="polite">
+        <article class="watch-card watch-card-placeholder">
+          <p>正在准备今日推荐文献...</p>
+        </article>
       </div>
     </section>
 
@@ -368,5 +397,6 @@
   </footer>
 
   <script src="lang.js"></script>
+  <script src="research-watch.js"></script>
 </body>
 </html>

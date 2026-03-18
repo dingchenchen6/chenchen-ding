@@ -1,0 +1,227 @@
+{
+  "generated_at": "2026-03-18T09:44:26.435652+00:00",
+  "source": "OpenAlex",
+  "items": [
+    {
+      "id": "https://openalex.org/W4410267884",
+      "title": "Climate‐Driven Body Size Changes in Birds and Mammals Reveal Environmental Tolerance Limits",
+      "publication_date": "2025-05-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Matthew J. Watson, Jeremy T. Kerr",
+      "abstract": "Climate change contributes to widespread shifts in body size across taxa which can impact population and community dynamics. However, the reasons for variability in the direction and intensity of responses remain uncertain. Smaller body size improves thermoregulatory efficiency but can increase dehydration risk. Changes in species' body size is likely to...",
+      "primary_url": "https://doi.org/10.1111/gcb.70241",
+      "doi_url": "https://doi.org/10.1111/gcb.70241",
+      "openalex_url": "https://openalex.org/W4410267884",
+      "type": "article",
+      "matched_topic_keys": [
+        "dryland_birds_heatwaves"
+      ],
+      "relevance_score": 6.2617106,
+      "keyword_score": 9.7,
+      "score": 5.1929
+    },
+    {
+      "id": "https://openalex.org/W4410974955",
+      "title": "Aridity Niche and Species Traits Mediate the Global Vulnerability of Passerine Birds",
+      "publication_date": "2025-06-01",
+      "journal": "Global Change Biology",
+      "authors_text": "M. Petit, Ferran Sayol, Craig Weideman, Angéline Bertin",
+      "abstract": "Biodiversity is experiencing an unprecedented crisis, with intensifying global aridity representing a critical driver of species extinction. However, the extent to which species' preferences for specific aridity conditions and their tolerance to a range of aridity conditions influence their vulnerability remains poorly understood. Using data from 5558 pas...",
+      "primary_url": "https://doi.org/10.1111/gcb.70278",
+      "doi_url": "https://doi.org/10.1111/gcb.70278",
+      "openalex_url": "https://openalex.org/W4410974955",
+      "type": "article",
+      "matched_topic_keys": [
+        "dryland_birds_heatwaves"
+      ],
+      "relevance_score": 6.482604,
+      "keyword_score": 9.0,
+      "score": 4.9311
+    },
+    {
+      "id": "https://openalex.org/W4410435878",
+      "title": "Spatially nested species distribution models (N‐ <scp>SDM</scp> ): An effective tool to overcome niche truncation for more robust inference and projections",
+      "publication_date": "2025-05-16",
+      "journal": "Journal of Ecology",
+      "authors_text": "Antoine Guisan, Mathieu Chevalier, Antoine Adde, Alejandra Zarzo‐Arias, Teresa Goicolea et al.",
+      "abstract": "Abstract Species distribution models (SDMs) relate species observations to mapped environmental variables to estimate the realized niche of species and predict their distribution. SDMs are key tools for projecting the impact of climate change on species and have been used in many biodiversity assessments. However, when fitted within spatial extents that d...",
+      "primary_url": "https://doi.org/10.1111/1365-2745.70063",
+      "doi_url": "https://doi.org/10.1111/1365-2745.70063",
+      "openalex_url": "https://openalex.org/W4410435878",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 10.860204,
+      "keyword_score": 7.4,
+      "score": 3.9258
+    },
+    {
+      "id": "https://openalex.org/W4412546221",
+      "title": "Trends in marine species distribution models: a review of methodological advances and future challenges",
+      "publication_date": "2025-07-21",
+      "journal": "Ecography",
+      "authors_text": "Moritz Klaassen, Tiago A. Marques, Filipe Alves, Marc Fernández",
+      "abstract": "Correlative species distribution models (SDMs) are quantitative tools in biogeography and macroecology. Building upon the ecological niche concept, they correlate environmental covariates to species presence to model habitat suitability and predict species distributions. Since their development, SDMs have undergone substantial advances in their predictive...",
+      "primary_url": "https://doi.org/10.1002/ecog.07702",
+      "doi_url": "https://doi.org/10.1002/ecog.07702",
+      "openalex_url": "https://openalex.org/W4412546221",
+      "type": "review",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography",
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 55.22476,
+      "keyword_score": 5.2,
+      "score": 3.9181
+    },
+    {
+      "id": "https://openalex.org/W4409058376",
+      "title": "Changes in community composition and functional diversity of European bats under climate change",
+      "publication_date": "2025-04-01",
+      "journal": "Conservation Biology",
+      "authors_text": "Penelope C. Fialas, Danilo Russo, Fulgencio Lisón, Kendra L. Phelps, Hugo Rebelo et al.",
+      "abstract": "Climate change is predicted to drive geographical range shifts that will result in changes in species diversity and functional composition and have potential repercussions for ecosystem functioning. However, the effect of these changes on species composition and functional diversity (FD) remains unclear, especially for mammals, specifically bats. We used...",
+      "primary_url": "https://doi.org/10.1111/cobi.70025",
+      "doi_url": "https://doi.org/10.1111/cobi.70025",
+      "openalex_url": "https://openalex.org/W4409058376",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 12.08405,
+      "keyword_score": 6.2,
+      "score": 3.7647
+    },
+    {
+      "id": "https://openalex.org/W4412502383",
+      "title": "<scp>iNaturalist</scp> and Structured Mammal Surveys Reflect Similar Species Richness but Capture Different Species Pools Across the United States",
+      "publication_date": "2025-07-01",
+      "journal": "Ecology and Evolution",
+      "authors_text": "Daniel J. Herrera, Christopher M. Schalk, Alex J. Jensen, Benjamin R. Goldstein, Brigit Rooney et al.",
+      "abstract": "Crowd-sourced biodiversity data, such as those housed in the iNaturalist platform, are increasingly used to monitor species distributions. Such data represent unstructured biodiversity surveys that are generally comprised of incidental observations and do not report variation in sampling effort. These discrepancies may yield data that is incongruent with...",
+      "primary_url": "https://doi.org/10.1002/ece3.71805",
+      "doi_url": "https://doi.org/10.1002/ece3.71805",
+      "openalex_url": "https://openalex.org/W4412502383",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 4.894259,
+      "keyword_score": 6.9,
+      "score": 3.5553
+    },
+    {
+      "id": "https://openalex.org/W4415912410",
+      "title": "Toward a global repository of insect traits ( <scp>GRIT</scp> )",
+      "publication_date": "2025-11-05",
+      "journal": "Insect Conservation and Diversity",
+      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
+      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
+      "primary_url": "https://doi.org/10.1111/icad.70035",
+      "doi_url": "https://doi.org/10.1111/icad.70035",
+      "openalex_url": "https://openalex.org/W4415912410",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 5.9049754,
+      "keyword_score": 6.4,
+      "score": 3.487
+    },
+    {
+      "id": "https://openalex.org/W4409749170",
+      "title": "Mammalian Community Structure Varies With Distance Between Protected Areas in the Omo Valley, Southwest Ethiopia",
+      "publication_date": "2025-04-01",
+      "journal": "Ecology and Evolution",
+      "authors_text": "Tsyon Asfaw, Fikirte Gebresenbet, Claudio Sillero‐Zubiri, Herwig Leirs, Gebremeskel Gizaw et al.",
+      "abstract": "Rapid human population growth in Ethiopia has resulted in the degradation of vast areas of wildlife habitats due to agricultural expansion, infrastructure development, and urbanization. The Omo Valley in the southwestern part of Ethiopia has been particularly affected by land use changes, but despite its ecological importance, few relevant studies have be...",
+      "primary_url": "https://doi.org/10.1002/ece3.71248",
+      "doi_url": "https://doi.org/10.1002/ece3.71248",
+      "openalex_url": "https://openalex.org/W4409749170",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 5.6383166,
+      "keyword_score": 6.8,
+      "score": 3.4767
+    },
+    {
+      "id": "https://openalex.org/W4411051355",
+      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
+      "publication_date": "2025-06-05",
+      "journal": "Science",
+      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
+      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
+      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
+      "doi_url": "https://doi.org/10.1126/science.adl0239",
+      "openalex_url": "https://openalex.org/W4411051355",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 9.8163395,
+      "keyword_score": 6.2,
+      "score": 3.4113
+    },
+    {
+      "id": "https://openalex.org/W4412408486",
+      "title": "Areas of High Biodiversity Value Evidenced by the Spatial Scaling of Phylogenetic Uniqueness",
+      "publication_date": "2025-07-01",
+      "journal": "Ecology Letters",
+      "authors_text": "Andrés Baselga, Ramiro Martín‐Devasa, Carola Gómez‐Rodríguez",
+      "abstract": "Distinct biological communities have high conservation value because they harbour species that cannot be preserved elsewhere. However, community uniqueness is scale-dependent: irreplaceability depends on whether community dissimilarity emerges at small or large spatial scales. To assess conservation value, here we integrate phylogenetic endemism with the...",
+      "primary_url": "https://doi.org/10.1111/ele.70179",
+      "doi_url": "https://doi.org/10.1111/ele.70179",
+      "openalex_url": "https://openalex.org/W4412408486",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography",
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 6.3122187,
+      "keyword_score": 5.4,
+      "score": 3.3656
+    },
+    {
+      "id": "https://openalex.org/W4412704241",
+      "title": "Biodiversity conservation requires integration of species-centric and process-based strategies",
+      "publication_date": "2025-07-28",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "authors_text": "Joseph A. Tobias, James M. Bullock, Lynn V. Dicks, Brenna R. Forester, Orly Razgour",
+      "abstract": "Conservation science and policy are geared primarily toward the preservation of species and habitats, with priority often given to the rarest, most vulnerable or most charismatic forms. This pattern-based approach has broad appeal and offers a pragmatic short-cut for targeting conservation action. However, the long-term efficacy of species and landscape c...",
+      "primary_url": "https://doi.org/10.1073/pnas.2410936122",
+      "doi_url": "https://doi.org/10.1073/pnas.2410936122",
+      "openalex_url": "https://openalex.org/W4412704241",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography",
+        "extinction_risk_conservation",
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 9.665996,
+      "keyword_score": 5.4,
+      "score": 3.272
+    },
+    {
+      "id": "https://openalex.org/W4412483191",
+      "title": "Global scale assessment of the human-induced extinction crisis of terrestrial carnivores",
+      "publication_date": "2025-07-16",
+      "journal": "Science Advances",
+      "authors_text": "Erik Joaquín Torres‐Romero, Timothy M. Eppley, William J. Ripple, Thomas M. Newsome, Miha Krofel et al.",
+      "abstract": "Human impacts on carnivores are a persistent conservation challenge worldwide. We present a global analysis showing the overlap of conservation lands and the cumulative impact of humans on the distribution ranges of 257 terrestrial carnivore species. Our findings reveal that 64% of carnivore ranges overlap with areas characterized by high human pressures....",
+      "primary_url": "https://doi.org/10.1126/sciadv.adq2853",
+      "doi_url": "https://doi.org/10.1126/sciadv.adq2853",
+      "openalex_url": "https://openalex.org/W4412483191",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation",
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 6.330124,
+      "keyword_score": 5.8,
+      "score": 3.2458
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: Update Research Watch
+
+on:
+  schedule:
+    - cron: '18 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update research watch data
+        run: python scripts/update_research_watch.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- assets/data/research-watch.json; then
+            echo "No research watch updates."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/research-watch.json
+          git commit -m "Update research watch feed"
+          git push
