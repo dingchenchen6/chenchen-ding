@@ -16,7 +16,7 @@ const translations = {
     description: "丁晨晨（Chenchen Ding）个人学术主页：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。",
     heroTitle: `<span class="hero-name-row">丁晨晨 ${heroProfileLinks}</span><span>Chenchen Ding, PhD</span>`,
     lead: "PKU-IIASA国际联合博士后",
-    nav: ["个人简介", "教育背景", "研究经历", "研究方向", "每日文献", "研究图谱", "代表论文", "专著（编委）", "科研项目", "奖项", "技能"],
+    nav: ["个人简介", "教育背景", "研究经历", "研究方向", "研究图谱", "代表论文", "专著（编委）", "科研项目", "奖项", "技能", "每日文献"],
     sectionTitles: {
       about: "个人简介",
       education: "教育背景",
@@ -190,7 +190,7 @@ const translations = {
     description: "Chenchen Ding's academic website featuring education, research experience, research interests, publications, and projects in biodiversity science.",
     heroTitle: `<span class="hero-name-row">Chenchen Ding ${heroProfileLinks}</span><span>PhD</span>`,
     lead: "PKU-IIASA International Joint Postdoctoral Fellow",
-    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Watch", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Skills"],
+    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Skills", "Research Watch"],
     sectionTitles: {
       about: "About",
       education: "Education",
