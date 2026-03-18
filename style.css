@@ -247,6 +247,24 @@ img {
   text-decoration: none;
 }
 
+.contacts a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #d3e1d8;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 8px 22px rgba(24, 40, 32, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.contacts a:hover {
+  color: #1f6a4b;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(24, 40, 32, 0.1);
+}
+
 .nav {
   position: sticky;
   top: 0;

@@ -81,7 +81,7 @@ const translations = {
     findingsCaptions: [
       '中国陆生脊椎动物新纪录研究：从数据库构建到机制解析与热点预测的完整流程。<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
       '中国哺乳动物新纪录分类学特征、时空格局与驱动因素。<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
-      '2018-2020年野外调查和监测：红外相机监测与地面调查共同支撑豚鹿局地灭绝评估，并为同域哺乳动物共现及栖息地变化评估提供关键证据。<a href="https://doi.org/10.1017/S0030605321000016" target="_blank" rel="noopener">DOI</a>',
+      '2018-2020年野外调查和监测：红外相机监测与地面调查共同支撑豚鹿局地灭绝评估，并为同域哺乳动物共现及栖息地变化评估提供关键证据。<a href="https://doi.org/10.1017/S0030605321000016" target="_blank" rel="noopener">DOI</a> <a href="https://www.oryxthejournal.org/blog/author/chenchen-ding/" target="_blank" rel="noopener">Oryx</a>',
       '青藏高原特有陆生脊椎动物潜在起源及其环境驱动。<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
       "PREDICTS 结果：土地利用类型转换下，总丰度和物种丰富度呈差异化下降。",
       '干旱区鸟类高温热浪高脆弱性热点：非受胁鸟类中的潜在高风险区域需要提前预警。<a href="https://doi.org/10.1111/gcb.17136" target="_blank" rel="noopener">DOI</a>',
@@ -254,7 +254,7 @@ const translations = {
     findingsCaptions: [
       'New vertebrate records in China: a complete workflow from database construction to mechanism analysis and hotspot prediction.<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
       'Taxonomic characteristics, spatiotemporal patterns, and drivers of new mammal records in China.<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
-      'Field surveys and monitoring during 2018-2020: camera trapping and ground surveys jointly supported the assessment of local hog deer extirpation and provided key evidence for mammal co-occurrence and habitat change.<a href="https://doi.org/10.1017/S0030605321000016" target="_blank" rel="noopener">DOI</a>',
+      'Field surveys and monitoring during 2018-2020: camera trapping and ground surveys jointly supported the assessment of local hog deer extirpation and provided key evidence for mammal co-occurrence and habitat change.<a href="https://doi.org/10.1017/S0030605321000016" target="_blank" rel="noopener">DOI</a> <a href="https://www.oryxthejournal.org/blog/author/chenchen-ding/" target="_blank" rel="noopener">Oryx</a>',
       'Potential origins of endemic terrestrial vertebrates on the Qinghai-Tibet Plateau and their environmental drivers.<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
       "PREDICTS results: total abundance and species richness show contrasting declines across land-use transitions.",
       'Hotspots of high vulnerability to extreme heatwaves in dryland birds: potentially high-risk areas among non-threatened species require early warning.<a href="https://doi.org/10.1111/gcb.17136" target="_blank" rel="noopener">DOI</a>',
