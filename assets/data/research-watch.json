@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T05:38:22.630936+00:00",
+  "generated_at": "2026-03-20T05:30:40.267180+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -18,7 +18,7 @@
       ],
       "relevance_score": 6.22711,
       "keyword_score": 9.7,
-      "score": 5.1908
+      "score": 5.19
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -36,7 +36,7 @@
       ],
       "relevance_score": 6.4638157,
       "keyword_score": 9.0,
-      "score": 4.9296
+      "score": 4.9288
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -54,7 +54,7 @@
       ],
       "relevance_score": 10.80644,
       "keyword_score": 7.4,
-      "score": 3.9237
+      "score": 3.9229
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -73,7 +73,7 @@
       ],
       "relevance_score": 55.070198,
       "keyword_score": 5.2,
-      "score": 3.9166
+      "score": 3.9158
     },
     {
       "id": "https://openalex.org/W4409058376",
@@ -92,7 +92,7 @@
       ],
       "relevance_score": 12.030175,
       "keyword_score": 6.2,
-      "score": 3.8428
+      "score": 3.842
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -110,7 +110,7 @@
       ],
       "relevance_score": 4.8787985,
       "keyword_score": 6.9,
-      "score": 3.5538
+      "score": 3.553
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -129,7 +129,7 @@
       ],
       "relevance_score": 10.088121,
       "keyword_score": 6.2,
-      "score": 3.4975
+      "score": 3.4967
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -147,7 +147,7 @@
       ],
       "relevance_score": 5.8896055,
       "keyword_score": 6.4,
-      "score": 3.4856
+      "score": 3.4848
     },
     {
       "id": "https://openalex.org/W4409749170",
@@ -165,25 +165,7 @@
       ],
       "relevance_score": 5.606446,
       "keyword_score": 6.8,
-      "score": 3.4746
-    },
-    {
-      "id": "https://openalex.org/W4408591729",
-      "title": "Global scale high-resolution habitat suitability modeling of avifauna providing pollination service (sunbirds, Nectariniidae)",
-      "publication_date": "2025-03-19",
-      "journal": "Scientific Reports",
-      "authors_text": "Masoud Yousefi, Michaël P. J. Nicolaï, Luciano Bosso, Anooshe Kafash, Bagher Nezamı et al.",
-      "abstract": "Avian species provide important ecosystem services such as nutrient cycling, seed dispersal, meat provision, pest control, scavenging, and pollination. Currently, the populations of avian pollinators are declining due to climate change and human impact, and it is crucial to identify species-rich areas for their conservation. Sunbirds (Nectariniidae) are i...",
-      "primary_url": "https://doi.org/10.1038/s41598-025-85587-x",
-      "doi_url": "https://doi.org/10.1038/s41598-025-85587-x",
-      "openalex_url": "https://openalex.org/W4408591729",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 5.526803,
-      "keyword_score": 6.8,
-      "score": 3.4613
+      "score": 3.4739
     },
     {
       "id": "https://openalex.org/W4412408486",
@@ -202,7 +184,27 @@
       ],
       "relevance_score": 6.292781,
       "keyword_score": 5.4,
-      "score": 3.3641
+      "score": 3.3633
+    },
+    {
+      "id": "https://openalex.org/W4412704241",
+      "title": "Biodiversity conservation requires integration of species-centric and process-based strategies",
+      "publication_date": "2025-07-28",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "authors_text": "Joseph A. Tobias, James M. Bullock, Lynn V. Dicks, Brenna R. Forester, Orly Razgour",
+      "abstract": "Conservation science and policy are geared primarily toward the preservation of species and habitats, with priority often given to the rarest, most vulnerable or most charismatic forms. This pattern-based approach has broad appeal and offers a pragmatic short-cut for targeting conservation action. However, the long-term efficacy of species and landscape c...",
+      "primary_url": "https://doi.org/10.1073/pnas.2410936122",
+      "doi_url": "https://doi.org/10.1073/pnas.2410936122",
+      "openalex_url": "https://openalex.org/W4412704241",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography",
+        "extinction_risk_conservation",
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 9.624138,
+      "keyword_score": 5.4,
+      "score": 3.2694
     },
     {
       "id": "https://openalex.org/W4412483191",
@@ -221,7 +223,7 @@
       ],
       "relevance_score": 6.3090615,
       "keyword_score": 5.8,
-      "score": 3.2442
+      "score": 3.2435
     }
   ]
 }
