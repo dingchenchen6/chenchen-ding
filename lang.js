@@ -12,8 +12,8 @@ const heroProfileLinks = `
 const translations = {
   zh: {
     htmlLang: "zh-CN",
-    title: "丁晨晨 | Chenchen Ding, PhD | Official Academic Website",
-    description: "丁晨晨（Chenchen Ding）官方个人学术主页：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。GitHub 主页用于代码仓库与项目展示。",
+    title: "丁晨晨 | Chenchen Ding, PhD | Personal Academic Website",
+    description: "丁晨晨（Chenchen Ding）个人学术网站：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。GitHub 主页用于代码仓库与项目展示。",
     heroTitle: `<span class="hero-name-row">丁晨晨 ${heroProfileLinks}</span><span>Chenchen Ding, PhD</span>`,
     lead: "PKU-IIASA国际联合博士后",
     nav: ["个人简介", "教育背景", "研究经历", "研究方向", "研究图谱", "代表论文", "专著（编委）", "科研项目", "奖项", "技能", "每日文献"],
@@ -183,12 +183,12 @@ const translations = {
     `,
     skillsHeading: "专业技能",
     footer: "© 2026 丁晨晨（Chenchen Ding） | Academic Website",
-    heroNote: '官方个人学术主页。GitHub 主页与代码仓库入口：<a href="https://github.com/dingchenchen6" target="_blank" rel="noopener me">github.com/dingchenchen6</a>'
+    heroNote: 'Personal academic website。GitHub 主页与代码仓库入口：<a href="https://github.com/dingchenchen6" target="_blank" rel="noopener me">github.com/dingchenchen6</a>'
   },
   en: {
     htmlLang: "en",
-    title: "Chenchen Ding | Official Academic Website",
-    description: "Official academic website of Chenchen Ding, featuring education, research experience, research interests, publications, and projects. GitHub is used as the repository and code hub.",
+    title: "Chenchen Ding | Personal Academic Website",
+    description: "Personal academic website of Chenchen Ding, featuring education, research experience, research interests, publications, and projects. GitHub is used as the repository and code hub.",
     heroTitle: `<span class="hero-name-row">Chenchen Ding ${heroProfileLinks}</span><span>PhD</span>`,
     lead: "PKU-IIASA International Joint Postdoctoral Fellow",
     nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Skills", "Research Watch"],
@@ -358,7 +358,7 @@ const translations = {
     `,
     skillsHeading: "Skills",
     footer: "© 2026 Chenchen Ding | Academic Website",
-    heroNote: 'Official academic website. GitHub profile and repository hub: <a href="https://github.com/dingchenchen6" target="_blank" rel="noopener me">github.com/dingchenchen6</a>'
+    heroNote: 'Personal academic website. GitHub profile and repository hub: <a href="https://github.com/dingchenchen6" target="_blank" rel="noopener me">github.com/dingchenchen6</a>'
   }
 };
 
