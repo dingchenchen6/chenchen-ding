@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T05:30:40.267180+00:00",
+  "generated_at": "2026-03-21T05:13:11.232983+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.22711,
+      "relevance_score": 6.2764735,
       "keyword_score": 9.7,
-      "score": 5.19
+      "score": 5.1912
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,27 +34,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.4638157,
+      "relevance_score": 6.48353,
       "keyword_score": 9.0,
       "score": 4.9288
     },
     {
-      "id": "https://openalex.org/W4410435878",
-      "title": "Spatially nested species distribution models (N‐ <scp>SDM</scp> ): An effective tool to overcome niche truncation for more robust inference and projections",
-      "publication_date": "2025-05-16",
-      "journal": "Journal of Ecology",
-      "authors_text": "Antoine Guisan, Mathieu Chevalier, Antoine Adde, Alejandra Zarzo‐Arias, Teresa Goicolea et al.",
-      "abstract": "Abstract Species distribution models (SDMs) relate species observations to mapped environmental variables to estimate the realized niche of species and predict their distribution. SDMs are key tools for projecting the impact of climate change on species and have been used in many biodiversity assessments. However, when fitted within spatial extents that d...",
-      "primary_url": "https://doi.org/10.1111/1365-2745.70063",
-      "doi_url": "https://doi.org/10.1111/1365-2745.70063",
-      "openalex_url": "https://openalex.org/W4410435878",
+      "id": "https://openalex.org/W4409397206",
+      "title": "Climate change impacts on altitudinal movements of society large mammals in the Alborz",
+      "publication_date": "2025-04-13",
+      "journal": "Scientific Reports",
+      "authors_text": "Farid Salmanpour, Zahra Shakoori, Abolfazl Rahbarizadeh, Mehdi Kia, Hadi Kord et al.",
+      "abstract": "This study examines the impact of climate change on the altitudinal movement patterns and number of individuals of four large mammal species within the Central Alborz Protected Area (CAPA) region of the Alborz Mountains, a biodiversity hotspot, over a 23-year period (1999 to 2022). During the warm season (May 25-September 29), temperatures were reported t...",
+      "primary_url": "https://doi.org/10.1038/s41598-025-96738-5",
+      "doi_url": "https://doi.org/10.1038/s41598-025-96738-5",
+      "openalex_url": "https://openalex.org/W4409397206",
       "type": "article",
       "matched_topic_keys": [
-        "land_use_climate_interactions"
+        "species_distribution_monitoring"
       ],
-      "relevance_score": 10.80644,
-      "keyword_score": 7.4,
-      "score": 3.9229
+      "relevance_score": 5.79699,
+      "keyword_score": 8.4,
+      "score": 4.1623
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -71,9 +71,27 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 55.070198,
+      "relevance_score": 56.99032,
       "keyword_score": 5.2,
-      "score": 3.9158
+      "score": 3.9245
+    },
+    {
+      "id": "https://openalex.org/W4410435878",
+      "title": "Spatially nested species distribution models (N‐ <scp>SDM</scp> ): An effective tool to overcome niche truncation for more robust inference and projections",
+      "publication_date": "2025-05-16",
+      "journal": "Journal of Ecology",
+      "authors_text": "Antoine Guisan, Mathieu Chevalier, Antoine Adde, Alejandra Zarzo‐Arias, Teresa Goicolea et al.",
+      "abstract": "Abstract Species distribution models (SDMs) relate species observations to mapped environmental variables to estimate the realized niche of species and predict their distribution. SDMs are key tools for projecting the impact of climate change on species and have been used in many biodiversity assessments. However, when fitted within spatial extents that d...",
+      "primary_url": "https://doi.org/10.1111/1365-2745.70063",
+      "doi_url": "https://doi.org/10.1111/1365-2745.70063",
+      "openalex_url": "https://openalex.org/W4410435878",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 10.886109,
+      "keyword_score": 7.4,
+      "score": 3.9241
     },
     {
       "id": "https://openalex.org/W4409058376",
@@ -90,9 +108,27 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 12.030175,
+      "relevance_score": 12.381375,
       "keyword_score": 6.2,
-      "score": 3.842
+      "score": 3.8487
+    },
+    {
+      "id": "https://openalex.org/W4409384104",
+      "title": "Evolutionarily distinct lineages of a migratory bird of prey show divergent responses to climate change",
+      "publication_date": "2025-04-13",
+      "journal": "Nature Communications",
+      "authors_text": "Joan Ferrer, Anastasios Bounas, Mattia Brambilla, Gianluca Lombardo, Simona Secomandi et al.",
+      "abstract": "Accurately predicting species' responses to anthropogenic climate change is hampered by limited knowledge of their spatiotemporal ecological and evolutionary dynamics. We combine landscape genomics, demographic reconstructions, and species distribution models to assess the eco-evolutionary responses to past climate fluctuations and to future climate of an...",
+      "primary_url": "https://doi.org/10.1038/s41467-025-58617-5",
+      "doi_url": "https://doi.org/10.1038/s41467-025-58617-5",
+      "openalex_url": "https://openalex.org/W4409384104",
+      "type": "article",
+      "matched_topic_keys": [
+        "dryland_birds_heatwaves"
+      ],
+      "relevance_score": 8.786185,
+      "keyword_score": 6.8,
+      "score": 3.5923
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -108,9 +144,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 4.8787985,
+      "relevance_score": 4.8632493,
       "keyword_score": 6.9,
-      "score": 3.553
+      "score": 3.5515
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -127,9 +163,9 @@
         "biodiversity_change_assessment_conservation",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 10.088121,
+      "relevance_score": 10.048818,
       "keyword_score": 6.2,
-      "score": 3.4967
+      "score": 3.495
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -145,9 +181,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.8896055,
+      "relevance_score": 5.934857,
       "keyword_score": 6.4,
-      "score": 3.4848
+      "score": 3.4859
     },
     {
       "id": "https://openalex.org/W4409749170",
@@ -163,67 +199,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.606446,
+      "relevance_score": 5.6214514,
       "keyword_score": 6.8,
-      "score": 3.4739
+      "score": 3.4737
     },
     {
-      "id": "https://openalex.org/W4412408486",
-      "title": "Areas of High Biodiversity Value Evidenced by the Spatial Scaling of Phylogenetic Uniqueness",
-      "publication_date": "2025-07-01",
-      "journal": "Ecology Letters",
-      "authors_text": "Andrés Baselga, Ramiro Martín‐Devasa, Carola Gómez‐Rodríguez",
-      "abstract": "Distinct biological communities have high conservation value because they harbour species that cannot be preserved elsewhere. However, community uniqueness is scale-dependent: irreplaceability depends on whether community dissimilarity emerges at small or large spatial scales. To assess conservation value, here we integrate phylogenetic endemism with the...",
-      "primary_url": "https://doi.org/10.1111/ele.70179",
-      "doi_url": "https://doi.org/10.1111/ele.70179",
-      "openalex_url": "https://openalex.org/W4412408486",
+      "id": "https://openalex.org/W4410007704",
+      "title": "Geography and availability of natural habitat determine whether cropland intensification or expansion is more detrimental to biodiversity",
+      "publication_date": "2025-05-01",
+      "journal": "Nature Ecology & Evolution",
+      "authors_text": "Silvia Ceaușu, David Leclère, Tim Newbold",
+      "abstract": "To mitigate biodiversity loss from agriculture, intensification is often promoted as an alternative to farmland expansion. However, its local impacts remain debated. We assess globally the responses of three biodiversity metrics-species richness, total abundance and relative community abundance-weighted average range size (RCAR), a proxy for biotic homoge...",
+      "primary_url": "https://doi.org/10.1038/s41559-025-02691-x",
+      "doi_url": "https://doi.org/10.1038/s41559-025-02691-x",
+      "openalex_url": "https://openalex.org/W4410007704",
       "type": "article",
       "matched_topic_keys": [
-        "ecological_modelling_biogeography",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.292781,
-      "keyword_score": 5.4,
-      "score": 3.3633
-    },
-    {
-      "id": "https://openalex.org/W4412704241",
-      "title": "Biodiversity conservation requires integration of species-centric and process-based strategies",
-      "publication_date": "2025-07-28",
-      "journal": "Proceedings of the National Academy of Sciences",
-      "authors_text": "Joseph A. Tobias, James M. Bullock, Lynn V. Dicks, Brenna R. Forester, Orly Razgour",
-      "abstract": "Conservation science and policy are geared primarily toward the preservation of species and habitats, with priority often given to the rarest, most vulnerable or most charismatic forms. This pattern-based approach has broad appeal and offers a pragmatic short-cut for targeting conservation action. However, the long-term efficacy of species and landscape c...",
-      "primary_url": "https://doi.org/10.1073/pnas.2410936122",
-      "doi_url": "https://doi.org/10.1073/pnas.2410936122",
-      "openalex_url": "https://openalex.org/W4412704241",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "extinction_risk_conservation",
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 9.624138,
-      "keyword_score": 5.4,
-      "score": 3.2694
-    },
-    {
-      "id": "https://openalex.org/W4412483191",
-      "title": "Global scale assessment of the human-induced extinction crisis of terrestrial carnivores",
-      "publication_date": "2025-07-16",
-      "journal": "Science Advances",
-      "authors_text": "Erik Joaquín Torres‐Romero, Timothy M. Eppley, William J. Ripple, Thomas M. Newsome, Miha Krofel et al.",
-      "abstract": "Human impacts on carnivores are a persistent conservation challenge worldwide. We present a global analysis showing the overlap of conservation lands and the cumulative impact of humans on the distribution ranges of 257 terrestrial carnivore species. Our findings reveal that 64% of carnivore ranges overlap with areas characterized by high human pressures....",
-      "primary_url": "https://doi.org/10.1126/sciadv.adq2853",
-      "doi_url": "https://doi.org/10.1126/sciadv.adq2853",
-      "openalex_url": "https://openalex.org/W4412483191",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation",
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 6.3090615,
-      "keyword_score": 5.8,
-      "score": 3.2435
+      "relevance_score": 6.184973,
+      "keyword_score": 6.4,
+      "score": 3.3516
     }
   ]
 }
