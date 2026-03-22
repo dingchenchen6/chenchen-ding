@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T05:13:11.232983+00:00",
+  "generated_at": "2026-03-22T05:33:39.188177+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.2764735,
+      "relevance_score": 6.2840147,
       "keyword_score": 9.7,
-      "score": 5.1912
+      "score": 5.1907
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.48353,
+      "relevance_score": 6.48162,
       "keyword_score": 9.0,
-      "score": 4.9288
+      "score": 4.928
     },
     {
       "id": "https://openalex.org/W4409397206",
@@ -52,9 +52,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.79699,
+      "relevance_score": 5.8333006,
       "keyword_score": 8.4,
-      "score": 4.1623
+      "score": 4.163
+    },
+    {
+      "id": "https://openalex.org/W4410435878",
+      "title": "Spatially nested species distribution models (N‐ <scp>SDM</scp> ): An effective tool to overcome niche truncation for more robust inference and projections",
+      "publication_date": "2025-05-16",
+      "journal": "Journal of Ecology",
+      "authors_text": "Antoine Guisan, Mathieu Chevalier, Antoine Adde, Alejandra Zarzo‐Arias, Teresa Goicolea et al.",
+      "abstract": "Abstract Species distribution models (SDMs) relate species observations to mapped environmental variables to estimate the realized niche of species and predict their distribution. SDMs are key tools for projecting the impact of climate change on species and have been used in many biodiversity assessments. However, when fitted within spatial extents that d...",
+      "primary_url": "https://doi.org/10.1111/1365-2745.70063",
+      "doi_url": "https://doi.org/10.1111/1365-2745.70063",
+      "openalex_url": "https://openalex.org/W4410435878",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 10.932786,
+      "keyword_score": 7.4,
+      "score": 3.9244
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -71,27 +89,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 56.99032,
+      "relevance_score": 57.013836,
       "keyword_score": 5.2,
-      "score": 3.9245
-    },
-    {
-      "id": "https://openalex.org/W4410435878",
-      "title": "Spatially nested species distribution models (N‐ <scp>SDM</scp> ): An effective tool to overcome niche truncation for more robust inference and projections",
-      "publication_date": "2025-05-16",
-      "journal": "Journal of Ecology",
-      "authors_text": "Antoine Guisan, Mathieu Chevalier, Antoine Adde, Alejandra Zarzo‐Arias, Teresa Goicolea et al.",
-      "abstract": "Abstract Species distribution models (SDMs) relate species observations to mapped environmental variables to estimate the realized niche of species and predict their distribution. SDMs are key tools for projecting the impact of climate change on species and have been used in many biodiversity assessments. However, when fitted within spatial extents that d...",
-      "primary_url": "https://doi.org/10.1111/1365-2745.70063",
-      "doi_url": "https://doi.org/10.1111/1365-2745.70063",
-      "openalex_url": "https://openalex.org/W4410435878",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 10.886109,
-      "keyword_score": 7.4,
-      "score": 3.9241
+      "score": 3.9238
     },
     {
       "id": "https://openalex.org/W4409058376",
@@ -108,9 +108,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 12.381375,
+      "relevance_score": 12.392904,
       "keyword_score": 6.2,
-      "score": 3.8487
+      "score": 3.8482
     },
     {
       "id": "https://openalex.org/W4409384104",
@@ -126,9 +126,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 8.786185,
+      "relevance_score": 8.804649,
       "keyword_score": 6.8,
-      "score": 3.5923
+      "score": 3.5921
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -144,7 +144,7 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 4.8632493,
+      "relevance_score": 4.880103,
       "keyword_score": 6.9,
       "score": 3.5515
     },
@@ -163,9 +163,9 @@
         "biodiversity_change_assessment_conservation",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 10.048818,
+      "relevance_score": 10.123123,
       "keyword_score": 6.2,
-      "score": 3.495
+      "score": 3.4961
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -181,9 +181,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.934857,
+      "relevance_score": 5.9293857,
       "keyword_score": 6.4,
-      "score": 3.4859
+      "score": 3.4849
     },
     {
       "id": "https://openalex.org/W4409749170",
@@ -199,9 +199,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.6214514,
+      "relevance_score": 5.620508,
       "keyword_score": 6.8,
-      "score": 3.4737
+      "score": 3.4729
     },
     {
       "id": "https://openalex.org/W4410007704",
@@ -217,9 +217,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.184973,
+      "relevance_score": 6.190149,
       "keyword_score": 6.4,
-      "score": 3.3516
+      "score": 3.351
     }
   ]
 }
