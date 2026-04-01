@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>丁晨晨 | Chenchen Ding, PhD | Personal Academic Website</title>
   <meta name="description" content="丁晨晨（Chenchen Ding）个人学术网站：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。GitHub 主页用于代码仓库与项目展示。" />
+  <meta name="author" content="Chenchen Ding" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://dingchenchen6.github.io/chenchen-ding/" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Chenchen Ding | Personal Academic Website" />
   <meta property="og:title" content="丁晨晨 | Chenchen Ding, PhD | Personal Academic Website" />
   <meta property="og:description" content="丁晨晨（Chenchen Ding）个人学术网站：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。GitHub 主页用于代码仓库与项目展示。" />
   <meta property="og:url" content="https://dingchenchen6.github.io/chenchen-ding/" />
@@ -23,17 +25,84 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Chenchen Ding",
-      "alternateName": "丁晨晨",
-      "url": "https://dingchenchen6.github.io/chenchen-ding/",
-      "image": "https://dingchenchen6.github.io/chenchen-ding/assets/images/profile.jpg",
-      "description": "Personal academic website of Chenchen Ding",
-      "jobTitle": "PKU-IIASA International Postdoctoral Fellow",
-      "sameAs": [
-        "https://github.com/dingchenchen6",
-        "https://orcid.org/0000-0001-6706-7996",
-        "https://iiasa.ac.at/staff/chenchen-ding"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://dingchenchen6.github.io/chenchen-ding/#person",
+          "name": "Chenchen Ding",
+          "alternateName": "丁晨晨",
+          "url": "https://dingchenchen6.github.io/chenchen-ding/",
+          "image": "https://dingchenchen6.github.io/chenchen-ding/assets/images/profile.jpg",
+          "description": "Personal academic website of Chenchen Ding",
+          "jobTitle": "PKU-IIASA International Postdoctoral Fellow",
+          "email": [
+            "mailto:dccpanther@163.com",
+            "mailto:chenchen.ding@pku.edu.cn"
+          ],
+          "affiliation": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Peking University",
+              "url": "https://english.pku.edu.cn/"
+            },
+            {
+              "@type": "Organization",
+              "name": "International Institute for Applied Systems Analysis",
+              "alternateName": "IIASA",
+              "url": "https://iiasa.ac.at/"
+            }
+          ],
+          "alumniOf": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Beijing Normal University"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "University College London"
+            },
+            {
+              "@type": "Organization",
+              "name": "Institute of Zoology, Chinese Academy of Sciences"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Hainan University"
+            }
+          ],
+          "knowsAbout": [
+            "Conservation Biology",
+            "Global Change Biology",
+            "Biogeography",
+            "Biodiversity Change",
+            "Species Distribution",
+            "Ecological Modelling",
+            "Extinction Risk Assessment",
+            "Conservation Planning"
+          ],
+          "sameAs": [
+            "https://github.com/dingchenchen6",
+            "https://orcid.org/0000-0001-6706-7996",
+            "https://iiasa.ac.at/staff/chenchen-ding"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://dingchenchen6.github.io/chenchen-ding/#website",
+          "url": "https://dingchenchen6.github.io/chenchen-ding/",
+          "name": "Chenchen Ding | Personal Academic Website",
+          "description": "Personal academic website of Chenchen Ding",
+          "inLanguage": [
+            "zh-CN",
+            "en"
+          ],
+          "author": {
+            "@id": "https://dingchenchen6.github.io/chenchen-ding/#person"
+          },
+          "about": {
+            "@id": "https://dingchenchen6.github.io/chenchen-ding/#person"
+          }
+        }
       ]
     }
   </script>
@@ -77,6 +146,13 @@
         <div class="contacts" aria-label="Contact emails">
           <a href="mailto:dccpanther@163.com">dccpanther@163.com</a>
           <a href="mailto:chenchen.ding@pku.edu.cn">chenchen.ding@pku.edu.cn</a>
+        </div>
+        <div class="hero-profiles" aria-label="Public profiles">
+          <a href="https://dingchenchen6.github.io/chenchen-ding/" rel="bookmark">Personal Academic Website</a>
+          <a href="https://github.com/dingchenchen6" target="_blank" rel="noopener me">GitHub</a>
+          <a href="https://orcid.org/0000-0001-6706-7996" target="_blank" rel="noopener me">ORCID</a>
+          <a href="https://scholar.google.com/citations?view_op=search_authors&amp;mauthors=Chenchen+Ding" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.researchgate.net/search/researcher?q=Chenchen%20Ding" target="_blank" rel="noopener">ResearchGate</a>
         </div>
         <p class="hero-note">
           Personal academic website. GitHub profile and repository hub:
