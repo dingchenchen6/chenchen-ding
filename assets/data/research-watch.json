@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T05:55:07.893517+00:00",
+  "generated_at": "2026-04-01T06:04:17.330687+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.2396464,
+      "relevance_score": 6.2386084,
       "keyword_score": 9.7,
-      "score": 5.1821
+      "score": 5.1813
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.4092693,
+      "relevance_score": 6.4070115,
       "keyword_score": 9.0,
-      "score": 4.9183
+      "score": 4.9175
     },
     {
       "id": "https://openalex.org/W4409397206",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.775597,
+      "relevance_score": 5.773594,
       "keyword_score": 8.4,
-      "score": 4.1537
+      "score": 4.1529
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +72,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 56.500767,
+      "relevance_score": 56.499527,
       "keyword_score": 5.2,
-      "score": 3.9944
+      "score": 3.9936
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +90,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.241693,
+      "relevance_score": 11.235691,
       "keyword_score": 7.4,
-      "score": 3.9246
+      "score": 3.9237
     },
     {
       "id": "https://openalex.org/W4409058376",
@@ -109,9 +109,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 12.466789,
+      "relevance_score": 12.460092,
       "keyword_score": 6.2,
-      "score": 3.8428
+      "score": 3.8419
     },
     {
       "id": "https://openalex.org/W4409384104",
@@ -127,9 +127,28 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 8.768765,
+      "relevance_score": 8.766526,
       "keyword_score": 6.8,
-      "score": 3.5841
+      "score": 3.5833
+    },
+    {
+      "id": "https://openalex.org/W4411051355",
+      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
+      "publication_date": "2025-06-05",
+      "journal": "Science",
+      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
+      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
+      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
+      "doi_url": "https://doi.org/10.1126/science.adl0239",
+      "openalex_url": "https://openalex.org/W4411051355",
+      "type": "article",
+      "matched_topic_keys": [
+        "biodiversity_change_assessment_conservation",
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 10.142962,
+      "keyword_score": 6.2,
+      "score": 3.4889
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -145,9 +164,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.8746247,
+      "relevance_score": 5.8730626,
       "keyword_score": 6.4,
-      "score": 3.4758
+      "score": 3.475
     },
     {
       "id": "https://openalex.org/W4409749170",
@@ -163,9 +182,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.5679536,
+      "relevance_score": 5.565728,
       "keyword_score": 6.8,
-      "score": 3.4638
+      "score": 3.4629
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -182,9 +201,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.951824,
+      "relevance_score": 10.148353,
       "keyword_score": 6.2,
-      "score": 3.4557
+      "score": 3.4599
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -200,27 +219,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.539635,
+      "relevance_score": 6.536836,
       "keyword_score": 5.6,
-      "score": 3.4244
-    },
-    {
-      "id": "https://openalex.org/W4410007704",
-      "title": "Geography and availability of natural habitat determine whether cropland intensification or expansion is more detrimental to biodiversity",
-      "publication_date": "2025-05-01",
-      "journal": "Nature Ecology & Evolution",
-      "authors_text": "Silvia Ceaușu, David Leclère, Tim Newbold",
-      "abstract": "To mitigate biodiversity loss from agriculture, intensification is often promoted as an alternative to farmland expansion. However, its local impacts remain debated. We assess globally the responses of three biodiversity metrics-species richness, total abundance and relative community abundance-weighted average range size (RCAR), a proxy for biotic homoge...",
-      "primary_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "doi_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "openalex_url": "https://openalex.org/W4410007704",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 6.453346,
-      "keyword_score": 6.4,
-      "score": 3.3542
+      "score": 3.4235
     }
   ]
 }
