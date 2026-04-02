@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T06:04:17.330687+00:00",
+  "generated_at": "2026-04-02T05:50:19.505123+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.2386084,
+      "relevance_score": 6.2419434,
       "keyword_score": 9.7,
-      "score": 5.1813
+      "score": 5.1806
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.4070115,
+      "relevance_score": 6.4105654,
       "keyword_score": 9.0,
-      "score": 4.9175
+      "score": 4.9168
     },
     {
       "id": "https://openalex.org/W4409397206",
@@ -52,29 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.773594,
+      "relevance_score": 5.7776465,
       "keyword_score": 8.4,
-      "score": 4.1529
-    },
-    {
-      "id": "https://openalex.org/W4412546221",
-      "title": "Trends in marine species distribution models: a review of methodological advances and future challenges",
-      "publication_date": "2025-07-21",
-      "journal": "Ecography",
-      "authors_text": "Moritz Klaassen, Tiago A. Marques, Filipe Alves, Marc Fernández",
-      "abstract": "Correlative species distribution models (SDMs) are quantitative tools in biogeography and macroecology. Building upon the ecological niche concept, they correlate environmental covariates to species presence to model habitat suitability and predict species distributions. Since their development, SDMs have undergone substantial advances in their predictive...",
-      "primary_url": "https://doi.org/10.1002/ecog.07702",
-      "doi_url": "https://doi.org/10.1002/ecog.07702",
-      "openalex_url": "https://openalex.org/W4412546221",
-      "type": "review",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "extinction_risk_conservation",
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 56.499527,
-      "keyword_score": 5.2,
-      "score": 3.9936
+      "score": 4.1523
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,28 +70,28 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.235691,
+      "relevance_score": 11.244414,
       "keyword_score": 7.4,
-      "score": 3.9237
+      "score": 3.9232
     },
     {
-      "id": "https://openalex.org/W4409058376",
-      "title": "Changes in community composition and functional diversity of European bats under climate change",
-      "publication_date": "2025-04-01",
-      "journal": "Conservation Biology",
-      "authors_text": "Penelope C. Fialas, Luca Santini, Danilo Russo, Francisco Amorim, Hugo Rebelo et al.",
-      "abstract": "Climate change is predicted to drive geographical range shifts that will result in changes in species diversity and functional composition and have potential repercussions for ecosystem functioning. However, the effect of these changes on species composition and functional diversity (FD) remains unclear, especially for mammals, specifically bats. We used...",
-      "primary_url": "https://doi.org/10.1111/cobi.70025",
-      "doi_url": "https://doi.org/10.1111/cobi.70025",
-      "openalex_url": "https://openalex.org/W4409058376",
-      "type": "article",
+      "id": "https://openalex.org/W4412546221",
+      "title": "Trends in marine species distribution models: a review of methodological advances and future challenges",
+      "publication_date": "2025-07-21",
+      "journal": "Ecography",
+      "authors_text": "Moritz Klaassen, Tiago A. Marques, Filipe Alves, Marc Fernández",
+      "abstract": "Correlative species distribution models (SDMs) are quantitative tools in biogeography and macroecology. Building upon the ecological niche concept, they correlate environmental covariates to species presence to model habitat suitability and predict species distributions. Since their development, SDMs have undergone substantial advances in their predictive...",
+      "primary_url": "https://doi.org/10.1002/ecog.07702",
+      "doi_url": "https://doi.org/10.1002/ecog.07702",
+      "openalex_url": "https://openalex.org/W4412546221",
+      "type": "review",
       "matched_topic_keys": [
-        "biodiversity_change_assessment_conservation",
-        "land_use_climate_interactions"
+        "ecological_modelling_biogeography",
+        "species_distribution_monitoring"
       ],
-      "relevance_score": 12.460092,
-      "keyword_score": 6.2,
-      "score": 3.8419
+      "relevance_score": 56.549786,
+      "keyword_score": 5.2,
+      "score": 3.9131
     },
     {
       "id": "https://openalex.org/W4409384104",
@@ -127,9 +107,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 8.766526,
+      "relevance_score": 8.778369,
       "keyword_score": 6.8,
-      "score": 3.5833
+      "score": 3.5829
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -146,9 +126,9 @@
         "biodiversity_change_assessment_conservation",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 10.142962,
+      "relevance_score": 10.156141,
       "keyword_score": 6.2,
-      "score": 3.4889
+      "score": 3.4885
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -164,27 +144,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.8730626,
+      "relevance_score": 5.893693,
       "keyword_score": 6.4,
       "score": 3.475
-    },
-    {
-      "id": "https://openalex.org/W4409749170",
-      "title": "Mammalian Community Structure Varies With Distance Between Protected Areas in the Omo Valley, Southwest Ethiopia",
-      "publication_date": "2025-04-01",
-      "journal": "Ecology and Evolution",
-      "authors_text": "Tsyon Asfaw, Fikirte Gebresenbet, Claudio Sillero‐Zubiri, Herwig Leirs, Gebremeskel Gizaw et al.",
-      "abstract": "Rapid human population growth in Ethiopia has resulted in the degradation of vast areas of wildlife habitats due to agricultural expansion, infrastructure development, and urbanization. The Omo Valley in the southwestern part of Ethiopia has been particularly affected by land use changes, but despite its ecological importance, few relevant studies have be...",
-      "primary_url": "https://doi.org/10.1002/ece3.71248",
-      "doi_url": "https://doi.org/10.1002/ece3.71248",
-      "openalex_url": "https://openalex.org/W4409749170",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 5.565728,
-      "keyword_score": 6.8,
-      "score": 3.4629
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -201,9 +163,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.148353,
+      "relevance_score": 10.159947,
       "keyword_score": 6.2,
-      "score": 3.4599
+      "score": 3.4594
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -219,9 +181,45 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.536836,
+      "relevance_score": 6.540377,
       "keyword_score": 5.6,
-      "score": 3.4235
+      "score": 3.4229
+    },
+    {
+      "id": "https://openalex.org/W4410007704",
+      "title": "Geography and availability of natural habitat determine whether cropland intensification or expansion is more detrimental to biodiversity",
+      "publication_date": "2025-05-01",
+      "journal": "Nature Ecology & Evolution",
+      "authors_text": "Silvia Ceaușu, David Leclère, Tim Newbold",
+      "abstract": "To mitigate biodiversity loss from agriculture, intensification is often promoted as an alternative to farmland expansion. However, its local impacts remain debated. We assess globally the responses of three biodiversity metrics-species richness, total abundance and relative community abundance-weighted average range size (RCAR), a proxy for biotic homoge...",
+      "primary_url": "https://doi.org/10.1038/s41559-025-02691-x",
+      "doi_url": "https://doi.org/10.1038/s41559-025-02691-x",
+      "openalex_url": "https://openalex.org/W4410007704",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 6.4565206,
+      "keyword_score": 6.4,
+      "score": 3.3528
+    },
+    {
+      "id": "https://openalex.org/W4410242270",
+      "title": "Different traits shape winners and losers in urban bird assemblages across seasons",
+      "publication_date": "2025-05-09",
+      "journal": "Scientific Reports",
+      "authors_text": "Riccardo Alba, Fabio Marcolin, Giacomo Assandri, Luca Ilahiane, Francesca Cochis et al.",
+      "abstract": "Urbanisation is a major driver of global biodiversity decline, profoundly affecting animal communities. While most studies on bird communities have primarily focused on the breeding season, we aimed to identify species responses and their associated traits by adopting a stratified design and using a multi-season approach considering a gradient from highly...",
+      "primary_url": "https://doi.org/10.1038/s41598-025-00350-6",
+      "doi_url": "https://doi.org/10.1038/s41598-025-00350-6",
+      "openalex_url": "https://openalex.org/W4410242270",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 10.528413,
+      "keyword_score": 6.0,
+      "score": 3.3129
     }
   ]
 }
