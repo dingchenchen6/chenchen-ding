@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T05:50:19.505123+00:00",
+  "generated_at": "2026-04-03T05:50:46.775093+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.2419434,
+      "relevance_score": 6.7376795,
       "keyword_score": 9.7,
-      "score": 5.1806
+      "score": 5.1984
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.4105654,
+      "relevance_score": 6.4148064,
       "keyword_score": 9.0,
-      "score": 4.9168
+      "score": 4.9162
     },
     {
       "id": "https://openalex.org/W4409397206",
@@ -52,9 +52,29 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.7776465,
+      "relevance_score": 5.7836494,
       "keyword_score": 8.4,
-      "score": 4.1523
+      "score": 4.1517
+    },
+    {
+      "id": "https://openalex.org/W4412546221",
+      "title": "Trends in marine species distribution models: a review of methodological advances and future challenges",
+      "publication_date": "2025-07-21",
+      "journal": "Ecography",
+      "authors_text": "Moritz Klaassen, Tiago A. Marques, Filipe Alves, Marc Fernández",
+      "abstract": "Correlative species distribution models (SDMs) are quantitative tools in biogeography and macroecology. Building upon the ecological niche concept, they correlate environmental covariates to species presence to model habitat suitability and predict species distributions. Since their development, SDMs have undergone substantial advances in their predictive...",
+      "primary_url": "https://doi.org/10.1002/ecog.07702",
+      "doi_url": "https://doi.org/10.1002/ecog.07702",
+      "openalex_url": "https://openalex.org/W4412546221",
+      "type": "review",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography",
+        "extinction_risk_conservation",
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 58.333645,
+      "keyword_score": 5.2,
+      "score": 4.0009
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -70,28 +90,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.244414,
+      "relevance_score": 11.271274,
       "keyword_score": 7.4,
-      "score": 3.9232
-    },
-    {
-      "id": "https://openalex.org/W4412546221",
-      "title": "Trends in marine species distribution models: a review of methodological advances and future challenges",
-      "publication_date": "2025-07-21",
-      "journal": "Ecography",
-      "authors_text": "Moritz Klaassen, Tiago A. Marques, Filipe Alves, Marc Fernández",
-      "abstract": "Correlative species distribution models (SDMs) are quantitative tools in biogeography and macroecology. Building upon the ecological niche concept, they correlate environmental covariates to species presence to model habitat suitability and predict species distributions. Since their development, SDMs have undergone substantial advances in their predictive...",
-      "primary_url": "https://doi.org/10.1002/ecog.07702",
-      "doi_url": "https://doi.org/10.1002/ecog.07702",
-      "openalex_url": "https://openalex.org/W4412546221",
-      "type": "review",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 56.549786,
-      "keyword_score": 5.2,
-      "score": 3.9131
+      "score": 3.923
     },
     {
       "id": "https://openalex.org/W4409384104",
@@ -107,9 +108,45 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 8.778369,
+      "relevance_score": 8.786745,
       "keyword_score": 6.8,
-      "score": 3.5829
+      "score": 3.5824
+    },
+    {
+      "id": "https://openalex.org/W4412502383",
+      "title": "<scp>iNaturalist</scp> and Structured Mammal Surveys Reflect Similar Species Richness but Capture Different Species Pools Across the United States",
+      "publication_date": "2025-07-01",
+      "journal": "Ecology and Evolution",
+      "authors_text": "Daniel J. Herrera, Christopher M. Schalk, Alex J. Jensen, Benjamin R. Goldstein, Brigit Rooney et al.",
+      "abstract": "Crowd-sourced biodiversity data, such as those housed in the iNaturalist platform, are increasingly used to monitor species distributions. Such data represent unstructured biodiversity surveys that are generally comprised of incidental observations and do not report variation in sampling effort. These discrepancies may yield data that is incongruent with...",
+      "primary_url": "https://doi.org/10.1002/ece3.71805",
+      "doi_url": "https://doi.org/10.1002/ece3.71805",
+      "openalex_url": "https://openalex.org/W4412502383",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 4.8556085,
+      "keyword_score": 6.9,
+      "score": 3.5411
+    },
+    {
+      "id": "https://openalex.org/W4415912410",
+      "title": "Toward a global repository of insect traits ( <scp>GRIT</scp> )",
+      "publication_date": "2025-11-05",
+      "journal": "Insect Conservation and Diversity",
+      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
+      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
+      "primary_url": "https://doi.org/10.1111/icad.70035",
+      "doi_url": "https://doi.org/10.1111/icad.70035",
+      "openalex_url": "https://openalex.org/W4415912410",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 6.4776735,
+      "keyword_score": 6.4,
+      "score": 3.497
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -126,27 +163,9 @@
         "biodiversity_change_assessment_conservation",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 10.156141,
+      "relevance_score": 10.348538,
       "keyword_score": 6.2,
-      "score": 3.4885
-    },
-    {
-      "id": "https://openalex.org/W4415912410",
-      "title": "Toward a global repository of insect traits ( <scp>GRIT</scp> )",
-      "publication_date": "2025-11-05",
-      "journal": "Insect Conservation and Diversity",
-      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
-      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
-      "primary_url": "https://doi.org/10.1111/icad.70035",
-      "doi_url": "https://doi.org/10.1111/icad.70035",
-      "openalex_url": "https://openalex.org/W4415912410",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 5.893693,
-      "keyword_score": 6.4,
-      "score": 3.475
+      "score": 3.4925
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -163,9 +182,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.159947,
+      "relevance_score": 10.165572,
       "keyword_score": 6.2,
-      "score": 3.4594
+      "score": 3.4588
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -181,9 +200,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.540377,
+      "relevance_score": 6.5602446,
       "keyword_score": 5.6,
-      "score": 3.4229
+      "score": 3.4228
     },
     {
       "id": "https://openalex.org/W4410007704",
@@ -199,27 +218,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.4565206,
+      "relevance_score": 6.466958,
       "keyword_score": 6.4,
-      "score": 3.3528
-    },
-    {
-      "id": "https://openalex.org/W4410242270",
-      "title": "Different traits shape winners and losers in urban bird assemblages across seasons",
-      "publication_date": "2025-05-09",
-      "journal": "Scientific Reports",
-      "authors_text": "Riccardo Alba, Fabio Marcolin, Giacomo Assandri, Luca Ilahiane, Francesca Cochis et al.",
-      "abstract": "Urbanisation is a major driver of global biodiversity decline, profoundly affecting animal communities. While most studies on bird communities have primarily focused on the breeding season, we aimed to identify species responses and their associated traits by adopting a stratified design and using a multi-season approach considering a gradient from highly...",
-      "primary_url": "https://doi.org/10.1038/s41598-025-00350-6",
-      "doi_url": "https://doi.org/10.1038/s41598-025-00350-6",
-      "openalex_url": "https://openalex.org/W4410242270",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 10.528413,
-      "keyword_score": 6.0,
-      "score": 3.3129
+      "score": 3.3524
     }
   ]
 }
