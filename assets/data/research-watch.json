@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T05:35:58.644168+00:00",
+  "generated_at": "2026-04-05T05:54:22.004036+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.741517,
+      "relevance_score": 6.7330503,
       "keyword_score": 9.7,
-      "score": 5.1978
+      "score": 5.1967
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.4162955,
+      "relevance_score": 6.4151616,
       "keyword_score": 9.0,
-      "score": 4.9155
+      "score": 4.9147
+    },
+    {
+      "id": "https://openalex.org/W4410593306",
+      "title": "Half of the habitat of Australia's highly imperilled narrow-range species is outside protected areas",
+      "publication_date": "2025-05-22",
+      "journal": "Biological Conservation",
+      "authors_text": "Michelle Ward, Martine Maron, Jeremy S. Simmonds, Mark Lintermans, Nick S. Whiterod et al.",
+      "abstract": "Globally, species with small distributions face disproportionate extinction risk, with the impacts of land use change more likely to have catastrophic consequences. Identifying, protecting and managing sites where such species occur is essential for minimising their extinction risk. Yet across Australia, efforts to protect and manage such species' habitat...",
+      "primary_url": "https://doi.org/10.1016/j.biocon.2025.111195",
+      "doi_url": "https://doi.org/10.1016/j.biocon.2025.111195",
+      "openalex_url": "https://openalex.org/W4410593306",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 6.548956,
+      "keyword_score": 8.5,
+      "score": 4.602
     },
     {
       "id": "https://openalex.org/W4409397206",
@@ -52,9 +70,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.7856617,
+      "relevance_score": 5.7805576,
       "keyword_score": 8.4,
-      "score": 4.1511
+      "score": 4.1501
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +90,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 58.324352,
+      "relevance_score": 59.99192,
       "keyword_score": 5.2,
-      "score": 4.0001
+      "score": 4.0071
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +108,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.275966,
+      "relevance_score": 11.26557,
       "keyword_score": 7.4,
-      "score": 3.9224
+      "score": 3.9214
     },
     {
       "id": "https://openalex.org/W4409384104",
@@ -108,9 +126,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 8.787709,
+      "relevance_score": 8.79762,
       "keyword_score": 6.8,
-      "score": 3.5816
+      "score": 3.5811
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -126,9 +144,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 4.8558793,
+      "relevance_score": 4.8767514,
       "keyword_score": 6.9,
-      "score": 3.5404
+      "score": 3.5406
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -144,9 +162,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.480692,
+      "relevance_score": 6.466846,
       "keyword_score": 6.4,
-      "score": 3.4964
+      "score": 3.4951
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -163,9 +181,9 @@
         "biodiversity_change_assessment_conservation",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 10.355524,
+      "relevance_score": 10.364522,
       "keyword_score": 6.2,
-      "score": 3.4919
+      "score": 3.4913
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -182,9 +200,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.174655,
+      "relevance_score": 10.176244,
       "keyword_score": 6.2,
-      "score": 3.4582
+      "score": 3.4575
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -200,27 +218,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.565058,
+      "relevance_score": 6.592754,
       "keyword_score": 5.6,
-      "score": 3.4222
-    },
-    {
-      "id": "https://openalex.org/W4410007704",
-      "title": "Geography and availability of natural habitat determine whether cropland intensification or expansion is more detrimental to biodiversity",
-      "publication_date": "2025-05-01",
-      "journal": "Nature Ecology & Evolution",
-      "authors_text": "Silvia Ceaușu, David Leclère, Tim Newbold",
-      "abstract": "To mitigate biodiversity loss from agriculture, intensification is often promoted as an alternative to farmland expansion. However, its local impacts remain debated. We assess globally the responses of three biodiversity metrics-species richness, total abundance and relative community abundance-weighted average range size (RCAR), a proxy for biotic homoge...",
-      "primary_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "doi_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "openalex_url": "https://openalex.org/W4410007704",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 6.465634,
-      "keyword_score": 6.4,
-      "score": 3.3516
+      "score": 3.4225
     }
   ]
 }
