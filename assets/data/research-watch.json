@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T06:03:06.733393+00:00",
+  "generated_at": "2026-04-13T06:27:35.415377+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.102464,
+      "relevance_score": 7.100221,
       "keyword_score": 9.7,
-      "score": 5.2044
+      "score": 5.2035
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.356318,
+      "relevance_score": 6.361931,
       "keyword_score": 9.0,
-      "score": 4.9071
+      "score": 4.9066
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.4260783,
+      "relevance_score": 6.4215937,
       "keyword_score": 8.5,
-      "score": 4.5921
+      "score": 4.5911
     },
     {
       "id": "https://openalex.org/W4409397206",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.677067,
+      "relevance_score": 5.686535,
       "keyword_score": 8.4,
-      "score": 4.1404
+      "score": 4.14
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -90,9 +90,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 59.733044,
+      "relevance_score": 59.736526,
       "keyword_score": 5.2,
-      "score": 4.0005
+      "score": 3.9998
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -108,9 +108,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.064477,
+      "relevance_score": 11.048753,
       "keyword_score": 7.4,
-      "score": 3.9114
+      "score": 3.9102
     },
     {
       "id": "https://openalex.org/W4409384104",
@@ -126,9 +126,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 8.955898,
+      "relevance_score": 8.949,
       "keyword_score": 6.8,
-      "score": 3.5803
+      "score": 3.5793
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -144,9 +144,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 4.7709093,
+      "relevance_score": 4.7666316,
       "keyword_score": 6.9,
-      "score": 3.5302
+      "score": 3.5292
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -162,28 +162,28 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.3467455,
+      "relevance_score": 6.332801,
       "keyword_score": 6.4,
-      "score": 3.4852
+      "score": 3.4839
     },
     {
-      "id": "https://openalex.org/W4410070878",
-      "title": "Native vs. Non-Native Plants: Public Preferences, Ecosystem Services, and Conservation Strategies for Climate-Resilient Urban Green Spaces",
-      "publication_date": "2025-04-28",
-      "journal": "Land",
-      "authors_text": "Alessio Russo, Manuel Esperón‐Rodríguez, Annick St‐Denis, Mark G. Tjoelker",
-      "abstract": "Climate change is reshaping urban environments, intensifying the need for resilient green space design and management that supports biodiversity, improves ecosystem services, and adapts to changing conditions. Understanding the trade-offs between native and non-native species selection is important for developing climate-resilient urban green spaces. This...",
-      "primary_url": "https://doi.org/10.3390/land14050954",
-      "doi_url": "https://doi.org/10.3390/land14050954",
-      "openalex_url": "https://openalex.org/W4410070878",
+      "id": "https://openalex.org/W4411051355",
+      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
+      "publication_date": "2025-06-05",
+      "journal": "Science",
+      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
+      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
+      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
+      "doi_url": "https://doi.org/10.1126/science.adl0239",
+      "openalex_url": "https://openalex.org/W4411051355",
       "type": "article",
       "matched_topic_keys": [
         "biodiversity_change_assessment_conservation",
-        "land_use_climate_interactions"
+        "extinction_risk_conservation"
       ],
-      "relevance_score": 9.9814005,
+      "relevance_score": 10.220223,
       "keyword_score": 6.2,
-      "score": 3.4472
+      "score": 3.4816
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -199,27 +199,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.4702497,
+      "relevance_score": 6.457325,
       "keyword_score": 5.6,
-      "score": 3.4126
+      "score": 3.4113
     },
     {
-      "id": "https://openalex.org/W4410007704",
-      "title": "Geography and availability of natural habitat determine whether cropland intensification or expansion is more detrimental to biodiversity",
-      "publication_date": "2025-05-01",
-      "journal": "Nature Ecology & Evolution",
-      "authors_text": "Silvia Ceaușu, David Leclère, Tim Newbold",
-      "abstract": "To mitigate biodiversity loss from agriculture, intensification is often promoted as an alternative to farmland expansion. However, its local impacts remain debated. We assess globally the responses of three biodiversity metrics-species richness, total abundance and relative community abundance-weighted average range size (RCAR), a proxy for biotic homoge...",
-      "primary_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "doi_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "openalex_url": "https://openalex.org/W4410007704",
+      "id": "https://openalex.org/W4410070878",
+      "title": "Native vs. Non-Native Plants: Public Preferences, Ecosystem Services, and Conservation Strategies for Climate-Resilient Urban Green Spaces",
+      "publication_date": "2025-04-28",
+      "journal": "Land",
+      "authors_text": "Alessio Russo, Manuel Esperón‐Rodríguez, Annick St‐Denis, Mark G. Tjoelker",
+      "abstract": "Climate change is reshaping urban environments, intensifying the need for resilient green space design and management that supports biodiversity, improves ecosystem services, and adapts to changing conditions. Understanding the trade-offs between native and non-native species selection is important for developing climate-resilient urban green spaces. This...",
+      "primary_url": "https://doi.org/10.3390/land14050954",
+      "doi_url": "https://doi.org/10.3390/land14050954",
+      "openalex_url": "https://openalex.org/W4410070878",
       "type": "article",
       "matched_topic_keys": [
-        "extinction_risk_conservation"
+        "land_use_climate_interactions"
       ],
-      "relevance_score": 6.337488,
-      "keyword_score": 6.4,
-      "score": 3.3406
+      "relevance_score": 10.013245,
+      "keyword_score": 6.2,
+      "score": 3.3673
     }
   ]
 }
