@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T06:27:35.415377+00:00",
+  "generated_at": "2026-04-14T06:11:53.599772+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.100221,
+      "relevance_score": 7.0964117,
       "keyword_score": 9.7,
-      "score": 5.2035
+      "score": 5.2026
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.361931,
+      "relevance_score": 6.354357,
       "keyword_score": 9.0,
-      "score": 4.9066
+      "score": 4.9055
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,27 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.4215937,
+      "relevance_score": 6.4140882,
       "keyword_score": 8.5,
-      "score": 4.5911
-    },
-    {
-      "id": "https://openalex.org/W4409397206",
-      "title": "Climate change impacts on altitudinal movements of society large mammals in the Alborz",
-      "publication_date": "2025-04-13",
-      "journal": "Scientific Reports",
-      "authors_text": "Farid Salmanpour, Zahra Shakoori, Abolfazl Rahbarizadeh, Mehdi Kia, Hadi Kord et al.",
-      "abstract": "This study examines the impact of climate change on the altitudinal movement patterns and number of individuals of four large mammal species within the Central Alborz Protected Area (CAPA) region of the Alborz Mountains, a biodiversity hotspot, over a 23-year period (1999 to 2022). During the warm season (May 25-September 29), temperatures were reported t...",
-      "primary_url": "https://doi.org/10.1038/s41598-025-96738-5",
-      "doi_url": "https://doi.org/10.1038/s41598-025-96738-5",
-      "openalex_url": "https://openalex.org/W4409397206",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 5.686535,
-      "keyword_score": 8.4,
-      "score": 4.14
+      "score": 4.5901
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -90,9 +72,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 59.736526,
+      "relevance_score": 59.729385,
       "keyword_score": 5.2,
-      "score": 3.9998
+      "score": 3.999
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -108,27 +90,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.048753,
+      "relevance_score": 11.052686,
       "keyword_score": 7.4,
-      "score": 3.9102
-    },
-    {
-      "id": "https://openalex.org/W4409384104",
-      "title": "Evolutionarily distinct lineages of a migratory bird of prey show divergent responses to climate change",
-      "publication_date": "2025-04-13",
-      "journal": "Nature Communications",
-      "authors_text": "Joan Ferrer, Anastasios Bounas, Mattia Brambilla, Gianluca Lombardo, Simona Secomandi et al.",
-      "abstract": "Accurately predicting species' responses to anthropogenic climate change is hampered by limited knowledge of their spatiotemporal ecological and evolutionary dynamics. We combine landscape genomics, demographic reconstructions, and species distribution models to assess the eco-evolutionary responses to past climate fluctuations and to future climate of an...",
-      "primary_url": "https://doi.org/10.1038/s41467-025-58617-5",
-      "doi_url": "https://doi.org/10.1038/s41467-025-58617-5",
-      "openalex_url": "https://openalex.org/W4409384104",
-      "type": "article",
-      "matched_topic_keys": [
-        "dryland_birds_heatwaves"
-      ],
-      "relevance_score": 8.949,
-      "keyword_score": 6.8,
-      "score": 3.5793
+      "score": 3.9095
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -144,9 +108,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 4.7666316,
+      "relevance_score": 4.759644,
       "keyword_score": 6.9,
-      "score": 3.5292
+      "score": 3.5281
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -162,9 +126,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.332801,
+      "relevance_score": 6.3375854,
       "keyword_score": 6.4,
-      "score": 3.4839
+      "score": 3.4833
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -181,9 +145,9 @@
         "biodiversity_change_assessment_conservation",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 10.220223,
+      "relevance_score": 10.208472,
       "keyword_score": 6.2,
-      "score": 3.4816
+      "score": 3.4806
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -199,9 +163,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.457325,
+      "relevance_score": 6.459007,
       "keyword_score": 5.6,
-      "score": 3.4113
+      "score": 3.4106
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -217,9 +181,45 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.013245,
+      "relevance_score": 10.005687,
       "keyword_score": 6.2,
-      "score": 3.3673
+      "score": 3.3663
+    },
+    {
+      "id": "https://openalex.org/W4410007704",
+      "title": "Geography and availability of natural habitat determine whether cropland intensification or expansion is more detrimental to biodiversity",
+      "publication_date": "2025-05-01",
+      "journal": "Nature Ecology & Evolution",
+      "authors_text": "Silvia Ceaușu, David Leclère, Tim Newbold",
+      "abstract": "To mitigate biodiversity loss from agriculture, intensification is often promoted as an alternative to farmland expansion. However, its local impacts remain debated. We assess globally the responses of three biodiversity metrics-species richness, total abundance and relative community abundance-weighted average range size (RCAR), a proxy for biotic homoge...",
+      "primary_url": "https://doi.org/10.1038/s41559-025-02691-x",
+      "doi_url": "https://doi.org/10.1038/s41559-025-02691-x",
+      "openalex_url": "https://openalex.org/W4410007704",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 6.3243823,
+      "keyword_score": 6.4,
+      "score": 3.3386
+    },
+    {
+      "id": "https://openalex.org/W4410242270",
+      "title": "Different traits shape winners and losers in urban bird assemblages across seasons",
+      "publication_date": "2025-05-09",
+      "journal": "Scientific Reports",
+      "authors_text": "Riccardo Alba, Fabio Marcolin, Giacomo Assandri, Luca Ilahiane, Francesca Cochis et al.",
+      "abstract": "Urbanisation is a major driver of global biodiversity decline, profoundly affecting animal communities. While most studies on bird communities have primarily focused on the breeding season, we aimed to identify species responses and their associated traits by adopting a stratified design and using a multi-season approach considering a gradient from highly...",
+      "primary_url": "https://doi.org/10.1038/s41598-025-00350-6",
+      "doi_url": "https://doi.org/10.1038/s41598-025-00350-6",
+      "openalex_url": "https://openalex.org/W4410242270",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 10.287056,
+      "keyword_score": 6.0,
+      "score": 3.2978
     }
   ]
 }
