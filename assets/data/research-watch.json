@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T06:11:56.488274+00:00",
+  "generated_at": "2026-04-16T06:14:18.681491+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.0915184,
+      "relevance_score": 7.093529,
       "keyword_score": 9.7,
-      "score": 5.2017
+      "score": 5.201
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.3507676,
+      "relevance_score": 6.3497734,
       "keyword_score": 9.0,
-      "score": 4.9046
+      "score": 4.9038
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.411407,
+      "relevance_score": 6.4173117,
       "keyword_score": 8.5,
-      "score": 4.5892
+      "score": 4.5887
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +72,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 59.72133,
+      "relevance_score": 59.728172,
       "keyword_score": 5.2,
-      "score": 3.9982
+      "score": 3.9974
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +90,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.0390005,
+      "relevance_score": 11.026719,
       "keyword_score": 7.4,
-      "score": 3.9085
+      "score": 3.9074
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -108,9 +108,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 4.758041,
+      "relevance_score": 4.763595,
       "keyword_score": 6.9,
-      "score": 3.5272
+      "score": 3.5267
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -126,9 +126,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.3289948,
+      "relevance_score": 6.3344507,
       "keyword_score": 6.4,
-      "score": 3.4822
+      "score": 3.4816
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -145,9 +145,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.023303,
+      "relevance_score": 10.01102,
       "keyword_score": 6.2,
-      "score": 3.446
+      "score": 3.4449
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -163,9 +163,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.449217,
+      "relevance_score": 6.449402,
       "keyword_score": 5.6,
-      "score": 3.4095
+      "score": 3.4087
     },
     {
       "id": "https://openalex.org/W4410007704",
@@ -181,27 +181,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.319874,
+      "relevance_score": 6.3256755,
       "keyword_score": 6.4,
-      "score": 3.3376
-    },
-    {
-      "id": "https://openalex.org/W4410242270",
-      "title": "Different traits shape winners and losers in urban bird assemblages across seasons",
-      "publication_date": "2025-05-09",
-      "journal": "Scientific Reports",
-      "authors_text": "Riccardo Alba, Fabio Marcolin, Giacomo Assandri, Luca Ilahiane, Francesca Cochis et al.",
-      "abstract": "Urbanisation is a major driver of global biodiversity decline, profoundly affecting animal communities. While most studies on bird communities have primarily focused on the breeding season, we aimed to identify species responses and their associated traits by adopting a stratified design and using a multi-season approach considering a gradient from highly...",
-      "primary_url": "https://doi.org/10.1038/s41598-025-00350-6",
-      "doi_url": "https://doi.org/10.1038/s41598-025-00350-6",
-      "openalex_url": "https://openalex.org/W4410242270",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 10.275934,
-      "keyword_score": 6.0,
-      "score": 3.2968
+      "score": 3.3371
     },
     {
       "id": "https://openalex.org/W4412863052",
@@ -217,9 +199,27 @@
       "matched_topic_keys": [
         "biodiversity_change_assessment_conservation"
       ],
-      "relevance_score": 10.228782,
+      "relevance_score": 10.427492,
       "keyword_score": 5.9,
-      "score": 3.2942
+      "score": 3.2984
+    },
+    {
+      "id": "https://openalex.org/W4410242270",
+      "title": "Different traits shape winners and losers in urban bird assemblages across seasons",
+      "publication_date": "2025-05-09",
+      "journal": "Scientific Reports",
+      "authors_text": "Riccardo Alba, Fabio Marcolin, Giacomo Assandri, Luca Ilahiane, Francesca Cochis et al.",
+      "abstract": "Urbanisation is a major driver of global biodiversity decline, profoundly affecting animal communities. While most studies on bird communities have primarily focused on the breeding season, we aimed to identify species responses and their associated traits by adopting a stratified design and using a multi-season approach considering a gradient from highly...",
+      "primary_url": "https://doi.org/10.1038/s41598-025-00350-6",
+      "doi_url": "https://doi.org/10.1038/s41598-025-00350-6",
+      "openalex_url": "https://openalex.org/W4410242270",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 10.259695,
+      "keyword_score": 6.0,
+      "score": 3.2956
     }
   ]
 }
