@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T06:27:47.134693+00:00",
+  "generated_at": "2026-04-21T06:14:25.155781+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.741855,
+      "relevance_score": 7.728436,
       "keyword_score": 9.7,
-      "score": 5.2195
+      "score": 5.2183
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.5684257,
+      "relevance_score": 6.5679297,
       "keyword_score": 9.0,
-      "score": 4.9089
+      "score": 4.9081
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.8198814,
+      "relevance_score": 6.798574,
       "keyword_score": 8.5,
-      "score": 4.6004
+      "score": 4.5989
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +72,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 60.086727,
+      "relevance_score": 60.11139,
       "keyword_score": 5.2,
-      "score": 3.996
+      "score": 3.9954
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +90,29 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.705011,
+      "relevance_score": 11.661839,
       "keyword_score": 7.4,
-      "score": 3.9197
+      "score": 3.918
+    },
+    {
+      "id": "https://openalex.org/W4411051355",
+      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
+      "publication_date": "2025-06-05",
+      "journal": "Science",
+      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
+      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
+      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
+      "doi_url": "https://doi.org/10.1126/science.adl0239",
+      "openalex_url": "https://openalex.org/W4411051355",
+      "type": "article",
+      "matched_topic_keys": [
+        "biodiversity_change_assessment_conservation",
+        "extinction_risk_conservation",
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 11.044005,
+      "keyword_score": 6.2,
+      "score": 3.5753
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -108,9 +128,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.7469144,
+      "relevance_score": 5.72934,
       "keyword_score": 6.9,
-      "score": 3.5678
+      "score": 3.5663
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -126,9 +146,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.660912,
+      "relevance_score": 6.639661,
       "keyword_score": 6.4,
-      "score": 3.4908
+      "score": 3.4892
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -145,9 +165,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.51036,
+      "relevance_score": 10.480658,
       "keyword_score": 6.2,
-      "score": 3.4542
+      "score": 3.4528
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -163,9 +183,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.7618337,
+      "relevance_score": 6.739917,
       "keyword_score": 5.6,
-      "score": 3.4172
+      "score": 3.4156
     },
     {
       "id": "https://openalex.org/W4410007704",
@@ -181,9 +201,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.6979394,
+      "relevance_score": 6.6858172,
       "keyword_score": 6.4,
-      "score": 3.3479
+      "score": 3.3467
     },
     {
       "id": "https://openalex.org/W4412863052",
@@ -199,27 +219,9 @@
       "matched_topic_keys": [
         "biodiversity_change_assessment_conservation"
       ],
-      "relevance_score": 11.153069,
+      "relevance_score": 11.125843,
       "keyword_score": 5.9,
-      "score": 3.3126
-    },
-    {
-      "id": "https://openalex.org/W4410242270",
-      "title": "Different traits shape winners and losers in urban bird assemblages across seasons",
-      "publication_date": "2025-05-09",
-      "journal": "Scientific Reports",
-      "authors_text": "Riccardo Alba, Fabio Marcolin, Giacomo Assandri, Luca Ilahiane, Francesca Cochis et al.",
-      "abstract": "Urbanisation is a major driver of global biodiversity decline, profoundly affecting animal communities. While most studies on bird communities have primarily focused on the breeding season, we aimed to identify species responses and their associated traits by adopting a stratified design and using a multi-season approach considering a gradient from highly...",
-      "primary_url": "https://doi.org/10.1038/s41598-025-00350-6",
-      "doi_url": "https://doi.org/10.1038/s41598-025-00350-6",
-      "openalex_url": "https://openalex.org/W4410242270",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 10.925068,
-      "keyword_score": 6.0,
-      "score": 3.3086
+      "score": 3.3112
     }
   ]
 }
