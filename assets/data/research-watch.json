@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T06:17:30.194832+00:00",
+  "generated_at": "2026-04-24T06:20:57.956186+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.6314464,
+      "relevance_score": 7.630791,
       "keyword_score": 9.7,
-      "score": 5.2137
+      "score": 5.2129
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.4912205,
+      "relevance_score": 6.488098,
       "keyword_score": 9.0,
-      "score": 4.9038
+      "score": 4.9029
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.665947,
+      "relevance_score": 6.663554,
       "keyword_score": 8.5,
-      "score": 4.5925
+      "score": 4.5917
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +72,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 61.747005,
+      "relevance_score": 61.777893,
       "keyword_score": 5.2,
-      "score": 4.0012
+      "score": 4.0006
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +90,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.6305685,
+      "relevance_score": 11.725533,
       "keyword_score": 7.4,
-      "score": 3.9158
+      "score": 3.9171
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -110,9 +110,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.851089,
+      "relevance_score": 11.012313,
       "keyword_score": 6.2,
-      "score": 3.5693
+      "score": 3.5723
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -128,9 +128,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.618161,
+      "relevance_score": 5.6150503,
       "keyword_score": 6.9,
-      "score": 3.5601
+      "score": 3.5592
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -146,9 +146,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.5379457,
+      "relevance_score": 6.5339375,
       "keyword_score": 6.4,
-      "score": 3.4839
+      "score": 3.483
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -165,9 +165,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.287399,
+      "relevance_score": 10.2857895,
       "keyword_score": 6.2,
-      "score": 3.4465
+      "score": 3.4457
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -183,9 +183,28 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.628665,
+      "relevance_score": 6.6281686,
       "keyword_score": 5.6,
-      "score": 3.41
+      "score": 3.4092
+    },
+    {
+      "id": "https://openalex.org/W4412408486",
+      "title": "Areas of High Biodiversity Value Evidenced by the Spatial Scaling of Phylogenetic Uniqueness",
+      "publication_date": "2025-07-01",
+      "journal": "Ecology Letters",
+      "authors_text": "Andrés Baselga, Ramiro Martín‐Devasa, Carola Gómez‐Rodríguez",
+      "abstract": "Distinct biological communities have high conservation value because they harbour species that cannot be preserved elsewhere. However, community uniqueness is scale-dependent: irreplaceability depends on whether community dissimilarity emerges at small or large spatial scales. To assess conservation value, here we integrate phylogenetic endemism with the...",
+      "primary_url": "https://doi.org/10.1111/ele.70179",
+      "doi_url": "https://doi.org/10.1111/ele.70179",
+      "openalex_url": "https://openalex.org/W4412408486",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography",
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 6.871257,
+      "keyword_score": 5.4,
+      "score": 3.3579
     },
     {
       "id": "https://openalex.org/W4411224513",
@@ -201,27 +220,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.419641,
+      "relevance_score": 5.4279475,
       "keyword_score": 5.4,
-      "score": 3.3485
-    },
-    {
-      "id": "https://openalex.org/W4410007704",
-      "title": "Geography and availability of natural habitat determine whether cropland intensification or expansion is more detrimental to biodiversity",
-      "publication_date": "2025-05-01",
-      "journal": "Nature Ecology & Evolution",
-      "authors_text": "Silvia Ceaușu, David Leclère, Tim Newbold",
-      "abstract": "To mitigate biodiversity loss from agriculture, intensification is often promoted as an alternative to farmland expansion. However, its local impacts remain debated. We assess globally the responses of three biodiversity metrics-species richness, total abundance and relative community abundance-weighted average range size (RCAR), a proxy for biotic homoge...",
-      "primary_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "doi_url": "https://doi.org/10.1038/s41559-025-02691-x",
-      "openalex_url": "https://openalex.org/W4410007704",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 6.5221868,
-      "keyword_score": 6.4,
-      "score": 3.3391
+      "score": 3.3481
     }
   ]
 }
