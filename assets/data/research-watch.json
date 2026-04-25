@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T06:20:57.956186+00:00",
+  "generated_at": "2026-04-25T05:59:18.933179+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.630791,
+      "relevance_score": 7.6187143,
       "keyword_score": 9.7,
-      "score": 5.2129
+      "score": 5.2117
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.488098,
+      "relevance_score": 6.444571,
       "keyword_score": 9.0,
-      "score": 4.9029
+      "score": 4.9005
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.663554,
+      "relevance_score": 6.6049604,
       "keyword_score": 8.5,
-      "score": 4.5917
+      "score": 4.5888
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +72,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 61.777893,
+      "relevance_score": 61.233192,
       "keyword_score": 5.2,
-      "score": 4.0006
+      "score": 3.9974
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +90,27 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.725533,
+      "relevance_score": 11.567292,
       "keyword_score": 7.4,
-      "score": 3.9171
+      "score": 3.9128
+    },
+    {
+      "id": "https://openalex.org/W7154980729",
+      "title": "Estimating the Impacts of Future Extreme Heat on Dryland Threatened Mammals: An Australian Case Study",
+      "publication_date": "2026-04-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Jack Bilby, William K. Cornwell, Katherine Moseby",
+      "abstract": "Extreme heat is an escalating threat to biodiversity, with dryland ecosystems particularly vulnerable. Using Australia's dryland mammals as a model system, we present a framework comparing baseline and future heat envelopes for 36 threatened species to quantify future heat exposure, identify potential refugia and evaluate the suitability of translocation...",
+      "primary_url": "https://doi.org/10.1111/gcb.70872",
+      "doi_url": "https://doi.org/10.1111/gcb.70872",
+      "openalex_url": "https://openalex.org/W7154980729",
+      "type": "article",
+      "matched_topic_keys": [
+        "dryland_birds_heatwaves"
+      ],
+      "relevance_score": 1.2663038,
+      "keyword_score": 6.5,
+      "score": 3.7507
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -110,9 +128,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.012313,
+      "relevance_score": 11.035395,
       "keyword_score": 6.2,
-      "score": 3.5723
+      "score": 3.5721
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -128,9 +146,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.6150503,
+      "relevance_score": 5.5579805,
       "keyword_score": 6.9,
-      "score": 3.5592
+      "score": 3.556
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -146,9 +164,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.5339375,
+      "relevance_score": 6.475338,
       "keyword_score": 6.4,
-      "score": 3.483
+      "score": 3.4801
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -165,9 +183,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.2857895,
+      "relevance_score": 10.388102,
       "keyword_score": 6.2,
-      "score": 3.4457
+      "score": 3.4474
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -183,46 +201,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.6281686,
+      "relevance_score": 6.5760837,
       "keyword_score": 5.6,
-      "score": 3.4092
+      "score": 3.4065
     },
     {
-      "id": "https://openalex.org/W4412408486",
-      "title": "Areas of High Biodiversity Value Evidenced by the Spatial Scaling of Phylogenetic Uniqueness",
-      "publication_date": "2025-07-01",
-      "journal": "Ecology Letters",
-      "authors_text": "Andrés Baselga, Ramiro Martín‐Devasa, Carola Gómez‐Rodríguez",
-      "abstract": "Distinct biological communities have high conservation value because they harbour species that cannot be preserved elsewhere. However, community uniqueness is scale-dependent: irreplaceability depends on whether community dissimilarity emerges at small or large spatial scales. To assess conservation value, here we integrate phylogenetic endemism with the...",
-      "primary_url": "https://doi.org/10.1111/ele.70179",
-      "doi_url": "https://doi.org/10.1111/ele.70179",
-      "openalex_url": "https://openalex.org/W4412408486",
+      "id": "https://openalex.org/W4414971307",
+      "title": "Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals",
+      "publication_date": "2025-10-08",
+      "journal": "Methods in Ecology and Evolution",
+      "authors_text": "Sebastian Hoefer, Slade Allen‐Ankins, Donald T. McKnight, Eric J. Nordberg, Lin Schwarzkopf",
+      "abstract": "Abstract Mammals play vital roles in ecological communities, but many are in rapid decline worldwide. Comprehensive monitoring of mammal populations is crucial for effective conservation, but large‐scale monitoring presents significant challenges. Remote sensing techniques such as passive acoustic monitoring offer viable and effective solutions for survey...",
+      "primary_url": "https://doi.org/10.1111/2041-210x.70169",
+      "doi_url": "https://doi.org/10.1111/2041-210x.70169",
+      "openalex_url": "https://openalex.org/W4414971307",
       "type": "article",
       "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "extinction_risk_conservation"
+        "species_distribution_monitoring"
       ],
-      "relevance_score": 6.871257,
-      "keyword_score": 5.4,
-      "score": 3.3579
-    },
-    {
-      "id": "https://openalex.org/W4411224513",
-      "title": "Urbanization Filters Megacolorful, Small‐Bodied, and Diet‐Specialist Species in Tropical Bird Assemblages",
-      "publication_date": "2025-06-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Lucas Ferreira do Nascimento, Paulo R. Guimarães, Julian Evans, W. Daniel Kissling",
-      "abstract": "The colorfulness of bird plumage plays a crucial role in intraspecific (e.g., sexual display) and interspecific ecological interactions (e.g., camouflage and predation). Functional traits like diet, body size, and sexual dichromatism are among the primary predictors of plumage colorfulness in passerine (Passeriformes) birds. Consequently, passerine plumag...",
-      "primary_url": "https://doi.org/10.1111/gcb.70263",
-      "doi_url": "https://doi.org/10.1111/gcb.70263",
-      "openalex_url": "https://openalex.org/W4411224513",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 5.4279475,
-      "keyword_score": 5.4,
-      "score": 3.3481
+      "relevance_score": 4.833773,
+      "keyword_score": 6.4,
+      "score": 3.3892
     }
   ]
 }
