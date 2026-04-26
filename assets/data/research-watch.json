@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-04-25T05:59:18.933179+00:00",
+  "generated_at": "2026-04-26T06:20:00.553806+00:00",
   "source": "OpenAlex",
   "items": [
+    {
+      "id": "https://openalex.org/W4410100329",
+      "title": "Mammals on the Margins: Identifying the Drivers and Limitations of Range Expansion",
+      "publication_date": "2025-05-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Alex J. Jensen, Benjamin R. Goldstein, Michael V. Cove, Krishna Pacifici, Elizabeth M. Kierepka et al.",
+      "abstract": "Accurately estimating species distributions is critical for tracking how biodiversity is shaped by global change. While some species are expanding their ranges, the importance of factors like climate change, habitat change, and human avoidance for explaining this expansion is not well understood. Here, we used observations of 94 North American mammals on...",
+      "primary_url": "https://doi.org/10.1111/gcb.70222",
+      "doi_url": "https://doi.org/10.1111/gcb.70222",
+      "openalex_url": "https://openalex.org/W4410100329",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 5.6620116,
+      "keyword_score": 9.9,
+      "score": 5.2228
+    },
     {
       "id": "https://openalex.org/W4410267884",
       "title": "Climate‐Driven Body Size Changes in Birds and Mammals Reveal Environmental Tolerance Limits",
@@ -16,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.6187143,
+      "relevance_score": 7.6102405,
       "keyword_score": 9.7,
-      "score": 5.2117
+      "score": 5.2107
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -34,9 +52,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.444571,
+      "relevance_score": 6.4372406,
       "keyword_score": 9.0,
-      "score": 4.9005
+      "score": 4.8994
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.6049604,
+      "relevance_score": 6.594254,
       "keyword_score": 8.5,
-      "score": 4.5888
+      "score": 4.5876
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +90,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 61.233192,
+      "relevance_score": 61.19685,
       "keyword_score": 5.2,
-      "score": 3.9974
+      "score": 3.9965
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +108,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.567292,
+      "relevance_score": 11.551151,
       "keyword_score": 7.4,
-      "score": 3.9128
+      "score": 3.9117
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -108,9 +126,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2663038,
+      "relevance_score": 1.2648438,
       "keyword_score": 6.5,
-      "score": 3.7507
+      "score": 3.7497
+    },
+    {
+      "id": "https://openalex.org/W4412502383",
+      "title": "<scp>iNaturalist</scp> and Structured Mammal Surveys Reflect Similar Species Richness but Capture Different Species Pools Across the United States",
+      "publication_date": "2025-07-01",
+      "journal": "Ecology and Evolution",
+      "authors_text": "Daniel J. Herrera, Christopher M. Schalk, Alex J. Jensen, Benjamin R. Goldstein, Brigit Rooney et al.",
+      "abstract": "Crowd-sourced biodiversity data, such as those housed in the iNaturalist platform, are increasingly used to monitor species distributions. Such data represent unstructured biodiversity surveys that are generally comprised of incidental observations and do not report variation in sampling effort. These discrepancies may yield data that is incongruent with...",
+      "primary_url": "https://doi.org/10.1002/ece3.71805",
+      "doi_url": "https://doi.org/10.1002/ece3.71805",
+      "openalex_url": "https://openalex.org/W4412502383",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 6.09275,
+      "keyword_score": 6.9,
+      "score": 3.5772
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -128,27 +164,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.035395,
+      "relevance_score": 11.016617,
       "keyword_score": 6.2,
-      "score": 3.5721
-    },
-    {
-      "id": "https://openalex.org/W4412502383",
-      "title": "<scp>iNaturalist</scp> and Structured Mammal Surveys Reflect Similar Species Richness but Capture Different Species Pools Across the United States",
-      "publication_date": "2025-07-01",
-      "journal": "Ecology and Evolution",
-      "authors_text": "Daniel J. Herrera, Christopher M. Schalk, Alex J. Jensen, Benjamin R. Goldstein, Brigit Rooney et al.",
-      "abstract": "Crowd-sourced biodiversity data, such as those housed in the iNaturalist platform, are increasingly used to monitor species distributions. Such data represent unstructured biodiversity surveys that are generally comprised of incidental observations and do not report variation in sampling effort. These discrepancies may yield data that is incongruent with...",
-      "primary_url": "https://doi.org/10.1002/ece3.71805",
-      "doi_url": "https://doi.org/10.1002/ece3.71805",
-      "openalex_url": "https://openalex.org/W4412502383",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 5.5579805,
-      "keyword_score": 6.9,
-      "score": 3.556
+      "score": 3.5708
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -164,9 +182,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.475338,
+      "relevance_score": 6.4690304,
       "keyword_score": 6.4,
-      "score": 3.4801
+      "score": 3.4791
     },
     {
       "id": "https://openalex.org/W4410070878",
@@ -183,9 +201,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.388102,
+      "relevance_score": 10.377264,
       "keyword_score": 6.2,
-      "score": 3.4474
+      "score": 3.4464
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -201,27 +219,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.5760837,
+      "relevance_score": 6.570962,
       "keyword_score": 5.6,
-      "score": 3.4065
-    },
-    {
-      "id": "https://openalex.org/W4414971307",
-      "title": "Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals",
-      "publication_date": "2025-10-08",
-      "journal": "Methods in Ecology and Evolution",
-      "authors_text": "Sebastian Hoefer, Slade Allen‐Ankins, Donald T. McKnight, Eric J. Nordberg, Lin Schwarzkopf",
-      "abstract": "Abstract Mammals play vital roles in ecological communities, but many are in rapid decline worldwide. Comprehensive monitoring of mammal populations is crucial for effective conservation, but large‐scale monitoring presents significant challenges. Remote sensing techniques such as passive acoustic monitoring offer viable and effective solutions for survey...",
-      "primary_url": "https://doi.org/10.1111/2041-210x.70169",
-      "doi_url": "https://doi.org/10.1111/2041-210x.70169",
-      "openalex_url": "https://openalex.org/W4414971307",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 4.833773,
-      "keyword_score": 6.4,
-      "score": 3.3892
+      "score": 3.4056
     }
   ]
 }
