@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T06:38:46.165659+00:00",
+  "generated_at": "2026-04-30T06:42:54.359506+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.6899605,
+      "relevance_score": 5.7991743,
       "keyword_score": 9.9,
-      "score": 5.2217
+      "score": 5.2255
     },
     {
       "id": "https://openalex.org/W4410267884",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.5987916,
+      "relevance_score": 7.655064,
       "keyword_score": 9.7,
-      "score": 5.208
+      "score": 5.209
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.5039124,
+      "relevance_score": 6.628624,
       "keyword_score": 9.0,
-      "score": 4.8996
+      "score": 4.9035
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.581897,
+      "relevance_score": 6.676913,
       "keyword_score": 8.5,
-      "score": 4.5849
+      "score": 4.5876
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -90,9 +90,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 62.04929,
+      "relevance_score": 62.387722,
       "keyword_score": 5.2,
-      "score": 3.998
+      "score": 3.9987
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -108,9 +108,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.707448,
+      "relevance_score": 11.817323,
       "keyword_score": 7.4,
-      "score": 3.9129
+      "score": 3.9145
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -126,9 +126,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2744122,
+      "relevance_score": 1.3126838,
       "keyword_score": 6.5,
-      "score": 3.7486
+      "score": 3.7525
+    },
+    {
+      "id": "https://openalex.org/W4411506987",
+      "title": "Environmental DNA (eDNA): A review of ecosystem biodiversity detection and applications",
+      "publication_date": "2025-06-21",
+      "journal": "Biodiversity and Conservation",
+      "authors_text": "Taner Çevik, Nazife Çevik",
+      "abstract": "Abstract Understanding species distribution is vital for ecological management and conservation. Traditional methods like visual detection often struggle with detecting low-density populations. Environmental DNA (eDNA) has emerged as a sensitive, efficient, and non-invasive alternative, revolutionizing biodiversity monitoring, identifying invasive or enda...",
+      "primary_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "doi_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "openalex_url": "https://openalex.org/W4411506987",
+      "type": "review",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 9.630467,
+      "keyword_score": 7.0,
+      "score": 3.7217
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -144,9 +162,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.560385,
+      "relevance_score": 6.6792655,
       "keyword_score": 6.9,
-      "score": 3.5927
+      "score": 3.5963
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -164,9 +182,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.926056,
+      "relevance_score": 11.427739,
       "keyword_score": 6.2,
-      "score": 3.5664
+      "score": 3.5772
     },
     {
       "id": "https://openalex.org/W4410007704",
@@ -183,9 +201,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.373465,
+      "relevance_score": 9.661133,
       "keyword_score": 6.4,
-      "score": 3.5045
+      "score": 3.5114
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -201,27 +219,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.5142474,
+      "relevance_score": 6.6290216,
       "keyword_score": 6.4,
-      "score": 3.4785
-    },
-    {
-      "id": "https://openalex.org/W4412137131",
-      "title": "Correcting environmental sampling bias improves transferability of species distribution models",
-      "publication_date": "2025-07-09",
-      "journal": "Ecography",
-      "authors_text": "Arman Pili, Boris Leroy, Damaris Zurell",
-      "abstract": "Sampling bias is an inherent problem in widely available biodiversity data, undermining the robustness of correlative species distribution models (SDMs). To some extent, subsampling occurrence data can account for uneven sampling efforts; yet, conventional approaches subsample in geographical space, while subsampling in environmental space remains underex...",
-      "primary_url": "https://doi.org/10.1002/ecog.08002",
-      "doi_url": "https://doi.org/10.1002/ecog.08002",
-      "openalex_url": "https://openalex.org/W4412137131",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 6.60695,
-      "keyword_score": 5.6,
-      "score": 3.4046
+      "score": 3.4819
     }
   ]
 }
