@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T06:42:54.359506+00:00",
+  "generated_at": "2026-05-01T06:45:25.406482+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.7991743,
+      "relevance_score": 5.947869,
       "keyword_score": 9.9,
-      "score": 5.2255
+      "score": 5.2308
     },
     {
       "id": "https://openalex.org/W4410267884",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 7.655064,
+      "relevance_score": 7.826347,
       "keyword_score": 9.7,
-      "score": 5.209
+      "score": 5.2138
     },
     {
       "id": "https://openalex.org/W4410974955",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.628624,
+      "relevance_score": 6.6337233,
       "keyword_score": 9.0,
-      "score": 4.9035
+      "score": 4.9029
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.676913,
+      "relevance_score": 6.8576875,
       "keyword_score": 8.5,
-      "score": 4.5876
+      "score": 4.5933
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -90,9 +90,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 62.387722,
+      "relevance_score": 62.379143,
       "keyword_score": 5.2,
-      "score": 3.9987
+      "score": 3.9979
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -108,9 +108,28 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.817323,
+      "relevance_score": 12.004183,
       "keyword_score": 7.4,
-      "score": 3.9145
+      "score": 3.9178
+    },
+    {
+      "id": "https://openalex.org/W4411506987",
+      "title": "Environmental DNA (eDNA): A review of ecosystem biodiversity detection and applications",
+      "publication_date": "2025-06-21",
+      "journal": "Biodiversity and Conservation",
+      "authors_text": "Taner Çevik, Nazife Çevik",
+      "abstract": "Abstract Understanding species distribution is vital for ecological management and conservation. Traditional methods like visual detection often struggle with detecting low-density populations. Environmental DNA (eDNA) has emerged as a sensitive, efficient, and non-invasive alternative, revolutionizing biodiversity monitoring, identifying invasive or enda...",
+      "primary_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "doi_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "openalex_url": "https://openalex.org/W4411506987",
+      "type": "review",
+      "matched_topic_keys": [
+        "biodiversity_change_assessment_conservation",
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 9.825589,
+      "keyword_score": 7.0,
+      "score": 3.8061
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -126,27 +145,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.3126838,
+      "relevance_score": 1.3114061,
       "keyword_score": 6.5,
-      "score": 3.7525
-    },
-    {
-      "id": "https://openalex.org/W4411506987",
-      "title": "Environmental DNA (eDNA): A review of ecosystem biodiversity detection and applications",
-      "publication_date": "2025-06-21",
-      "journal": "Biodiversity and Conservation",
-      "authors_text": "Taner Çevik, Nazife Çevik",
-      "abstract": "Abstract Understanding species distribution is vital for ecological management and conservation. Traditional methods like visual detection often struggle with detecting low-density populations. Environmental DNA (eDNA) has emerged as a sensitive, efficient, and non-invasive alternative, revolutionizing biodiversity monitoring, identifying invasive or enda...",
-      "primary_url": "https://doi.org/10.1007/s10531-025-03112-y",
-      "doi_url": "https://doi.org/10.1007/s10531-025-03112-y",
-      "openalex_url": "https://openalex.org/W4411506987",
-      "type": "review",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 9.630467,
-      "keyword_score": 7.0,
-      "score": 3.7217
+      "score": 3.7516
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -162,29 +163,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.6792655,
+      "relevance_score": 6.8608975,
       "keyword_score": 6.9,
-      "score": 3.5963
-    },
-    {
-      "id": "https://openalex.org/W4411051355",
-      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
-      "publication_date": "2025-06-05",
-      "journal": "Science",
-      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
-      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
-      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
-      "doi_url": "https://doi.org/10.1126/science.adl0239",
-      "openalex_url": "https://openalex.org/W4411051355",
-      "type": "article",
-      "matched_topic_keys": [
-        "biodiversity_change_assessment_conservation",
-        "extinction_risk_conservation",
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 11.427739,
-      "keyword_score": 6.2,
-      "score": 3.5772
+      "score": 3.6021
     },
     {
       "id": "https://openalex.org/W4410007704",
@@ -201,9 +182,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.661133,
+      "relevance_score": 9.645949,
       "keyword_score": 6.4,
-      "score": 3.5114
+      "score": 3.5103
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -219,9 +200,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.6290216,
+      "relevance_score": 6.7568793,
       "keyword_score": 6.4,
-      "score": 3.4819
+      "score": 3.4858
+    },
+    {
+      "id": "https://openalex.org/W4414971307",
+      "title": "Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals",
+      "publication_date": "2025-10-08",
+      "journal": "Methods in Ecology and Evolution",
+      "authors_text": "Sebastian Hoefer, Slade Allen‐Ankins, Donald T. McKnight, Eric J. Nordberg, Lin Schwarzkopf",
+      "abstract": "Abstract Mammals play vital roles in ecological communities, but many are in rapid decline worldwide. Comprehensive monitoring of mammal populations is crucial for effective conservation, but large‐scale monitoring presents significant challenges. Remote sensing techniques such as passive acoustic monitoring offer viable and effective solutions for survey...",
+      "primary_url": "https://doi.org/10.1111/2041-210x.70169",
+      "doi_url": "https://doi.org/10.1111/2041-210x.70169",
+      "openalex_url": "https://openalex.org/W4414971307",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 5.557954,
+      "keyword_score": 6.4,
+      "score": 3.4173
     }
   ]
 }
