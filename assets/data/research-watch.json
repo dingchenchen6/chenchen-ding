@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T06:41:22.051262+00:00",
+  "generated_at": "2026-05-04T07:25:27.095865+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.6116724,
+      "relevance_score": 6.6092067,
       "keyword_score": 9.0,
-      "score": 4.9006
+      "score": 4.8997
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.8369374,
+      "relevance_score": 6.821739,
       "keyword_score": 8.5,
-      "score": 4.5911
+      "score": 4.5897
     },
     {
       "id": "https://openalex.org/W7156875653",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.117876,
+      "relevance_score": 6.116592,
       "keyword_score": 7.4,
-      "score": 4.0137
+      "score": 4.0129
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +72,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 62.235012,
+      "relevance_score": 62.269302,
       "keyword_score": 5.2,
-      "score": 3.9957
+      "score": 3.9951
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +90,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.961232,
+      "relevance_score": 11.95998,
       "keyword_score": 7.4,
-      "score": 3.9153
+      "score": 3.9145
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -109,9 +109,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.795861,
+      "relevance_score": 9.793271,
       "keyword_score": 7.0,
-      "score": 3.8038
+      "score": 3.8029
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -127,9 +127,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.3091769,
+      "relevance_score": 1.3074921,
       "keyword_score": 6.5,
-      "score": 3.7498
+      "score": 3.7488
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -145,9 +145,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.8400326,
+      "relevance_score": 6.825101,
       "keyword_score": 6.9,
-      "score": 3.5998
+      "score": 3.5985
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -165,9 +165,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.372559,
+      "relevance_score": 11.357511,
       "keyword_score": 6.2,
-      "score": 3.5736
+      "score": 3.5725
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -183,9 +183,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.7353873,
+      "relevance_score": 6.727253,
       "keyword_score": 6.4,
-      "score": 3.4835
+      "score": 3.4824
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -201,9 +201,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.535611,
+      "relevance_score": 5.5381064,
       "keyword_score": 6.4,
-      "score": 3.4148
+      "score": 3.4142
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -219,9 +219,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.8262067,
+      "relevance_score": 6.8228307,
       "keyword_score": 5.6,
-      "score": 3.4095
+      "score": 3.4086
     }
   ]
 }
