@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T06:29:02.709181+00:00",
+  "generated_at": "2026-05-06T06:45:53.539509+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.5961165,
+      "relevance_score": 6.5789857,
       "keyword_score": 9.0,
-      "score": 4.8985
+      "score": 4.8971
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -34,27 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.8109236,
+      "relevance_score": 6.7888694,
       "keyword_score": 8.5,
-      "score": 4.5886
-    },
-    {
-      "id": "https://openalex.org/W7156875653",
-      "title": "Evolutionary conservation hotspots: key areas for threatened Neotropical glassfrogs under climate change scenarios",
-      "publication_date": "2026-04-28",
-      "journal": "PeerJ",
-      "authors_text": "Mateo A. Vega-Yánez, Julián A. Velasco, Carl R. Hutter, Daniela Franco-Mena, Luis Amador et al.",
-      "abstract": "Anthropogenic climate change is one of the main threats to global biodiversity, with amphibians being among the most vulnerable vertebrate groups. In this context, the IUCN currently lists 69 species of Neotropical glassfrogs as threatened. However, our knowledge of how their taxonomic and phylogenetic diversity will be distributed in future climate chang...",
-      "primary_url": "https://doi.org/10.7717/peerj.21165",
-      "doi_url": "https://doi.org/10.7717/peerj.21165",
-      "openalex_url": "https://openalex.org/W7156875653",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 6.1182303,
-      "keyword_score": 7.4,
-      "score": 4.0122
+      "score": 4.587
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +54,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 62.281918,
+      "relevance_score": 63.901894,
       "keyword_score": 5.2,
-      "score": 3.9944
+      "score": 4.0007
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +72,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.925646,
+      "relevance_score": 12.138343,
       "keyword_score": 7.4,
-      "score": 3.913
+      "score": 3.9168
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -108,28 +90,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.784073,
+      "relevance_score": 28.781006,
       "keyword_score": 6.1,
-      "score": 3.8317
-    },
-    {
-      "id": "https://openalex.org/W4411506987",
-      "title": "Environmental DNA (eDNA): A review of ecosystem biodiversity detection and applications",
-      "publication_date": "2025-06-21",
-      "journal": "Biodiversity and Conservation",
-      "authors_text": "Taner Çevik, Nazife Çevik",
-      "abstract": "Abstract Understanding species distribution is vital for ecological management and conservation. Traditional methods like visual detection often struggle with detecting low-density populations. Environmental DNA (eDNA) has emerged as a sensitive, efficient, and non-invasive alternative, revolutionizing biodiversity monitoring, identifying invasive or enda...",
-      "primary_url": "https://doi.org/10.1007/s10531-025-03112-y",
-      "doi_url": "https://doi.org/10.1007/s10531-025-03112-y",
-      "openalex_url": "https://openalex.org/W4411506987",
-      "type": "review",
-      "matched_topic_keys": [
-        "biodiversity_change_assessment_conservation",
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 9.765968,
-      "keyword_score": 7.0,
-      "score": 3.8014
+      "score": 3.8309
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -145,9 +108,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.3053675,
+      "relevance_score": 1.3008544,
       "keyword_score": 6.5,
-      "score": 3.7478
+      "score": 3.7465
+    },
+    {
+      "id": "https://openalex.org/W4411506987",
+      "title": "Environmental DNA (eDNA): A review of ecosystem biodiversity detection and applications",
+      "publication_date": "2025-06-21",
+      "journal": "Biodiversity and Conservation",
+      "authors_text": "Taner Çevik, Nazife Çevik",
+      "abstract": "Abstract Understanding species distribution is vital for ecological management and conservation. Traditional methods like visual detection often struggle with detecting low-density populations. Environmental DNA (eDNA) has emerged as a sensitive, efficient, and non-invasive alternative, revolutionizing biodiversity monitoring, identifying invasive or enda...",
+      "primary_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "doi_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "openalex_url": "https://openalex.org/W4411506987",
+      "type": "review",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 9.529243,
+      "keyword_score": 7.0,
+      "score": 3.7145
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -163,9 +144,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.81386,
+      "relevance_score": 6.791664,
       "keyword_score": 6.9,
-      "score": 3.5974
+      "score": 3.5958
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -183,9 +164,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.325207,
+      "relevance_score": 11.484212,
       "keyword_score": 6.2,
-      "score": 3.571
+      "score": 3.5739
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -201,9 +182,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.7110167,
+      "relevance_score": 6.6986027,
       "keyword_score": 6.4,
-      "score": 3.4811
+      "score": 3.4799
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -219,9 +200,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.5209026,
+      "relevance_score": 5.5103235,
       "keyword_score": 6.4,
-      "score": 3.4127
+      "score": 3.4115
+    },
+    {
+      "id": "https://openalex.org/W4412137131",
+      "title": "Correcting environmental sampling bias improves transferability of species distribution models",
+      "publication_date": "2025-07-09",
+      "journal": "Ecography",
+      "authors_text": "Arman Pili, Boris Leroy, Damaris Zurell",
+      "abstract": "Sampling bias is an inherent problem in widely available biodiversity data, undermining the robustness of correlative species distribution models (SDMs). To some extent, subsampling occurrence data can account for uneven sampling efforts; yet, conventional approaches subsample in geographical space, while subsampling in environmental space remains underex...",
+      "primary_url": "https://doi.org/10.1002/ecog.08002",
+      "doi_url": "https://doi.org/10.1002/ecog.08002",
+      "openalex_url": "https://openalex.org/W4412137131",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 6.795447,
+      "keyword_score": 5.6,
+      "score": 3.4061
     }
   ]
 }
