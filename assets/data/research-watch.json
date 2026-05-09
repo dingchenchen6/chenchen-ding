@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T06:10:25.765008+00:00",
+  "generated_at": "2026-05-09T06:27:37.581791+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.489108,
+      "relevance_score": 6.481055,
       "keyword_score": 9.0,
-      "score": 4.8922
+      "score": 4.8911
     },
     {
       "id": "https://openalex.org/W4413412670",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.77588,
+      "relevance_score": 5.767448,
       "keyword_score": 9.9,
-      "score": 4.8551
+      "score": 4.8539
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,27 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.6958017,
+      "relevance_score": 6.696179,
       "keyword_score": 8.5,
-      "score": 4.5821
+      "score": 4.5814
+    },
+    {
+      "id": "https://openalex.org/W7160552892",
+      "title": "Climate-induced range shifts support local plant diversity but don’t reduce extinction risk",
+      "publication_date": "2026-05-07",
+      "journal": "Science",
+      "authors_text": "Junna Wang, Brunno F. Oliveira, Frances C. Moore, Daniel Kozar, yongshuo Fu et al.",
+      "abstract": "INTRODUCTION Anthropogenic climate change is reshaping where plants can live. As temperature and precipitation patterns shift, many species are moving to stay within suitable environmental conditions. Predicting how these range shifts will affect future biodiversity requires knowing both where suitable habitats will occur and whether species can reach the...",
+      "primary_url": "https://doi.org/10.1126/science.aea1676",
+      "doi_url": "https://doi.org/10.1126/science.aea1676",
+      "openalex_url": "https://openalex.org/W7160552892",
+      "type": "article",
+      "matched_topic_keys": [
+        "global_change_biodiversity"
+      ],
+      "relevance_score": 20.464382,
+      "keyword_score": 7.5,
+      "score": 4.3671
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,9 +90,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 63.971985,
+      "relevance_score": 64.019135,
       "keyword_score": 5.2,
-      "score": 3.9995
+      "score": 3.9989
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -90,9 +108,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.917733,
+      "relevance_score": 11.894938,
       "keyword_score": 7.4,
-      "score": 3.9105
+      "score": 3.9093
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -108,9 +126,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.63518,
+      "relevance_score": 28.623028,
       "keyword_score": 6.1,
-      "score": 3.828
+      "score": 3.8271
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -126,9 +144,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2841166,
+      "relevance_score": 1.2819192,
       "keyword_score": 6.5,
-      "score": 3.7429
+      "score": 3.7419
+    },
+    {
+      "id": "https://openalex.org/W4411506987",
+      "title": "Environmental DNA (eDNA): A review of ecosystem biodiversity detection and applications",
+      "publication_date": "2025-06-21",
+      "journal": "Biodiversity and Conservation",
+      "authors_text": "Taner Çevik, Nazife Çevik",
+      "abstract": "Abstract Understanding species distribution is vital for ecological management and conservation. Traditional methods like visual detection often struggle with detecting low-density populations. Environmental DNA (eDNA) has emerged as a sensitive, efficient, and non-invasive alternative, revolutionizing biodiversity monitoring, identifying invasive or enda...",
+      "primary_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "doi_url": "https://doi.org/10.1007/s10531-025-03112-y",
+      "openalex_url": "https://openalex.org/W4411506987",
+      "type": "review",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 9.523561,
+      "keyword_score": 7.0,
+      "score": 3.712
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -144,9 +180,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.6760397,
+      "relevance_score": 6.675081,
       "keyword_score": 6.9,
-      "score": 3.5901
+      "score": 3.5893
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -164,9 +200,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.325072,
+      "relevance_score": 11.302963,
       "keyword_score": 6.2,
-      "score": 3.5687
+      "score": 3.5675
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -182,45 +218,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.5891438,
+      "relevance_score": 6.5972033,
       "keyword_score": 6.4,
-      "score": 3.4743
-    },
-    {
-      "id": "https://openalex.org/W4414971307",
-      "title": "Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals",
-      "publication_date": "2025-10-08",
-      "journal": "Methods in Ecology and Evolution",
-      "authors_text": "Sebastian Hoefer, Slade Allen‐Ankins, Donald T. McKnight, Eric J. Nordberg, Lin Schwarzkopf",
-      "abstract": "Abstract Mammals play vital roles in ecological communities, but many are in rapid decline worldwide. Comprehensive monitoring of mammal populations is crucial for effective conservation, but large‐scale monitoring presents significant challenges. Remote sensing techniques such as passive acoustic monitoring offer viable and effective solutions for survey...",
-      "primary_url": "https://doi.org/10.1111/2041-210x.70169",
-      "doi_url": "https://doi.org/10.1111/2041-210x.70169",
-      "openalex_url": "https://openalex.org/W4414971307",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 5.82451,
-      "keyword_score": 6.4,
-      "score": 3.4231
-    },
-    {
-      "id": "https://openalex.org/W4412137131",
-      "title": "Correcting environmental sampling bias improves transferability of species distribution models",
-      "publication_date": "2025-07-09",
-      "journal": "Ecography",
-      "authors_text": "Arman Pili, Boris Leroy, Damaris Zurell",
-      "abstract": "Sampling bias is an inherent problem in widely available biodiversity data, undermining the robustness of correlative species distribution models (SDMs). To some extent, subsampling occurrence data can account for uneven sampling efforts; yet, conventional approaches subsample in geographical space, while subsampling in environmental space remains underex...",
-      "primary_url": "https://doi.org/10.1002/ecog.08002",
-      "doi_url": "https://doi.org/10.1002/ecog.08002",
-      "openalex_url": "https://openalex.org/W4412137131",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 6.672573,
-      "keyword_score": 5.6,
-      "score": 3.4001
+      "score": 3.4739
     }
   ]
 }
