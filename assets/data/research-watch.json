@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T06:27:37.581791+00:00",
+  "generated_at": "2026-05-10T06:45:41.206248+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.481055,
+      "relevance_score": 6.4743795,
       "keyword_score": 9.0,
-      "score": 4.8911
+      "score": 4.8901
     },
     {
       "id": "https://openalex.org/W4413412670",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.767448,
+      "relevance_score": 5.760916,
       "keyword_score": 9.9,
-      "score": 4.8539
+      "score": 4.8529
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.696179,
+      "relevance_score": 6.684691,
       "keyword_score": 8.5,
-      "score": 4.5814
+      "score": 4.5802
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -70,9 +70,27 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 20.464382,
+      "relevance_score": 21.416992,
       "keyword_score": 7.5,
-      "score": 4.3671
+      "score": 4.3784
+    },
+    {
+      "id": "https://openalex.org/W4417112628",
+      "title": "Understanding How the Replacement of Native Fish Affects Ecosystem Multifunctionality Over Eight Decades",
+      "publication_date": "2025-12-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Rayanne Barros Setubal",
+      "abstract": "Biological invasions have been widely discussed and researched in ecology over recent decades, not only because of growing concern about their effects on native species and biodiversity conservation but also because of the substantial potential for invasive species expansion in the context of global change (Yang et al. 2022). Biological invasions are them...",
+      "primary_url": "https://doi.org/10.1111/gcb.70638",
+      "doi_url": "https://doi.org/10.1111/gcb.70638",
+      "openalex_url": "https://openalex.org/W4417112628",
+      "type": "article",
+      "matched_topic_keys": [
+        "global_change_biodiversity"
+      ],
+      "relevance_score": 23.164448,
+      "keyword_score": 5.9,
+      "score": 4.057
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -90,9 +108,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 64.019135,
+      "relevance_score": 64.01008,
       "keyword_score": 5.2,
-      "score": 3.9989
+      "score": 3.9981
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -108,9 +126,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.894938,
+      "relevance_score": 11.881516,
       "keyword_score": 7.4,
-      "score": 3.9093
+      "score": 3.9082
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -126,9 +144,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.623028,
+      "relevance_score": 28.602676,
       "keyword_score": 6.1,
-      "score": 3.8271
+      "score": 3.8261
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -144,9 +162,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2819192,
+      "relevance_score": 1.2801843,
       "keyword_score": 6.5,
-      "score": 3.7419
+      "score": 3.7409
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -162,9 +180,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.523561,
+      "relevance_score": 9.512752,
       "keyword_score": 7.0,
-      "score": 3.712
+      "score": 3.7109
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -180,9 +198,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.675081,
+      "relevance_score": 6.6631827,
       "keyword_score": 6.9,
-      "score": 3.5893
+      "score": 3.5881
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -200,27 +218,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.302963,
+      "relevance_score": 11.467902,
       "keyword_score": 6.2,
-      "score": 3.5675
-    },
-    {
-      "id": "https://openalex.org/W4415912410",
-      "title": "Toward a global repository of insect traits ( <scp>GRIT</scp> )",
-      "publication_date": "2025-11-05",
-      "journal": "Insect Conservation and Diversity",
-      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
-      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
-      "primary_url": "https://doi.org/10.1111/icad.70035",
-      "doi_url": "https://doi.org/10.1111/icad.70035",
-      "openalex_url": "https://openalex.org/W4415912410",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 6.5972033,
-      "keyword_score": 6.4,
-      "score": 3.4739
+      "score": 3.5704
     }
   ]
 }
