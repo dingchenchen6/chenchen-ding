@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T07:53:56.529396+00:00",
+  "generated_at": "2026-05-12T07:16:08.419850+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.471498,
+      "relevance_score": 6.469243,
       "keyword_score": 9.0,
-      "score": 4.8892
+      "score": 4.8884
     },
     {
       "id": "https://openalex.org/W4413412670",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.755287,
+      "relevance_score": 5.753566,
       "keyword_score": 9.9,
-      "score": 4.8519
+      "score": 4.8511
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.680458,
+      "relevance_score": 6.677153,
       "keyword_score": 8.5,
-      "score": 4.5793
+      "score": 4.5784
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 21.414099,
+      "relevance_score": 21.410221,
       "keyword_score": 7.5,
-      "score": 4.3776
+      "score": 4.3768
     },
     {
       "id": "https://openalex.org/W4417112628",
@@ -88,9 +88,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 23.162807,
+      "relevance_score": 23.161875,
       "keyword_score": 5.9,
-      "score": 4.0562
+      "score": 4.0555
     },
     {
       "id": "https://openalex.org/W7156875653",
@@ -106,9 +106,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.123247,
+      "relevance_score": 6.1223955,
       "keyword_score": 7.4,
-      "score": 4.0078
+      "score": 4.007
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -126,9 +126,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 64.01797,
+      "relevance_score": 64.07086,
       "keyword_score": 5.2,
-      "score": 3.9974
+      "score": 3.9968
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -144,9 +144,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 11.876779,
+      "relevance_score": 11.870725,
       "keyword_score": 7.4,
-      "score": 3.9074
+      "score": 3.9065
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -162,9 +162,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.595589,
+      "relevance_score": 28.58344,
       "keyword_score": 6.1,
-      "score": 3.8253
+      "score": 3.8244
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -180,9 +180,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2795919,
+      "relevance_score": 1.2791779,
       "keyword_score": 6.5,
-      "score": 3.74
+      "score": 3.7392
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -198,9 +198,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.513312,
+      "relevance_score": 9.503208,
       "keyword_score": 7.0,
-      "score": 3.7102
+      "score": 3.7092
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -216,9 +216,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.659395,
+      "relevance_score": 6.6559033,
       "keyword_score": 6.9,
-      "score": 3.5872
+      "score": 3.5863
     }
   ]
 }
