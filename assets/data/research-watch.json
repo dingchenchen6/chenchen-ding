@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T07:33:15.908723+00:00",
+  "generated_at": "2026-05-16T06:35:47.548286+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.456524,
+      "relevance_score": 6.4502573,
       "keyword_score": 9.0,
-      "score": 4.8856
+      "score": 4.8846
     },
     {
       "id": "https://openalex.org/W4413412670",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.7378736,
+      "relevance_score": 5.7319894,
       "keyword_score": 9.9,
-      "score": 4.8481
+      "score": 4.8471
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.682345,
+      "relevance_score": 6.6774187,
       "keyword_score": 8.5,
-      "score": 4.5763
+      "score": 4.5753
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 21.395481,
+      "relevance_score": 21.38516,
       "keyword_score": 7.5,
-      "score": 4.3743
+      "score": 4.3734
     },
     {
       "id": "https://openalex.org/W4417112628",
@@ -88,27 +88,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 23.134289,
+      "relevance_score": 23.121014,
       "keyword_score": 5.9,
-      "score": 4.0528
-    },
-    {
-      "id": "https://openalex.org/W7156875653",
-      "title": "Evolutionary conservation hotspots: key areas for threatened Neotropical glassfrogs under climate change scenarios",
-      "publication_date": "2026-04-28",
-      "journal": "PeerJ",
-      "authors_text": "Mateo A. Vega-Yánez, Julián A. Velasco, Carl R. Hutter, Daniela Franco-Mena, Luis Amador et al.",
-      "abstract": "Anthropogenic climate change is one of the main threats to global biodiversity, with amphibians being among the most vulnerable vertebrate groups. In this context, the IUCN currently lists 69 species of Neotropical glassfrogs as threatened. However, our knowledge of how their taxonomic and phylogenetic diversity will be distributed in future climate chang...",
-      "primary_url": "https://doi.org/10.7717/peerj.21165",
-      "doi_url": "https://doi.org/10.7717/peerj.21165",
-      "openalex_url": "https://openalex.org/W7156875653",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 6.120704,
-      "keyword_score": 7.4,
-      "score": 4.0046
+      "score": 4.0519
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -126,9 +108,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 65.594154,
+      "relevance_score": 65.58919,
       "keyword_score": 5.2,
-      "score": 4.001
+      "score": 4.0002
     },
     {
       "id": "https://openalex.org/W4410435878",
@@ -144,9 +126,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 12.04435,
+      "relevance_score": 12.036462,
       "keyword_score": 7.4,
-      "score": 3.9079
+      "score": 3.907
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -162,9 +144,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.558252,
+      "relevance_score": 28.537996,
       "keyword_score": 6.1,
-      "score": 3.8219
+      "score": 3.8209
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -180,9 +162,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2767949,
+      "relevance_score": 1.274804,
       "keyword_score": 6.5,
-      "score": 3.7366
+      "score": 3.7356
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -198,9 +180,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.475754,
+      "relevance_score": 9.4757185,
       "keyword_score": 7.0,
-      "score": 3.7061
+      "score": 3.7054
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -216,9 +198,29 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.664673,
+      "relevance_score": 6.658837,
       "keyword_score": 6.9,
-      "score": 3.5843
+      "score": 3.5833
+    },
+    {
+      "id": "https://openalex.org/W4411051355",
+      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
+      "publication_date": "2025-06-05",
+      "journal": "Science",
+      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
+      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
+      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
+      "doi_url": "https://doi.org/10.1126/science.adl0239",
+      "openalex_url": "https://openalex.org/W4411051355",
+      "type": "article",
+      "matched_topic_keys": [
+        "biodiversity_change_assessment_conservation",
+        "extinction_risk_conservation",
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 11.737939,
+      "keyword_score": 6.2,
+      "score": 3.5718
     }
   ]
 }
