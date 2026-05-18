@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T07:15:00.740818+00:00",
+  "generated_at": "2026-05-18T08:15:47.622899+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.44674,
+      "relevance_score": 6.439269,
       "keyword_score": 9.0,
-      "score": 4.8837
+      "score": 4.8826
     },
     {
       "id": "https://openalex.org/W4413412670",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.7338166,
+      "relevance_score": 5.7294717,
       "keyword_score": 9.9,
-      "score": 4.8464
+      "score": 4.8455
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.6664796,
+      "relevance_score": 6.6560774,
       "keyword_score": 8.5,
-      "score": 4.5742
+      "score": 4.573
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 21.467913,
+      "relevance_score": 21.474342,
       "keyword_score": 7.5,
-      "score": 4.3737
+      "score": 4.373
     },
     {
       "id": "https://openalex.org/W4417112628",
@@ -88,9 +88,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 23.200632,
+      "relevance_score": 23.194191,
       "keyword_score": 5.9,
-      "score": 4.0521
+      "score": 4.0512
     },
     {
       "id": "https://openalex.org/W7156875653",
@@ -106,9 +106,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.1425276,
+      "relevance_score": 6.1417994,
       "keyword_score": 7.4,
-      "score": 4.0039
+      "score": 4.0031
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -126,9 +126,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 65.84769,
+      "relevance_score": 65.89687,
       "keyword_score": 5.2,
-      "score": 4.0005
+      "score": 4.0
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -144,9 +144,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.597948,
+      "relevance_score": 28.596342,
       "keyword_score": 6.1,
-      "score": 3.8207
+      "score": 3.8199
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -162,9 +162,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2726105,
+      "relevance_score": 1.272492,
       "keyword_score": 6.5,
-      "score": 3.7346
+      "score": 3.7338
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -180,9 +180,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.414706,
+      "relevance_score": 9.418102,
       "keyword_score": 7.0,
-      "score": 3.703
+      "score": 3.7023
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -198,29 +198,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.6305566,
+      "relevance_score": 6.6177754,
       "keyword_score": 6.9,
-      "score": 3.5815
+      "score": 3.5803
     },
     {
-      "id": "https://openalex.org/W4411051355",
-      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
-      "publication_date": "2025-06-05",
-      "journal": "Science",
-      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
-      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
-      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
-      "doi_url": "https://doi.org/10.1126/science.adl0239",
-      "openalex_url": "https://openalex.org/W4411051355",
+      "id": "https://openalex.org/W4415912410",
+      "title": "Toward a global repository of insect traits ( <scp>GRIT</scp> )",
+      "publication_date": "2025-11-05",
+      "journal": "Insect Conservation and Diversity",
+      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
+      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
+      "primary_url": "https://doi.org/10.1111/icad.70035",
+      "doi_url": "https://doi.org/10.1111/icad.70035",
+      "openalex_url": "https://openalex.org/W4415912410",
       "type": "article",
       "matched_topic_keys": [
-        "biodiversity_change_assessment_conservation",
-        "extinction_risk_conservation",
-        "land_use_climate_interactions"
+        "ecological_modelling_biogeography"
       ],
-      "relevance_score": 11.697937,
-      "keyword_score": 6.2,
-      "score": 3.5702
+      "relevance_score": 6.5413613,
+      "keyword_score": 6.4,
+      "score": 3.4649
     }
   ]
 }
