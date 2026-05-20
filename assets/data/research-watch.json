@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T07:56:43.861319+00:00",
+  "generated_at": "2026-05-20T07:56:04.071255+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 6.437604,
+      "relevance_score": 6.4304156,
       "keyword_score": 9.0,
-      "score": 4.8818
+      "score": 4.8808
     },
     {
       "id": "https://openalex.org/W4413412670",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.732329,
+      "relevance_score": 5.730471,
       "keyword_score": 9.9,
-      "score": 4.8448
+      "score": 4.844
     },
     {
       "id": "https://openalex.org/W4410593306",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.649175,
+      "relevance_score": 6.6437335,
       "keyword_score": 8.5,
-      "score": 4.572
+      "score": 4.571
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 21.472813,
+      "relevance_score": 21.47003,
       "keyword_score": 7.5,
-      "score": 4.3722
+      "score": 4.3714
     },
     {
       "id": "https://openalex.org/W4417112628",
@@ -88,9 +88,27 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 23.18983,
+      "relevance_score": 23.191177,
       "keyword_score": 5.9,
-      "score": 4.0504
+      "score": 4.0497
+    },
+    {
+      "id": "https://openalex.org/W4412421113",
+      "title": "Wildfire and Drought Alter the Ecology of Jaguars and Co‐Occurring Mammals in the World's Largest Wetland",
+      "publication_date": "2025-07-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Charlotte E. Eriksson, Daniel Luis Zanella Kantek, Selma Samiko Miyazaki, Brent Barry, Claumir César Muniz et al.",
+      "abstract": "Climate change-driven disturbances are reshaping ecosystems worldwide with profound implications for biodiversity. We leveraged a long-term dataset and a natural before-after-control-impact experimental framework to evaluate the impacts of wildfire and concurrent drought on jaguars and the terrestrial mammal community in northern Pantanal. Using camera tr...",
+      "primary_url": "https://doi.org/10.1111/gcb.70344",
+      "doi_url": "https://doi.org/10.1111/gcb.70344",
+      "openalex_url": "https://openalex.org/W4412421113",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 4.9587083,
+      "keyword_score": 7.0,
+      "score": 4.002
     },
     {
       "id": "https://openalex.org/W7156875653",
@@ -106,9 +124,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.1428914,
+      "relevance_score": 6.141779,
       "keyword_score": 7.4,
-      "score": 4.0024
+      "score": 4.0016
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -126,9 +144,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 65.899994,
+      "relevance_score": 65.90416,
       "keyword_score": 5.2,
-      "score": 3.9992
+      "score": 3.9985
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -144,9 +162,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.58965,
+      "relevance_score": 28.596296,
       "keyword_score": 6.1,
-      "score": 3.8191
+      "score": 3.8184
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -162,9 +180,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.27183,
+      "relevance_score": 1.2705499,
       "keyword_score": 6.5,
-      "score": 3.7329
+      "score": 3.732
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -180,9 +198,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 9.412211,
+      "relevance_score": 9.397742,
       "keyword_score": 7.0,
-      "score": 3.7013
+      "score": 3.7002
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -198,29 +216,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.614049,
+      "relevance_score": 6.615909,
       "keyword_score": 6.9,
-      "score": 3.5794
-    },
-    {
-      "id": "https://openalex.org/W4411051355",
-      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
-      "publication_date": "2025-06-05",
-      "journal": "Science",
-      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
-      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
-      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
-      "doi_url": "https://doi.org/10.1126/science.adl0239",
-      "openalex_url": "https://openalex.org/W4411051355",
-      "type": "article",
-      "matched_topic_keys": [
-        "biodiversity_change_assessment_conservation",
-        "extinction_risk_conservation",
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 11.678013,
-      "keyword_score": 6.2,
-      "score": 3.5682
+      "score": 3.5787
     }
   ]
 }
