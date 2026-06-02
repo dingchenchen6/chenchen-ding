@@ -1,25 +1,7 @@
 {
-  "generated_at": "2026-06-01T09:35:44.080128+00:00",
+  "generated_at": "2026-06-02T08:47:24.807218+00:00",
   "source": "OpenAlex",
   "items": [
-    {
-      "id": "https://openalex.org/W4410974955",
-      "title": "Aridity Niche and Species Traits Mediate the Global Vulnerability of Passerine Birds",
-      "publication_date": "2025-06-01",
-      "journal": "Global Change Biology",
-      "authors_text": "M. Petit, Ferran Sayol, Craig Weideman, Angéline Bertin",
-      "abstract": "Biodiversity is experiencing an unprecedented crisis, with intensifying global aridity representing a critical driver of species extinction. However, the extent to which species' preferences for specific aridity conditions and their tolerance to a range of aridity conditions influence their vulnerability remains poorly understood. Using data from 5558 pas...",
-      "primary_url": "https://doi.org/10.1111/gcb.70278",
-      "doi_url": "https://doi.org/10.1111/gcb.70278",
-      "openalex_url": "https://openalex.org/W4410974955",
-      "type": "article",
-      "matched_topic_keys": [
-        "dryland_birds_heatwaves"
-      ],
-      "relevance_score": 6.4814506,
-      "keyword_score": 9.0,
-      "score": 4.8735
-    },
     {
       "id": "https://openalex.org/W4413412670",
       "title": "High-resolution global distribution projections of 10 rodent genera under diverse SSP-RCP scenarios, 2021–2100",
@@ -34,9 +16,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.018385,
+      "relevance_score": 6.020877,
       "keyword_score": 9.9,
-      "score": 4.8465
+      "score": 4.8458
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -54,7 +36,7 @@
       ],
       "relevance_score": 21.55788,
       "keyword_score": 7.5,
-      "score": 4.3633
+      "score": 4.3626
     },
     {
       "id": "https://openalex.org/W4417112628",
@@ -70,9 +52,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 23.295677,
+      "relevance_score": 23.29509,
       "keyword_score": 5.9,
-      "score": 4.0417
+      "score": 4.0409
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -92,7 +74,7 @@
       ],
       "relevance_score": 70.05989,
       "keyword_score": 5.2,
-      "score": 4.0061
+      "score": 4.0054
     },
     {
       "id": "https://openalex.org/W4412421113",
@@ -108,9 +90,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.0147185,
+      "relevance_score": 5.015348,
       "keyword_score": 7.0,
-      "score": 3.9954
+      "score": 3.9947
     },
     {
       "id": "https://openalex.org/W7156875653",
@@ -126,9 +108,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.158569,
+      "relevance_score": 6.157757,
       "keyword_score": 7.4,
-      "score": 3.993
+      "score": 3.9922
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -144,9 +126,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.579786,
+      "relevance_score": 28.580166,
       "keyword_score": 6.1,
-      "score": 3.809
+      "score": 3.8083
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -163,9 +145,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.345122,
+      "relevance_score": 10.347058,
       "keyword_score": 7.0,
-      "score": 3.7954
+      "score": 3.7947
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -181,9 +163,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2802753,
+      "relevance_score": 1.2805225,
       "keyword_score": 6.5,
-      "score": 3.724
+      "score": 3.7233
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -201,9 +183,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 12.367178,
+      "relevance_score": 12.368513,
       "keyword_score": 6.2,
-      "score": 3.5731
+      "score": 3.5723
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -219,9 +201,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.708174,
+      "relevance_score": 6.7115884,
       "keyword_score": 6.9,
-      "score": 3.5729
+      "score": 3.5722
+    },
+    {
+      "id": "https://openalex.org/W4413241244",
+      "title": "Characterising Migratory Bird Assemblages in Understudied Regions by Integrating Radar and Citizen Science Data",
+      "publication_date": "2025-08-01",
+      "journal": "Global Ecology and Biogeography",
+      "authors_text": "Xu Shi, Rohan H. Clarke, Jeremy S. Simmonds, Ailsa P. Kerswell, William M. Holden et al.",
+      "abstract": "ABSTRACT Aim Migratory birds are declining globally. In regions where bird migration patterns remain poorly documented, comprehensive data and tools are needed to advance conservation efforts, support sustainable development and fulfil international biodiversity commitments. We aim to enhance understanding of migratory birds in understudied regions by qua...",
+      "primary_url": "https://doi.org/10.1111/geb.70104",
+      "doi_url": "https://doi.org/10.1111/geb.70104",
+      "openalex_url": "https://openalex.org/W4413241244",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 5.4178386,
+      "keyword_score": 5.8,
+      "score": 3.5326
     }
   ]
 }
