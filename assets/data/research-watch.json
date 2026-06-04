@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T09:04:36.117746+00:00",
+  "generated_at": "2026-06-04T08:34:18.546298+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.0207443,
+      "relevance_score": 6.1952534,
       "keyword_score": 9.9,
-      "score": 4.8451
+      "score": 4.8512
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 21.55306,
+      "relevance_score": 21.573915,
       "keyword_score": 7.5,
-      "score": 4.3617
+      "score": 4.3612
     },
     {
       "id": "https://openalex.org/W4417112628",
@@ -52,9 +52,27 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 23.288883,
+      "relevance_score": 23.356203,
       "keyword_score": 5.9,
       "score": 4.0401
+    },
+    {
+      "id": "https://openalex.org/W4412421113",
+      "title": "Wildfire and Drought Alter the Ecology of Jaguars and Co‐Occurring Mammals in the World's Largest Wetland",
+      "publication_date": "2025-07-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Charlotte E. Eriksson, Daniel Luis Zanella Kantek, Selma Samiko Miyazaki, Brent Barry, Claumir César Muniz et al.",
+      "abstract": "Climate change-driven disturbances are reshaping ecosystems worldwide with profound implications for biodiversity. We leveraged a long-term dataset and a natural before-after-control-impact experimental framework to evaluate the impacts of wildfire and concurrent drought on jaguars and the terrestrial mammal community in northern Pantanal. Using camera tr...",
+      "primary_url": "https://doi.org/10.1111/gcb.70344",
+      "doi_url": "https://doi.org/10.1111/gcb.70344",
+      "openalex_url": "https://openalex.org/W4412421113",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 5.6724644,
+      "keyword_score": 7.0,
+      "score": 4.0221
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -72,27 +90,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 70.06884,
+      "relevance_score": 69.58381,
       "keyword_score": 5.2,
-      "score": 4.0046
-    },
-    {
-      "id": "https://openalex.org/W4412421113",
-      "title": "Wildfire and Drought Alter the Ecology of Jaguars and Co‐Occurring Mammals in the World's Largest Wetland",
-      "publication_date": "2025-07-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Charlotte E. Eriksson, Daniel Luis Zanella Kantek, Selma Samiko Miyazaki, Brent Barry, Claumir César Muniz et al.",
-      "abstract": "Climate change-driven disturbances are reshaping ecosystems worldwide with profound implications for biodiversity. We leveraged a long-term dataset and a natural before-after-control-impact experimental framework to evaluate the impacts of wildfire and concurrent drought on jaguars and the terrestrial mammal community in northern Pantanal. Using camera tr...",
-      "primary_url": "https://doi.org/10.1111/gcb.70344",
-      "doi_url": "https://doi.org/10.1111/gcb.70344",
-      "openalex_url": "https://openalex.org/W4412421113",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 5.0135264,
-      "keyword_score": 7.0,
-      "score": 3.9938
+      "score": 4.002
     },
     {
       "id": "https://openalex.org/W7156875653",
@@ -108,9 +108,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.1574616,
+      "relevance_score": 6.152896,
       "keyword_score": 7.4,
-      "score": 3.9915
+      "score": 3.9905
     },
     {
       "id": "https://openalex.org/W7140273266",
@@ -126,9 +126,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 28.577309,
+      "relevance_score": 28.909952,
       "keyword_score": 6.1,
-      "score": 3.8075
+      "score": 3.8098
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -145,9 +145,9 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.507612,
+      "relevance_score": 10.884458,
       "keyword_score": 7.0,
-      "score": 3.7979
+      "score": 3.8061
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -163,9 +163,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.2801688,
+      "relevance_score": 1.3100817,
       "keyword_score": 6.5,
-      "score": 3.7225
+      "score": 3.7253
     },
     {
       "id": "https://openalex.org/W4411051355",
@@ -174,7 +174,7 @@
       "journal": "Science",
       "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
       "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
-      "primary_url": "https://admin.research-repository.uwa.edu.au/en/publications/651e3bbd-fc33-43ad-a5de-a68785f4e949",
+      "primary_url": "https://hal.science/hal-05100798",
       "doi_url": "https://doi.org/10.1126/science.adl0239",
       "openalex_url": "https://openalex.org/W4411051355",
       "type": "article",
@@ -183,9 +183,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 12.363894,
+      "relevance_score": 12.9140215,
       "keyword_score": 6.2,
-      "score": 3.5715
+      "score": 3.582
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -201,27 +201,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.7035336,
+      "relevance_score": 6.9107046,
       "keyword_score": 6.9,
-      "score": 3.5711
+      "score": 3.5778
     },
     {
-      "id": "https://openalex.org/W4413241244",
-      "title": "Characterising Migratory Bird Assemblages in Understudied Regions by Integrating Radar and Citizen Science Data",
-      "publication_date": "2025-08-01",
-      "journal": "Global Ecology and Biogeography",
-      "authors_text": "Xu Shi, Rohan H. Clarke, Jeremy S. Simmonds, Ailsa P. Kerswell, William M. Holden et al.",
-      "abstract": "ABSTRACT Aim Migratory birds are declining globally. In regions where bird migration patterns remain poorly documented, comprehensive data and tools are needed to advance conservation efforts, support sustainable development and fulfil international biodiversity commitments. We aim to enhance understanding of migratory birds in understudied regions by qua...",
-      "primary_url": "https://doi.org/10.1111/geb.70104",
-      "doi_url": "https://doi.org/10.1111/geb.70104",
-      "openalex_url": "https://openalex.org/W4413241244",
+      "id": "https://openalex.org/W4415912410",
+      "title": "Toward a global repository of insect traits ( <scp>GRIT</scp> )",
+      "publication_date": "2025-11-05",
+      "journal": "Insect Conservation and Diversity",
+      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
+      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
+      "primary_url": "https://doi.org/10.1111/icad.70035",
+      "doi_url": "https://doi.org/10.1111/icad.70035",
+      "openalex_url": "https://openalex.org/W4415912410",
       "type": "article",
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 5.4124594,
-      "keyword_score": 5.8,
-      "score": 3.5316
+      "relevance_score": 7.26063,
+      "keyword_score": 6.4,
+      "score": 3.4774
     }
   ]
 }
