@@ -1,6 +1,6 @@
 const watchCopy = {
   zh: {
-    intro: "根据我的研究方向、代表性论文主题与当前关注领域，每日自动抓取和更新最新相关论文，并按相关度与时间综合排序。",
+    intro: "根据研究方向、代表性论文主题与当前关注领域，每日更新相关论文，并按相关度与发表时间综合排序。",
     badge: "按相关度与时间排序",
     updatedPrefix: "最近更新：",
     loading: "正在准备今日推荐文献...",
@@ -19,7 +19,7 @@ const watchCopy = {
     sortLatest: "最新发表"
   },
   en: {
-    intro: "Based on my research interests, publication themes, and ongoing focus areas, the site automatically retrieves newly published papers every day and ranks them by combined relevance and recency.",
+    intro: "The feed is updated daily using research interests, representative publication themes, and current focus areas, then ranked by relevance and publication date.",
     badge: "Ranked by relevance and recency",
     updatedPrefix: "Last updated: ",
     loading: "Preparing today's recommended readings...",

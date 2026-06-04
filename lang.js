@@ -193,18 +193,18 @@ const translations = {
     heroTitle: `<span class="hero-name-row">Chenchen Ding ${heroProfileLinks}</span><span>PhD</span>`,
     lead: "PhD in Ecology | PKU-IIASA International Joint Postdoctoral Fellow",
     heroSummary: "I study biodiversity change, species distributions, extinction risk, and conservation priorities under global change.",
-    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Skills", "Research Watch"],
+    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Technical Skills", "Research Watch"],
     sectionTitles: {
       about: "About",
       education: "Education",
       experience: "Research Experience",
       research: "Research Interests",
-      watch: "Daily Research Watch",
+      watch: "Research Watch",
       atlas: "Research Atlas",
       books: "Books and Editorial Work",
       projects: "Research Projects",
       awards: "Awards",
-      skills: "Skills"
+      skills: "Technical Skills"
     },
     about: "My research examines biodiversity responses to global change and their implications for conservation. I focus on how land-use and climate change shape species distributions, biodiversity change, community structure, ecosystem services, and ecosystem functioning. My work aims to quantify biodiversity patterns and drivers, assess extinction risk, identify conservation priorities, and support evidence-based conservation planning and management.",
     education: `
@@ -265,7 +265,7 @@ const translations = {
       "Gaur (Bos gaurus): in China, restricted to southern Yunnan and southeastern Tibet, with an estimated population of about 200 individuals.",
       "Himalayan musk deer (Moschus leucogaster): a focal species in high-elevation camera-trap monitoring.",
       "Irrawaddy monitor (Varanus irrawadicus) and Asian water monitor (V. salvator): camera-trap records from Nangunhe Nature Reserve.",
-      "Dryland birds: assessing extinction vulnerability to extreme heatwaves under climate change."
+      "Dryland bird vulnerability to extreme heatwaves."
     ],
     findingsCaptions: [
       'New vertebrate records in China: a complete workflow from database construction to mechanism analysis and hotspot prediction.<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
@@ -358,7 +358,7 @@ const translations = {
       <li>Outstanding Master's Thesis, University of Chinese Academy of Sciences (2019)</li>
       <li>Outstanding Graduate, University of Chinese Academy of Sciences (2019)</li>
     `,
-    skillsHeading: "Skills",
+    skillsHeading: "Technical Skills",
     footer: "© 2026 Chenchen Ding",
     heroNote: ''
   }
