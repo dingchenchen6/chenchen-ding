@@ -1,5 +1,5 @@
-const RESEARCHGATE_URL = "https://www.researchgate.net/search/researcher?q=Chenchen%20Ding";
-const GOOGLE_SCHOLAR_URL = "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chenchen+Ding";
+const RESEARCHGATE_URL = "https://www.researchgate.net/profile/Chenchen-Ding-2";
+const GOOGLE_SCHOLAR_URL = "https://scholar.google.com/citations?user=9lZGCLMAAAAJ";
 const ORCID_URL = "https://orcid.org/0000-0001-6706-7996";
 const heroProfileLinks = `
   <span class="hero-inline-links" aria-label="Academic profiles">
@@ -12,10 +12,11 @@ const heroProfileLinks = `
 const translations = {
   zh: {
     htmlLang: "zh-CN",
-    title: "丁晨晨 | Chenchen Ding, PhD | Personal Academic Website",
-    description: "丁晨晨（Chenchen Ding）个人学术网站：教育背景、研究经历、研究方向、研究图谱、代表论文与科研项目。GitHub 主页用于代码仓库与项目展示。",
+    title: "丁晨晨 | Chenchen Ding, PhD | Conservation Biology",
+    description: "丁晨晨（Chenchen Ding, PhD），PKU-IIASA联合博士后。研究方向包括保护生物学、全球变化生物学、生物地理学、物种分布、生物多样性变化与保护规划。",
     heroTitle: `<span class="hero-name-row">丁晨晨 ${heroProfileLinks}</span><span>Chenchen Ding, PhD</span>`,
-    lead: "PKU-IIASA国际联合博士后",
+    lead: "生态学博士 | PKU-IIASA 国际联合博士后",
+    heroSummary: "聚焦全球变化背景下生物多样性变化、物种分布、灭绝风险评估与保护优先区识别。",
     nav: ["个人简介", "教育背景", "研究经历", "研究方向", "研究图谱", "代表论文", "专著（编委）", "科研项目", "奖项", "技能", "每日文献"],
     sectionTitles: {
       about: "个人简介",
@@ -29,7 +30,7 @@ const translations = {
       awards: "奖项",
       skills: "专业技能"
     },
-    about: "本人研究聚焦于理解和预测全球变化（如土地利用、气候变化）对生物多样性的影响，涉及到物种分布、生物多样性变化、群落结构、生态系统服务与功能；关注生物多样性的时空分布格局及其驱动机制，物种灭绝风险评估与保护优先区识别，服务于生物多样性保护规划和管理决策。",
+    about: "我的研究围绕全球变化背景下生物多样性的响应机制与保护应用展开，重点关注土地利用变化和气候变化对物种分布、生物多样性变化、群落结构、生态系统服务与功能的影响。研究目标是解析生物多样性时空格局及其驱动机制，评估物种灭绝风险，识别保护优先区域，并为生物多样性保护规划与管理决策提供量化依据。",
     education: `
       <li>
         <span>2024.11 - 2026.10</span>
@@ -42,23 +43,23 @@ const translations = {
     `,
     speciesNames: ["豚鹿", "小鼷鹿", "印度野牛", "喜马拉雅麝"],
     experienceTitles: [
-      "中国边缘分布有蹄类研究",
+      "中国边缘分布有蹄类种群与栖息地评估",
       "新纪录发现机制及热点预测",
-      "干旱区鸟类：气候变化下高温热浪灭绝脆弱性评估",
-      "气候变化和土地利用变化交互作用对生物多样性的影响"
+      "干旱区鸟类高温热浪脆弱性评估",
+      "气候变化与土地利用变化的生物多样性效应"
     ],
     experienceDescriptions: [
-      "聚焦豚鹿、小鼷鹿、印度野牛、喜马拉雅麝等边缘种群，研究分布变化、灭绝风险与保护空缺。",
-      "区分生态过程与观测过程，识别新纪录时空格局并预测未来潜在发现热点。",
-      "基于物种性状表征的敏感性和适应能力，评估全球干旱区鸟类面对于高温热浪的脆弱性。",
-      "基于PREDICTS数据库，量化全球土地利用和气候变化交互效应对群落总丰度、丰富度及群落结构与功能的影响。"
+      "以豚鹿、小鼷鹿、印度野牛和喜马拉雅麝等边缘种群为对象，评估其分布变化、灭绝风险、栖息地适宜性与保护空缺。",
+      "整合物种记录、环境因子与观测努力信息，区分生态过程与发现过程，识别新纪录的时空格局、驱动机制与潜在发现热点。",
+      "基于物种性状表征敏感性与适应能力，评估全球干旱区鸟类面对高温热浪的脆弱性，并识别潜在高风险区域。",
+      "基于 PREDICTS 数据库，量化土地利用和气候变化交互作用对群落总丰度、物种丰富度、群落结构与生态功能的影响。"
     ],
     researchPoints: [
-      "理解和预测全球变化对生物多样性影响",
-      "气候和土地利用变化下物种响应和适应过程",
-      "生物多样性时空格局、形成及维持机制",
-      "物种灭绝风险评估与保护优先管理",
-      "野生动植物调查、监测及区系研究"
+      "全球变化对生物多样性格局与生态功能的影响",
+      "气候变化与土地利用变化下物种分布响应和适应过程",
+      "生物多样性时空格局、形成机制与维持过程",
+      "物种灭绝风险评估、保护优先区识别与保护规划",
+      "野生动植物调查监测、区系研究与数据整合"
     ],
     atlasTitles: ["合作网络（国内 / 国际）", "野外调查", "重点物种（标注）", "研究发现"],
     collabCaptions: [
@@ -88,14 +89,14 @@ const translations = {
       "印度野牛（Bos gaurus）：在我国仅分布于云南南部和藏南，种群数量约200头。",
       "喜马拉雅麝（Moschus leucogaster）：高山区域相机监测核心物种。",
       "伊江巨蜥（Varanus irrawadicus）与圆鼻巨蜥（V. salvator）：南滚河保护区红外记录。",
-      "干旱区鸟类：气候变化下高温热浪灭绝脆弱性评估。"
+      "干旱区鸟类高温热浪脆弱性评估。"
     ],
     findingsCaptions: [
       '中国陆生脊椎动物新纪录研究：从数据库构建到机制解析与热点预测的完整流程。<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
       '中国哺乳动物新纪录分类学特征、时空格局与驱动因素。<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
       '2018-2020年野外调查和监测：红外相机监测与地面调查共同支撑豚鹿局地灭绝评估，并为同域哺乳动物共现及栖息地变化评估提供关键证据。<a href="https://doi.org/10.1017/S0030605321000016" target="_blank" rel="noopener">DOI</a> <a href="https://www.oryxthejournal.org/blog/author/chenchen-ding/" target="_blank" rel="noopener">Oryx</a>',
       '青藏高原特有陆生脊椎动物潜在起源及其环境驱动。<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
-      "PREDICTS 结果：土地利用类型转换下，总丰度和物种丰富度呈差异化下降。",
+      "PREDICTS 分析：土地利用类型转换下群落总丰度与物种丰富度的差异化响应。",
       '干旱区鸟类高温热浪高脆弱性热点：非受胁鸟类中的潜在高风险区域需要提前预警。<a href="https://doi.org/10.1111/gcb.17136" target="_blank" rel="noopener">DOI</a>',
       '伊江巨蜥在中国分布更新：云南沧源新纪录点补充了边境分布证据链。<a href="https://doi.org/10.13859/j.cjz.202001015" target="_blank" rel="noopener">DOI</a>',
       '红色名录与编目数据质量：24类哺乳动物性状字段完整度评估。<a href="https://doi.org/10.17520/biods.2021520" target="_blank" rel="noopener">DOI</a>'
@@ -182,15 +183,16 @@ const translations = {
       <li>中国科学院大学优秀毕业生（2019）</li>
     `,
     skillsHeading: "专业技能",
-    footer: "© 2026 丁晨晨（Chenchen Ding） | Academic Website",
-    heroNote: 'Personal academic website。GitHub 主页与代码仓库入口：<a href="https://github.com/dingchenchen6" target="_blank" rel="noopener me">github.com/dingchenchen6</a>'
+    footer: "© 2026 丁晨晨（Chenchen Ding）",
+    heroNote: ''
   },
   en: {
     htmlLang: "en",
-    title: "Chenchen Ding | Personal Academic Website",
-    description: "Personal academic website of Chenchen Ding, featuring education, research experience, research interests, publications, and projects. GitHub is used as the repository and code hub.",
+    title: "Chenchen Ding | Conservation Biology",
+    description: "Academic profile of Chenchen Ding, PhD, PKU-IIASA International Joint Postdoctoral Fellow. Research areas include conservation biology, global change biology, biogeography, species distributions, biodiversity change, and conservation planning.",
     heroTitle: `<span class="hero-name-row">Chenchen Ding ${heroProfileLinks}</span><span>PhD</span>`,
-    lead: "PKU-IIASA International Joint Postdoctoral Fellow",
+    lead: "PhD in Ecology | PKU-IIASA International Joint Postdoctoral Fellow",
+    heroSummary: "I study biodiversity change, species distributions, extinction risk, and conservation priorities under global change.",
     nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Skills", "Research Watch"],
     sectionTitles: {
       about: "About",
@@ -204,7 +206,7 @@ const translations = {
       awards: "Awards",
       skills: "Skills"
     },
-    about: "My research focuses on understanding and predicting how global change, such as land-use and climate change, affects biodiversity, including species distributions, biodiversity change, community structure, ecosystem services, and ecosystem functioning. I study the spatiotemporal patterns of biodiversity and their drivers, assess extinction risk, identify conservation priorities, and support biodiversity planning and management decisions.",
+    about: "My research examines biodiversity responses to global change and their implications for conservation. I focus on how land-use and climate change shape species distributions, biodiversity change, community structure, ecosystem services, and ecosystem functioning. My work aims to quantify biodiversity patterns and drivers, assess extinction risk, identify conservation priorities, and support evidence-based conservation planning and management.",
     education: `
       <li>
         <span>2024.11 - 2026.10</span>
@@ -217,23 +219,23 @@ const translations = {
     `,
     speciesNames: ["Hog deer", "Mouse deer", "Gaur", "Himalayan musk deer"],
     experienceTitles: [
-      "Range-margin ungulates in China",
+      "Range-margin ungulates and habitat assessment in China",
       "Mechanisms of new-record discovery and hotspot prediction",
-      "Dryland birds: vulnerability to extreme heatwaves under climate change",
-      "Impacts of interactions between climate change and land-use change on biodiversity"
+      "Dryland bird vulnerability to extreme heatwaves",
+      "Biodiversity effects of climate and land-use change"
     ],
     experienceDescriptions: [
-      "Focusing on range-margin populations such as hog deer, mouse deer, gaur, and Himalayan musk deer, I study distribution change, extinction risk, and conservation gaps.",
-      "Separating ecological and observation processes to identify spatiotemporal patterns of new records and predict future discovery hotspots.",
-      "Using species traits to characterize sensitivity and adaptive capacity, I assess the vulnerability of global dryland birds to extreme heatwaves.",
-      "Using the PREDICTS database, I quantify how global land-use and climate change interactions affect total community abundance, species richness, community structure, and ecosystem functioning."
+      "I assess distribution change, extinction risk, habitat suitability, and conservation gaps for range-margin populations including hog deer, mouse deer, gaur, and Himalayan musk deer.",
+      "I integrate species records, environmental predictors, and observation effort to separate ecological signals from discovery processes and predict potential new-record hotspots.",
+      "I use species traits to characterize sensitivity and adaptive capacity, assess dryland bird vulnerability to extreme heatwaves, and identify potential high-risk regions.",
+      "Using the PREDICTS database, I quantify how land-use and climate-change interactions affect community abundance, species richness, community structure, and ecological functioning."
     ],
     researchPoints: [
-      "Understanding and predicting biodiversity responses to global change",
-      "Species responses and adaptive processes under climate and land-use change",
-      "Spatiotemporal patterns of biodiversity and their formation and maintenance",
-      "Extinction risk assessment and conservation prioritization",
-      "Wildlife surveys, monitoring, and faunal studies"
+      "Effects of global change on biodiversity patterns and ecological functions",
+      "Species distribution responses and adaptive processes under climate and land-use change",
+      "Spatiotemporal biodiversity patterns, assembly mechanisms, and maintenance processes",
+      "Extinction risk assessment, conservation prioritization, and conservation planning",
+      "Wildlife surveys, monitoring, faunal studies, and data synthesis"
     ],
     atlasTitles: ["Collaboration Network", "Field Surveys", "Focal Species", "Research Findings"],
     collabCaptions: [
@@ -270,7 +272,7 @@ const translations = {
       'Taxonomic characteristics, spatiotemporal patterns, and drivers of new mammal records in China.<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
       'Field surveys and monitoring during 2018-2020: camera trapping and ground surveys jointly supported the assessment of local hog deer extirpation and provided key evidence for mammal co-occurrence and habitat change.<a href="https://doi.org/10.1017/S0030605321000016" target="_blank" rel="noopener">DOI</a> <a href="https://www.oryxthejournal.org/blog/author/chenchen-ding/" target="_blank" rel="noopener">Oryx</a>',
       'Potential origins of endemic terrestrial vertebrates on the Qinghai-Tibet Plateau and their environmental drivers.<a href="https://doi.org/10.1111/geb.70165" target="_blank" rel="noopener">DOI</a>',
-      "PREDICTS results: total abundance and species richness show contrasting declines across land-use transitions.",
+      "PREDICTS analysis: contrasting responses of community abundance and species richness across land-use transitions.",
       'Hotspots of high vulnerability to extreme heatwaves in dryland birds: potentially high-risk areas among non-threatened species require early warning.<a href="https://doi.org/10.1111/gcb.17136" target="_blank" rel="noopener">DOI</a>',
       'Updated distribution of the Irrawaddy monitor in China: the new record from Cangyuan, Yunnan adds evidence for border-area occurrence.<a href="https://doi.org/10.13859/j.cjz.202001015" target="_blank" rel="noopener">DOI</a>',
       'Red List and catalog data quality: completeness assessment of 24 mammalian trait fields.<a href="https://doi.org/10.17520/biods.2021520" target="_blank" rel="noopener">DOI</a>'
@@ -357,8 +359,8 @@ const translations = {
       <li>Outstanding Graduate, University of Chinese Academy of Sciences (2019)</li>
     `,
     skillsHeading: "Skills",
-    footer: "© 2026 Chenchen Ding | Academic Website",
-    heroNote: 'Personal academic website. GitHub profile and repository hub: <a href="https://github.com/dingchenchen6" target="_blank" rel="noopener me">github.com/dingchenchen6</a>'
+    footer: "© 2026 Chenchen Ding",
+    heroNote: ''
   }
 };
 
@@ -410,6 +412,7 @@ const applyLanguage = (lang) => {
 
   setHTML(".hero-main h1", text.heroTitle);
   setText(".lead", text.lead);
+  setText(".hero-summary", text.heroSummary);
   setListText(".nav a", text.nav);
 
   Object.entries(text.sectionTitles).forEach(([key, value]) => {
@@ -436,8 +439,6 @@ const applyLanguage = (lang) => {
   setHTML("#awards .card ul", text.awards);
   setText("#skills h2", text.skillsHeading);
   setText(".footer p", text.footer);
-  setHTML(".hero-note", text.heroNote);
-
   const profileLinks = $("#papers .profile-links");
   if (profileLinks) profileLinks.setAttribute("aria-label", text.profileLinksLabel);
 
