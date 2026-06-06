@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T08:16:50.052858+00:00",
+  "generated_at": "2026-06-06T07:25:11.224672+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 6.2360682,
+      "relevance_score": 6.218873,
       "keyword_score": 9.9,
-      "score": 4.852
+      "score": 4.8505
     },
     {
       "id": "https://openalex.org/W7160552892",
@@ -34,9 +34,27 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 21.569515,
+      "relevance_score": 21.566181,
       "keyword_score": 7.5,
-      "score": 4.3604
+      "score": 4.3596
+    },
+    {
+      "id": "https://openalex.org/W4415531975",
+      "title": "Digging deeper: deep joint species distribution modeling reveals environmental drivers of Earthworm Communities",
+      "publication_date": "2025-10-25",
+      "journal": "Soil Biology and Biochemistry",
+      "authors_text": "Sara Si‐Moussi, Wilfried Thuiller, Esther Galbrun, Thibaud Decaëns, Sylvain Gérard et al.",
+      "abstract": "Earthworms are key drivers of soil function, influencing organic matter turnover, nutrient cycling, and soil structure. Understanding the environmental controls on their distribution is essential for predicting the impacts of land use and climate change on soil ecosystems. While local studies have identified abiotic drivers of earthworm communities, broad...",
+      "primary_url": "https://doi.org/10.1016/j.soilbio.2025.110021",
+      "doi_url": "https://doi.org/10.1016/j.soilbio.2025.110021",
+      "openalex_url": "https://openalex.org/W4415531975",
+      "type": "article",
+      "matched_topic_keys": [
+        "global_change_biodiversity"
+      ],
+      "relevance_score": 22.858135,
+      "keyword_score": 7.4,
+      "score": 4.1844
     },
     {
       "id": "https://openalex.org/W4417112628",
@@ -52,9 +70,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 23.347641,
+      "relevance_score": 23.336878,
       "keyword_score": 5.9,
-      "score": 4.0392
+      "score": 4.0383
     },
     {
       "id": "https://openalex.org/W4412421113",
@@ -70,9 +88,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 5.672789,
+      "relevance_score": 5.664929,
       "keyword_score": 7.0,
-      "score": 4.0214
+      "score": 4.0203
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -90,9 +108,9 @@
         "extinction_risk_conservation",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 69.487274,
+      "relevance_score": 69.499695,
       "keyword_score": 5.2,
-      "score": 4.0008
+      "score": 4.0001
     },
     {
       "id": "https://openalex.org/W7156875653",
@@ -108,27 +126,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 6.155073,
+      "relevance_score": 6.154967,
       "keyword_score": 7.4,
-      "score": 3.9898
-    },
-    {
-      "id": "https://openalex.org/W7140273266",
-      "title": "Australian drylands as a case-study of the impacts of climate, groundcover, and vertebrate activity on soil biodiversity",
-      "publication_date": "2026-03-13",
-      "journal": "Microbiology Australia",
-      "authors_text": "Jana Stewart, Náthali Machado de Lima",
-      "abstract": "Drylands cover approximately 30% of the Earth’s surface, forming the largest terrestrial biome, yet they are among the most threatened ecosystems globally. These systems are strongly constrained by water availability and characterised by high climatic variability, making them particularly vulnerable to climate change. Dryland functioning is fundamentally...",
-      "primary_url": "https://doi.org/10.1071/ma26103",
-      "doi_url": "https://doi.org/10.1071/ma26103",
-      "openalex_url": "https://openalex.org/W7140273266",
-      "type": "article",
-      "matched_topic_keys": [
-        "global_change_biodiversity"
-      ],
-      "relevance_score": 28.890053,
-      "keyword_score": 6.1,
-      "score": 3.8089
+      "score": 3.9891
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -145,9 +145,27 @@
         "biodiversity_change_assessment_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 10.901622,
+      "relevance_score": 11.052363,
       "keyword_score": 7.0,
-      "score": 3.8057
+      "score": 3.8085
+    },
+    {
+      "id": "https://openalex.org/W7140273266",
+      "title": "Australian drylands as a case-study of the impacts of climate, groundcover, and vertebrate activity on soil biodiversity",
+      "publication_date": "2026-03-13",
+      "journal": "Microbiology Australia",
+      "authors_text": "Jana Stewart, Náthali Machado de Lima",
+      "abstract": "Drylands cover approximately 30% of the Earth’s surface, forming the largest terrestrial biome, yet they are among the most threatened ecosystems globally. These systems are strongly constrained by water availability and characterised by high climatic variability, making them particularly vulnerable to climate change. Dryland functioning is fundamentally...",
+      "primary_url": "https://doi.org/10.1071/ma26103",
+      "doi_url": "https://doi.org/10.1071/ma26103",
+      "openalex_url": "https://openalex.org/W7140273266",
+      "type": "article",
+      "matched_topic_keys": [
+        "global_change_biodiversity"
+      ],
+      "relevance_score": 28.871174,
+      "keyword_score": 6.1,
+      "score": 3.8079
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -163,29 +181,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 1.3085998,
+      "relevance_score": 1.3074266,
       "keyword_score": 6.5,
-      "score": 3.7244
-    },
-    {
-      "id": "https://openalex.org/W4411051355",
-      "title": "Global tracking of marine megafauna space use reveals how to achieve conservation targets",
-      "publication_date": "2025-06-05",
-      "journal": "Science",
-      "authors_text": "Ana M. M. Sequeira, Jorge Rodríguez, Sarah A. Marley, Hannah J. Calich, Mirjam van der Mheen et al.",
-      "abstract": "The recent Kunming-Montreal Global Biodiversity Framework (GBF) sets ambitious goals but no clear pathway for how zero loss of important biodiversity areas and halting human-induced extinction of threatened species will be achieved. We assembled a multi-taxa tracking dataset (11 million geopositions from 15,845 tracked individuals across 121 species) to p...",
-      "primary_url": "https://hal.science/hal-05100798",
-      "doi_url": "https://doi.org/10.1126/science.adl0239",
-      "openalex_url": "https://openalex.org/W4411051355",
-      "type": "article",
-      "matched_topic_keys": [
-        "biodiversity_change_assessment_conservation",
-        "extinction_risk_conservation",
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 12.890987,
-      "keyword_score": 6.2,
-      "score": 3.5807
+      "score": 3.7235
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -201,9 +199,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 6.902329,
+      "relevance_score": 6.8836517,
       "keyword_score": 6.9,
-      "score": 3.5767
+      "score": 3.5753
     },
     {
       "id": "https://openalex.org/W4415912410",
@@ -219,9 +217,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 7.27447,
+      "relevance_score": 7.26281,
       "keyword_score": 6.4,
-      "score": 3.4771
+      "score": 3.4759
     }
   ]
 }
