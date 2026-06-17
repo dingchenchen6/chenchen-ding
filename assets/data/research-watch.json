@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T09:36:08.252548+00:00",
+  "generated_at": "2026-06-17T09:13:40.756022+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 54.556942,
+      "relevance_score": 54.16699,
       "keyword_score": 9.9,
-      "score": 5.8244
+      "score": 5.8216
     },
     {
       "id": "https://openalex.org/W4413412670",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 43.945736,
+      "relevance_score": 43.718018,
       "keyword_score": 9.9,
-      "score": 5.3549
+      "score": 5.3527
     },
     {
       "id": "https://openalex.org/W4413670996",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 88.19296,
+      "relevance_score": 87.929054,
       "keyword_score": 8.3,
-      "score": 5.1587
+      "score": 5.1571
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 40.38773,
+      "relevance_score": 40.247677,
       "keyword_score": 7.6,
-      "score": 4.8025
+      "score": 4.8008
     },
     {
       "id": "https://openalex.org/W4411506987",
@@ -90,28 +90,9 @@
         "global_change_biodiversity",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 127.88678,
+      "relevance_score": 130.99075,
       "keyword_score": 7.0,
-      "score": 4.5443
-    },
-    {
-      "id": "https://openalex.org/W4414095486",
-      "title": "Integrating Species Richness, Distribution and Human Pressures to Assess Conservation Priorities in High Andean Salares",
-      "publication_date": "2025-09-10",
-      "journal": "Sustainability",
-      "authors_text": "Marcelo Hernández-Rojas, Rodrigo A. Estévez, Cristian Romero, Sebastián Pérez Díaz, Fabio A. Labra",
-      "abstract": "High Andean salares and their surrounding basins host unique ecosystems and rich biodiversity. Increasing global demand for lithium and brines in these environments have attracted significant international investment, raising both economic expectations and socio-environmental concerns. This poses major challenges for biodiversity conservation, governance...",
-      "primary_url": "https://doi.org/10.3390/su17188139",
-      "doi_url": "https://doi.org/10.3390/su17188139",
-      "openalex_url": "https://openalex.org/W4414095486",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 44.960297,
-      "keyword_score": 7.3,
-      "score": 4.3638
+      "score": 4.5502
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -127,9 +108,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 43.664528,
+      "relevance_score": 43.36491,
       "keyword_score": 6.7,
-      "score": 4.326
+      "score": 4.3234
+    },
+    {
+      "id": "https://openalex.org/W4414095486",
+      "title": "Integrating Species Richness, Distribution and Human Pressures to Assess Conservation Priorities in High Andean Salares",
+      "publication_date": "2025-09-10",
+      "journal": "Sustainability",
+      "authors_text": "Marcelo Hernández-Rojas, Rodrigo A. Estévez, Cristian Romero, Sebastián Pérez Díaz, Fabio A. Labra",
+      "abstract": "High Andean salares and their surrounding basins host unique ecosystems and rich biodiversity. Increasing global demand for lithium and brines in these environments have attracted significant international investment, raising both economic expectations and socio-environmental concerns. This poses major challenges for biodiversity conservation, governance...",
+      "primary_url": "https://doi.org/10.3390/su17188139",
+      "doi_url": "https://doi.org/10.3390/su17188139",
+      "openalex_url": "https://openalex.org/W4414095486",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 44.9988,
+      "keyword_score": 7.3,
+      "score": 4.2832
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -145,9 +144,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 65.5445,
+      "relevance_score": 65.45321,
       "keyword_score": 5.5,
-      "score": 4.2133
+      "score": 4.2122
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -164,9 +163,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 177.14658,
+      "relevance_score": 180.3424,
       "keyword_score": 5.2,
-      "score": 4.172
+      "score": 4.1762
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -182,9 +181,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.935672,
+      "relevance_score": 9.904522,
       "keyword_score": 6.5,
-      "score": 4.1515
+      "score": 4.1499
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -200,9 +199,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 85.72061,
+      "relevance_score": 85.41352,
       "keyword_score": 6.4,
-      "score": 4.105
+      "score": 4.1032
     },
     {
       "id": "https://openalex.org/W4412502383",
@@ -218,9 +217,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 46.883003,
+      "relevance_score": 46.818913,
       "keyword_score": 6.9,
-      "score": 4.0728
+      "score": 4.0716
     }
   ]
 }
