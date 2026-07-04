@@ -1,25 +1,7 @@
 {
-  "generated_at": "2026-06-30T08:02:21.261004+00:00",
+  "generated_at": "2026-07-04T07:15:35.272501+00:00",
   "source": "OpenAlex",
   "items": [
-    {
-      "id": "https://openalex.org/W4413272305",
-      "title": "Traits, Threats, and Popularity Explain Extinction Risk of Birds Globally",
-      "publication_date": "2025-07-01",
-      "journal": "Global Ecology and Biogeography",
-      "authors_text": "Janaína de Andrade Serrano, Lars Lønsmann Iversen, Laura J. Pollock",
-      "abstract": "ABSTRACT Aim This study aims to understand how biological traits, human‐induced threats, and species popularity interact to influence the extinction risk of bird species globally. We seek to improve the accuracy of extinction risk assessments and inform conservation strategies. Location Global. Time Period Current. Major Taxa Studied Birds. Methods We pre...",
-      "primary_url": "https://doi.org/10.1111/geb.70087",
-      "doi_url": "https://doi.org/10.1111/geb.70087",
-      "openalex_url": "https://openalex.org/W4413272305",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 53.51685,
-      "keyword_score": 9.9,
-      "score": 5.8083
-    },
     {
       "id": "https://openalex.org/W4413412670",
       "title": "High-resolution global distribution projections of 10 rodent genera under diverse SSP-RCP scenarios, 2021–2100",
@@ -34,9 +16,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 45.292755,
+      "relevance_score": 45.409576,
       "keyword_score": 9.9,
-      "score": 5.3525
+      "score": 5.3501
     },
     {
       "id": "https://openalex.org/W4413670996",
@@ -52,9 +34,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 95.99548,
+      "relevance_score": 103.71368,
       "keyword_score": 8.3,
-      "score": 5.1715
+      "score": 5.1898
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -70,9 +52,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 39.87641,
+      "relevance_score": 39.747486,
       "keyword_score": 7.6,
-      "score": 4.7883
+      "score": 4.7843
+    },
+    {
+      "id": "https://openalex.org/W4417151467",
+      "title": "Effects of Future Climate Extreme Heat Events and Land Use Changes on Land Vertebrates",
+      "publication_date": "2025-12-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Reut Vardi, Gopal Murali, Gabriel Henrique de Oliveira Caetano, Uri Roll, Shai Meiri",
+      "abstract": "Climate and land use changes pose the greatest threats to biodiversity, but their synergistic effects on biodiversity have been rarely studied. Here, we assessed the combined effects of future climate and land use changes on the world's land vertebrates (29,657 species) across four socioeconomic scenarios between 2015 and 2100. We evaluated species range...",
+      "primary_url": "https://doi.org/10.1111/gcb.70625",
+      "doi_url": "https://doi.org/10.1111/gcb.70625",
+      "openalex_url": "https://openalex.org/W4417151467",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 69.37306,
+      "keyword_score": 7.0,
+      "score": 4.7761
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -89,9 +89,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 44.304104,
+      "relevance_score": 44.237167,
       "keyword_score": 7.3,
-      "score": 4.349
+      "score": 4.3455
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -107,9 +107,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 42.8386,
+      "relevance_score": 43.18359,
       "keyword_score": 6.7,
-      "score": 4.3101
+      "score": 4.3092
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -125,9 +125,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 64.24688,
+      "relevance_score": 64.93336,
       "keyword_score": 5.5,
-      "score": 4.1971
+      "score": 4.1969
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -144,9 +144,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 180.0406,
+      "relevance_score": 180.28806,
       "keyword_score": 5.2,
-      "score": 4.1658
+      "score": 4.1631
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -162,9 +162,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.847313,
+      "relevance_score": 9.787765,
       "keyword_score": 6.5,
-      "score": 4.1385
+      "score": 4.1338
+    },
+    {
+      "id": "https://openalex.org/W4417036299",
+      "title": "Climate‐Driven Habitat Loss and Natural Fragmentation Increase Extinction Risk and Compromise Population Viability in Freshwater Fish",
+      "publication_date": "2025-12-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Jessica Côte, Gaël Grenouillet, Fanny Thiéry, Céline Jezequel, Bernard Hugueny",
+      "abstract": "Climate change is one of the major drivers of the current extinction crisis. In this context, determining the probability of species extinction is crucial. In aquatic ecosystems, basin area is a key factor influencing extinction risk. Habitat fragmentation can significantly reduce river basin size and lead to both deterministic and stochastic extinctions....",
+      "primary_url": "https://doi.org/10.1111/gcb.70630",
+      "doi_url": "https://doi.org/10.1111/gcb.70630",
+      "openalex_url": "https://openalex.org/W4417036299",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 43.332832,
+      "keyword_score": 5.7,
+      "score": 4.1008
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -180,27 +198,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 84.54593,
+      "relevance_score": 83.460144,
       "keyword_score": 6.4,
-      "score": 4.0904
-    },
-    {
-      "id": "https://openalex.org/W4412502383",
-      "title": "<scp>iNaturalist</scp> and Structured Mammal Surveys Reflect Similar Species Richness but Capture Different Species Pools Across the United States",
-      "publication_date": "2025-07-01",
-      "journal": "Ecology and Evolution",
-      "authors_text": "Daniel J. Herrera, Christopher M. Schalk, Alex J. Jensen, Benjamin R. Goldstein, Brigit Rooney et al.",
-      "abstract": "Crowd-sourced biodiversity data, such as those housed in the iNaturalist platform, are increasingly used to monitor species distributions. Such data represent unstructured biodiversity surveys that are generally comprised of incidental observations and do not report variation in sampling effort. These discrepancies may yield data that is incongruent with...",
-      "primary_url": "https://doi.org/10.1002/ece3.71805",
-      "doi_url": "https://doi.org/10.1002/ece3.71805",
-      "openalex_url": "https://openalex.org/W4412502383",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 46.680473,
-      "keyword_score": 6.9,
-      "score": 4.0608
+      "score": 4.0838
     },
     {
       "id": "https://openalex.org/W4412137131",
@@ -216,9 +216,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 86.33698,
+      "relevance_score": 87.06627,
       "keyword_score": 5.6,
-      "score": 4.0404
+      "score": 4.0397
     }
   ]
 }
