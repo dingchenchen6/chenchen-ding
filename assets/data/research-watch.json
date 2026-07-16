@@ -1,25 +1,7 @@
 {
-  "generated_at": "2026-07-15T06:28:36.202828+00:00",
+  "generated_at": "2026-07-16T06:31:56.027730+00:00",
   "source": "OpenAlex",
   "items": [
-    {
-      "id": "https://openalex.org/W4413412670",
-      "title": "High-resolution global distribution projections of 10 rodent genera under diverse SSP-RCP scenarios, 2021–2100",
-      "publication_date": "2025-08-22",
-      "journal": "Scientific Data",
-      "authors_text": "Lan Yang, Xiaowen Wu, Meng Xu, Keran Li, Yizhong Huan et al.",
-      "abstract": "Understanding the potential impact of climate change on species distributions is crucial for biodiversity conservation and ecosystem management. Rodents, as one of the most diverse and widespread mammalian groups, play a critical role in ecological systems but also pose significant risks to agriculture systems and public health. Here, we present GridScope...",
-      "primary_url": "https://doi.org/10.1038/s41597-025-05793-0",
-      "doi_url": "https://doi.org/10.1038/s41597-025-05793-0",
-      "openalex_url": "https://openalex.org/W4413412670",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 45.856533,
-      "keyword_score": 9.9,
-      "score": 5.3443
-    },
     {
       "id": "https://openalex.org/W4415419270",
       "title": "Climate change and conservation of Caladenia orchids in Western Australia",
@@ -34,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 43.690327,
+      "relevance_score": 43.468945,
       "keyword_score": 9.8,
-      "score": 5.3359
+      "score": 5.3337
     },
     {
       "id": "https://openalex.org/W4413670996",
@@ -52,9 +34,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 103.65459,
+      "relevance_score": 103.18696,
       "keyword_score": 8.3,
-      "score": 5.1812
+      "score": 5.1792
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -70,9 +52,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 40.271584,
+      "relevance_score": 40.304226,
       "keyword_score": 7.6,
-      "score": 4.7795
+      "score": 4.7789
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -88,9 +70,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 69.47608,
+      "relevance_score": 68.95466,
       "keyword_score": 7.0,
-      "score": 4.7681
+      "score": 4.7653
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -107,9 +89,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 44.91738,
+      "relevance_score": 44.83659,
       "keyword_score": 7.3,
-      "score": 4.3412
+      "score": 4.34
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -125,9 +107,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 43.92555,
+      "relevance_score": 43.53159,
       "keyword_score": 6.7,
-      "score": 4.3054
+      "score": 4.3022
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -143,9 +125,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 64.38738,
+      "relevance_score": 63.974514,
       "keyword_score": 5.5,
-      "score": 4.1862
+      "score": 4.1836
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -157,14 +139,14 @@
       "primary_url": "https://doi.org/10.1002/ecog.07702",
       "doi_url": "https://doi.org/10.1002/ecog.07702",
       "openalex_url": "https://openalex.org/W4412546221",
-      "type": "review",
+      "type": "article",
       "matched_topic_keys": [
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 190.61539,
+      "relevance_score": 190.49586,
       "keyword_score": 5.2,
-      "score": 4.1701
+      "score": 4.1692
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -180,9 +162,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.818594,
+      "relevance_score": 9.785969,
       "keyword_score": 6.5,
-      "score": 4.1262
+      "score": 4.1246
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -198,9 +180,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 43.042324,
+      "relevance_score": 42.918365,
       "keyword_score": 5.7,
-      "score": 4.0905
+      "score": 4.0889
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -216,9 +198,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 84.26764,
+      "relevance_score": 83.98651,
       "keyword_score": 6.4,
-      "score": 4.078
+      "score": 4.0763
+    },
+    {
+      "id": "https://openalex.org/W7119527183",
+      "title": "The Performance and Potential of Deep Learning for Predicting Species Distributions",
+      "publication_date": "2026-01-01",
+      "journal": "Global Ecology and Biogeography",
+      "authors_text": "Benjamin Kellenberger, Kevin Winner, W. Jetz",
+      "abstract": "ABSTRACT Aim Species distribution models (SDMs) address the whereabouts of species and are central to ecology. Deep learning (DL) is poised to further elevate the already significant role of SDMs in ecology and conservation, but the potential and limitations of this transformation are still largely unassessed. Location North America. Time Period 2009–2021...",
+      "primary_url": "https://doi.org/10.1111/geb.70184",
+      "doi_url": "https://doi.org/10.1111/geb.70184",
+      "openalex_url": "https://openalex.org/W7119527183",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 44.09572,
+      "keyword_score": 5.4,
+      "score": 3.9941
     }
   ]
 }
