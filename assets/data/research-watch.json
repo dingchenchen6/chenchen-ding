@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:31:56.027730+00:00",
+  "generated_at": "2026-07-17T06:28:06.018441+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 43.468945,
+      "relevance_score": 43.391068,
       "keyword_score": 9.8,
-      "score": 5.3337
+      "score": 5.3325
     },
     {
       "id": "https://openalex.org/W4413670996",
@@ -34,27 +34,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 103.18696,
+      "relevance_score": 102.937935,
       "keyword_score": 8.3,
-      "score": 5.1792
-    },
-    {
-      "id": "https://openalex.org/W4417321585",
-      "title": "Informing spatial conservation prioritization with species’ traits",
-      "publication_date": "2025-12-13",
-      "journal": "Conservation Biology",
-      "authors_text": "Liam Trethowan, Laura Jennings, Haerul Arifin, Renata Borosova, Gemma L. C. Bramley et al.",
-      "abstract": "Abstract New Guinea, the most botanically diverse island on the planet, is the location for one of the boldest conservation initiatives. The Manokwari Declaration aims to achieve 70% conservation designation for the Bird's Head Peninsula. This is 40% higher than the 2022 Global Biodiversity Framework target. However, there is a lack of species occurrence...",
-      "primary_url": "https://doi.org/10.1111/cobi.70199",
-      "doi_url": "https://doi.org/10.1111/cobi.70199",
-      "openalex_url": "https://openalex.org/W4417321585",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 40.304226,
-      "keyword_score": 7.6,
-      "score": 4.7789
+      "score": 5.1778
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -70,9 +52,27 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 68.95466,
+      "relevance_score": 77.753876,
       "keyword_score": 7.0,
-      "score": 4.7653
+      "score": 4.7977
+    },
+    {
+      "id": "https://openalex.org/W4417321585",
+      "title": "Informing spatial conservation prioritization with species’ traits",
+      "publication_date": "2025-12-13",
+      "journal": "Conservation Biology",
+      "authors_text": "Liam Trethowan, Laura Jennings, Haerul Arifin, Renata Borosova, Gemma L. C. Bramley et al.",
+      "abstract": "Abstract New Guinea, the most botanically diverse island on the planet, is the location for one of the boldest conservation initiatives. The Manokwari Declaration aims to achieve 70% conservation designation for the Bird's Head Peninsula. This is 40% higher than the 2022 Global Biodiversity Framework target. However, there is a lack of species occurrence...",
+      "primary_url": "https://doi.org/10.1111/cobi.70199",
+      "doi_url": "https://doi.org/10.1111/cobi.70199",
+      "openalex_url": "https://openalex.org/W4417321585",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 40.31941,
+      "keyword_score": 7.6,
+      "score": 4.7783
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -89,9 +89,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 44.83659,
+      "relevance_score": 44.87584,
       "keyword_score": 7.3,
-      "score": 4.34
+      "score": 4.3395
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -107,9 +107,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 43.53159,
+      "relevance_score": 43.563675,
       "keyword_score": 6.7,
-      "score": 4.3022
+      "score": 4.3016
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -125,9 +125,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 63.974514,
+      "relevance_score": 63.676964,
       "keyword_score": 5.5,
-      "score": 4.1836
+      "score": 4.1816
     },
     {
       "id": "https://openalex.org/W4412546221",
@@ -144,9 +144,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 190.49586,
+      "relevance_score": 189.9244,
       "keyword_score": 5.2,
-      "score": 4.1692
+      "score": 4.1676
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -162,9 +162,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.785969,
+      "relevance_score": 9.786833,
       "keyword_score": 6.5,
-      "score": 4.1246
+      "score": 4.1238
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -180,9 +180,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 42.918365,
+      "relevance_score": 42.833054,
       "keyword_score": 5.7,
-      "score": 4.0889
+      "score": 4.0876
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -198,9 +198,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 83.98651,
+      "relevance_score": 83.87363,
       "keyword_score": 6.4,
-      "score": 4.0763
+      "score": 4.0752
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -216,9 +216,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 44.09572,
+      "relevance_score": 44.052948,
       "keyword_score": 5.4,
-      "score": 3.9941
+      "score": 3.9931
     }
   ]
 }
