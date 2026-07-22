@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T06:41:50.391441+00:00",
+  "generated_at": "2026-07-22T06:42:55.828659+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 42.964912,
+      "relevance_score": 42.957623,
       "keyword_score": 9.8,
-      "score": 5.3267
+      "score": 5.3259
     },
     {
       "id": "https://openalex.org/W4413670996",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 102.08003,
+      "relevance_score": 101.98258,
       "keyword_score": 8.3,
-      "score": 5.1724
+      "score": 5.1713
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 77.438835,
+      "relevance_score": 77.34793,
       "keyword_score": 7.0,
-      "score": 4.7935
+      "score": 4.7924
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 39.860554,
+      "relevance_score": 39.818676,
       "keyword_score": 7.6,
-      "score": 4.7721
+      "score": 4.771
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -89,9 +89,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 44.41079,
+      "relevance_score": 44.330914,
       "keyword_score": 7.3,
-      "score": 4.3335
+      "score": 4.3323
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -107,9 +107,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 43.064026,
+      "relevance_score": 43.015285,
       "keyword_score": 6.7,
-      "score": 4.2954
+      "score": 4.2943
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -125,28 +125,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 63.31475,
+      "relevance_score": 63.228897,
       "keyword_score": 5.5,
-      "score": 4.1769
-    },
-    {
-      "id": "https://openalex.org/W4412546221",
-      "title": "Trends in marine species distribution models: a review of methodological advances and future challenges",
-      "publication_date": "2025-07-21",
-      "journal": "Ecography",
-      "authors_text": "Moritz Klaassen, Tiago A. Marques, Filipe Alves, Marc Fernández",
-      "abstract": "Correlative species distribution models (SDMs) are quantitative tools in biogeography and macroecology. Building upon the ecological niche concept, they correlate environmental covariates to species presence to model habitat suitability and predict species distributions. Since their development, SDMs have undergone substantial advances in their predictive...",
-      "primary_url": "https://doi.org/10.1002/ecog.07702",
-      "doi_url": "https://doi.org/10.1002/ecog.07702",
-      "openalex_url": "https://openalex.org/W4412546221",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 188.70888,
-      "keyword_score": 5.2,
-      "score": 4.1627
+      "score": 4.1758
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -162,27 +143,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.731623,
+      "relevance_score": 9.721583,
       "keyword_score": 6.5,
-      "score": 4.1193
-    },
-    {
-      "id": "https://openalex.org/W4417036299",
-      "title": "Climate‐Driven Habitat Loss and Natural Fragmentation Increase Extinction Risk and Compromise Population Viability in Freshwater Fish",
-      "publication_date": "2025-12-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Jessica Côte, Gaël Grenouillet, Fanny Thiéry, Céline Jezequel, Bernard Hugueny",
-      "abstract": "Climate change is one of the major drivers of the current extinction crisis. In this context, determining the probability of species extinction is crucial. In aquatic ecosystems, basin area is a key factor influencing extinction risk. Habitat fragmentation can significantly reduce river basin size and lead to both deterministic and stochastic extinctions....",
-      "primary_url": "https://doi.org/10.1111/gcb.70630",
-      "doi_url": "https://doi.org/10.1111/gcb.70630",
-      "openalex_url": "https://openalex.org/W4417036299",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 42.448555,
-      "keyword_score": 5.7,
-      "score": 4.0821
+      "score": 4.1183
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -198,9 +161,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 83.43728,
+      "relevance_score": 88.863846,
       "keyword_score": 6.4,
-      "score": 4.0707
+      "score": 4.0874
+    },
+    {
+      "id": "https://openalex.org/W4417036299",
+      "title": "Climate‐Driven Habitat Loss and Natural Fragmentation Increase Extinction Risk and Compromise Population Viability in Freshwater Fish",
+      "publication_date": "2025-12-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Jessica Côte, Gaël Grenouillet, Fanny Thiéry, Céline Jezequel, Bernard Hugueny",
+      "abstract": "Climate change is one of the major drivers of the current extinction crisis. In this context, determining the probability of species extinction is crucial. In aquatic ecosystems, basin area is a key factor influencing extinction risk. Habitat fragmentation can significantly reduce river basin size and lead to both deterministic and stochastic extinctions....",
+      "primary_url": "https://doi.org/10.1111/gcb.70630",
+      "doi_url": "https://doi.org/10.1111/gcb.70630",
+      "openalex_url": "https://openalex.org/W4417036299",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 42.360012,
+      "keyword_score": 5.7,
+      "score": 4.0807
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -216,9 +197,28 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 43.358295,
+      "relevance_score": 43.308388,
       "keyword_score": 5.4,
-      "score": 3.9857
+      "score": 3.9846
+    },
+    {
+      "id": "https://openalex.org/W4414263076",
+      "title": "Using total abundance as a proxy for wild bee species richness: A practical tool for non‐experts",
+      "publication_date": "2025-09-12",
+      "journal": "Journal of Applied Ecology",
+      "authors_text": "Lorenzo Marini, Elena Gazzea, Matthias Albrecht, Andràs Báldí, Péter Batáry et al.",
+      "abstract": "Abstract As there is growing interest among non‐specialists in participating in pollinator conservation initiatives, developing proxies for wild bee species richness that could be potentially used by non‐experts can aid conservation, decision support systems for managers and policymakers, and create entry points for future taxonomists. We used data from 6...",
+      "primary_url": "https://doi.org/10.1111/1365-2664.70167",
+      "doi_url": "https://doi.org/10.1111/1365-2664.70167",
+      "openalex_url": "https://openalex.org/W4414263076",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions",
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 89.55116,
+      "keyword_score": 5.2,
+      "score": 3.9455
     }
   ]
 }
