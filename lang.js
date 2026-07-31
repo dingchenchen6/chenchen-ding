@@ -17,17 +17,18 @@ const translations = {
     heroTitle: `<span class="hero-name-row">丁晨晨 ${heroProfileLinks}</span><span>Chenchen Ding, PhD</span>`,
     lead: "生态学博士 | PKU-IIASA 国际联合博士后",
     heroSummary: "聚焦全球变化背景下生物多样性变化、物种分布、灭绝风险评估与保护优先区识别。",
-    nav: ["个人简介", "教育背景", "研究经历", "研究方向", "研究图谱", "代表论文", "专著（编委）", "科研项目", "奖项", "技能", "每日文献"],
+    skipLink: "跳至主要内容",
+    navLabel: "页面导航",
+    backToTop: "返回顶部 ↑",
+    nav: ["个人简介", "教育背景", "研究经历", "研究方向", "研究图谱", "代表论文", "专著（编委）", "科研项目", "技能"],
     sectionTitles: {
       about: "个人简介",
       education: "教育背景",
       experience: "研究经历",
       research: "研究方向",
-      watch: "每日文献推送",
       atlas: "研究图谱",
       books: "专著（编委）",
       projects: "科研项目",
-      awards: "奖项",
       skills: "专业技能"
     },
     about: "我的研究围绕全球变化背景下生物多样性的响应机制与保护应用展开，重点关注土地利用变化和气候变化对物种分布、生物多样性变化、群落结构、生态系统服务与功能的影响。研究目标是解析生物多样性时空格局及其驱动机制，评估物种灭绝风险，识别保护优先区域，并为生物多样性保护规划与管理决策提供量化依据。",
@@ -175,13 +176,6 @@ const translations = {
         </ul>
       </div>
     `,
-    awardsHeading: "奖项",
-    awards: `
-      <li>北京师范大学优秀博士论文（2024）</li>
-      <li>国家奖学金（2023-2024）</li>
-      <li>中国科学院大学优秀硕士论文（2019）</li>
-      <li>中国科学院大学优秀毕业生（2019）</li>
-    `,
     skillsHeading: "专业技能",
     footer: "© 2026 丁晨晨（Chenchen Ding）",
     heroNote: ''
@@ -193,17 +187,18 @@ const translations = {
     heroTitle: `<span class="hero-name-row">Chenchen Ding ${heroProfileLinks}</span><span>PhD</span>`,
     lead: "PhD in Ecology | PKU-IIASA International Joint Postdoctoral Fellow",
     heroSummary: "I study biodiversity change, species distributions, extinction risk, and conservation priorities under global change.",
-    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Awards", "Technical Skills", "Research Watch"],
+    skipLink: "Skip to main content",
+    navLabel: "Page navigation",
+    backToTop: "Back to top ↑",
+    nav: ["About", "Education", "Research Experience", "Research Interests", "Research Atlas", "Selected Publications", "Books", "Projects", "Technical Skills"],
     sectionTitles: {
       about: "About",
       education: "Education",
       experience: "Research Experience",
       research: "Research Interests",
-      watch: "Research Watch",
       atlas: "Research Atlas",
       books: "Books and Editorial Work",
       projects: "Research Projects",
-      awards: "Awards",
       skills: "Technical Skills"
     },
     about: "My research examines biodiversity responses to global change and their implications for conservation. I focus on how land-use and climate change shape species distributions, biodiversity change, community structure, ecosystem services, and ecosystem functioning. My work aims to quantify biodiversity patterns and drivers, assess extinction risk, identify conservation priorities, and support evidence-based conservation planning and management.",
@@ -351,13 +346,6 @@ const translations = {
         </ul>
       </div>
     `,
-    awardsHeading: "Awards",
-    awards: `
-      <li>Outstanding Doctoral Dissertation, Beijing Normal University (2024)</li>
-      <li>National Scholarship (2023-2024)</li>
-      <li>Outstanding Master's Thesis, University of Chinese Academy of Sciences (2019)</li>
-      <li>Outstanding Graduate, University of Chinese Academy of Sciences (2019)</li>
-    `,
     skillsHeading: "Technical Skills",
     footer: "© 2026 Chenchen Ding",
     heroNote: ''
@@ -413,7 +401,11 @@ const applyLanguage = (lang) => {
   setHTML(".hero-main h1", text.heroTitle);
   setText(".lead", text.lead);
   setText(".hero-summary", text.heroSummary);
+  setText(".skip-link", text.skipLink);
+  setText(".footer a", text.backToTop);
   setListText(".nav a", text.nav);
+  const nav = $(".nav");
+  if (nav) nav.setAttribute("aria-label", text.navLabel);
 
   Object.entries(text.sectionTitles).forEach(([key, value]) => {
     setText(`#${key} h2`, value);
@@ -435,8 +427,6 @@ const applyLanguage = (lang) => {
   setHTML("#books .card", text.books);
   setText("#projects h2", text.projectsHeading);
   setHTML("#projects .two-col", text.projects);
-  setText("#awards h2", text.awardsHeading);
-  setHTML("#awards .card ul", text.awards);
   setText("#skills h2", text.skillsHeading);
   setText(".footer p", text.footer);
   const profileLinks = $("#papers .profile-links");
@@ -464,6 +454,29 @@ const initReveal = () => {
   $$(".reveal").forEach((element) => observer.observe(element));
 };
 
+const initActiveNav = () => {
+  const links = $$(".nav a");
+  const sections = links
+    .map((link) => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
+
+  if (!("IntersectionObserver" in window) || !sections.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    const visible = entries.find((entry) => entry.isIntersecting);
+    if (!visible) return;
+
+    links.forEach((link) => {
+      const active = link.getAttribute("href") === `#${visible.target.id}`;
+      link.classList.toggle("is-active", active);
+      if (active) link.setAttribute("aria-current", "location");
+      else link.removeAttribute("aria-current");
+    });
+  }, { rootMargin: "-24% 0px -66%", threshold: 0 });
+
+  sections.forEach((section) => observer.observe(section));
+};
+
 $$(".lang-btn").forEach((button) => {
   button.addEventListener("click", () => {
     applyLanguage(button.dataset.lang);
@@ -471,4 +484,5 @@ $$(".lang-btn").forEach((button) => {
 });
 
 initReveal();
+initActiveNav();
 applyLanguage(localStorage.getItem("chenchen-ding-language") || "zh");

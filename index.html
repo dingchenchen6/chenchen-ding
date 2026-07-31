@@ -7,6 +7,7 @@
   <meta name="description" content="丁晨晨（Chenchen Ding, PhD），PKU-IIASA联合博士后。研究方向包括保护生物学、全球变化生物学、生物地理学、物种分布、生物多样性变化与保护规划。" />
   <meta name="author" content="Chenchen Ding" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="theme-color" content="#123f34" />
   <link rel="canonical" href="https://dingchenchen6.github.io/chenchen-ding/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Chenchen Ding" />
@@ -20,6 +21,7 @@
   <meta name="twitter:image" content="https://dingchenchen6.github.io/chenchen-ding/assets/images/profile.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="assets/images/bg/bend-biodiversity-curve.jpg" fetchpriority="high" />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
@@ -110,8 +112,7 @@
   </script>
 </head>
 <body>
-  <div class="bg-orb orb-a"></div>
-  <div class="bg-orb orb-b"></div>
+  <a class="skip-link" href="#main-content">跳至主要内容</a>
 
   <header class="hero" id="top">
     <div class="hero-topbar">
@@ -120,7 +121,7 @@
     </div>
     <div class="container hero-grid">
       <div class="hero-photo-wrap reveal">
-        <img src="assets/images/profile.jpg" alt="丁晨晨个人照片" class="hero-photo" />
+        <img src="assets/images/profile.jpg" alt="丁晨晨个人照片" class="hero-photo" fetchpriority="high" />
       </div>
       <div class="hero-main reveal">
         <p class="eyebrow">Academic Profile | Conservation Biology</p>
@@ -163,7 +164,7 @@
     </div>
   </header>
 
-  <nav class="nav">
+  <nav class="nav" aria-label="页面导航">
     <a href="#about">个人简介</a>
     <a href="#education">教育背景</a>
     <a href="#experience">研究经历</a>
@@ -172,12 +173,10 @@
     <a href="#papers">代表论文</a>
     <a href="#books">专著（编委）</a>
     <a href="#projects">科研项目</a>
-    <a href="#awards">奖项</a>
     <a href="#skills">技能</a>
-    <a href="#watch">每日文献</a>
   </nav>
 
-  <main class="container">
+  <main class="container" id="main-content">
     <section id="about" class="section reveal">
       <h2>个人简介</h2>
       <p>
@@ -425,18 +424,6 @@
       </div>
     </section>
 
-    <section id="awards" class="section reveal">
-      <h2>奖项</h2>
-      <div class="card">
-        <ul>
-          <li>北京师范大学优秀博士论文（2024）</li>
-          <li>国家奖学金（2023-2024）</li>
-          <li>中国科学院大学优秀硕士论文（2019）</li>
-          <li>中国科学院大学优秀毕业生（2019）</li>
-        </ul>
-      </div>
-    </section>
-
     <section id="skills" class="section reveal">
       <h2>专业技能</h2>
       <div class="skills">
@@ -450,34 +437,13 @@
       </div>
     </section>
 
-    <section id="watch" class="section reveal">
-      <h2>每日文献推送</h2>
-      <div class="card watch-intro-card">
-        <p class="watch-intro">
-          根据研究方向、代表性论文主题与当前关注领域，每日更新相关论文，并按相关度与发表时间综合排序。
-        </p>
-        <div class="watch-meta-row">
-          <span class="watch-badge">按相关度与时间排序</span>
-          <span class="watch-updated" data-watch-updated>正在读取最新更新...</span>
-        </div>
-        <div class="watch-controls" aria-label="Research watch controls">
-          <div class="watch-sort" data-watch-sort-group></div>
-          <div class="watch-filters" data-watch-filter-group></div>
-        </div>
-      </div>
-      <div id="watchGrid" class="watch-grid" aria-live="polite">
-        <article class="watch-card watch-card-placeholder">
-          <p>正在准备今日推荐文献...</p>
-        </article>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
     <p>© 2026 丁晨晨（Chenchen Ding）</p>
+    <a href="#top">返回顶部 ↑</a>
   </footer>
 
   <script src="lang.js"></script>
-  <script src="research-watch.js"></script>
 </body>
 </html>

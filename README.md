@@ -12,13 +12,14 @@ Personal academic homepage for **Chenchen Ding, PhD**, deployed with GitHub Page
 - Professional one-page academic profile with responsive layout
 - Portrait photo and biodiversity research gallery
 - Selected publications with DOI links and short research summaries
-- Education, projects, awards, and skill highlights
+- Education, research experience, projects, and technical skill highlights
+- Custom "bend the curve of biodiversity loss" visual direction
 
 ## Update Notes
 
 If you want to update content:
 
-1. Edit `index.html` text sections (profile, publications, honors, etc.).
+1. Edit `index.html` text sections (profile, publications, projects, etc.).
 2. Replace images in `assets/images/` and keep filenames unchanged to avoid broken links.
 3. Commit and push to `main`; GitHub Pages will redeploy automatically.
 
